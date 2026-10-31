@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-10-31T22:23:01+00:00",
+    "generated_at": "2026-10-31T23:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -51,17 +51,101 @@
         }
     ],
     "stats": {
-        "count": 7,
+        "count": 8,
         "average": 5,
         "distribution": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 7
+            "5": 8
         }
     },
     "reviews": [
+        {
+            "id": 10,
+            "rid": "9c88cb1f-5381-48af-a010-6edb012dd4ab",
+            "status": "published",
+            "created_at_utc": "2026-10-31 23:14:23",
+            "payload_sha": "d530ef5a6ea2f66c9651927e8129286b696363fbf90a7fbfe0d9579607976434",
+            "prev": "8051c09877e0422e7eeee0dcab82f7baeae25a4697ab7eb1fa3450449ef7414a",
+            "leaf": {
+                "salt": "4dbd2c13877dcb4dbfa9df752c7512f2700c722c90a0afd20eadcc73953e3745",
+                "leaf_hash": "674d5c6d525f1770f72a6cf977df34375e098e02f171de31240eb0ad3b612e4d",
+                "day": "2026-10-31",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xb1e8df8f6c6a9f7b6d6a1d84c89a20baaf7da6975ddb01ddaecbd455e33b4f90",
+                    "tx": "03b83cbed32c19809bdf0c42131e51b391d8615d176a028045d18c2be22799c1",
+                    "url": "https://base.easscan.org/attestation/view/0xb1e8df8f6c6a9f7b6d6a1d84c89a20baaf7da6975ddb01ddaecbd455e33b4f90",
+                    "tx_url": "https://basescan.org/tx/0x3b83cbed32c19809bdf0c42131e51b391d8615d176a028045d18c2be22799c1",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "Dhgt-FXrKU9Nwa4wpB3NfaDdxnot_vIL5P_s1s_OUUM",
+                    "url": "https://arweave.net/Dhgt-FXrKU9Nwa4wpB3NfaDdxnot_vIL5P_s1s_OUUM",
+                    "view_url": "https://viewblock.io/arweave/tx/Dhgt-FXrKU9Nwa4wpB3NfaDdxnot_vIL5P_s1s_OUUM",
+                    "status": "sent"
+                }
+            },
+            "rating": 5,
+            "title": "Superb experience",
+            "body": "Got my first payout of $230.99 (PAY-2026-2085). KYC was pending but cleared quickly with support help from Petra. Net amount $228.68 was sent via bank transfer and credited to my Kotak account safely within 1 working day. No account freeze issue, proper SWIFT transfer. Fees are very low. As an Indian trader, this is the most genuine and smooth prop firm I have tried. Highly recommended!",
+            "lang": "en",
+            "display_name": "Nikunj P.",
+            "handle": "nikunj-p-afeb",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2610138260\",\"body\":\"Got my first payout of $230.99 (PAY-2026-2085). KYC was pending but cleared quickly with support help from Petra. Net amount $228.68 was sent via bank transfer and credited to my Kotak account safely within 1 working day. No account freeze issue, proper SWIFT transfer. Fees are very low. As an Indian trader, this is the most genuine and smooth prop firm I have tried. Highly recommended!\",\"country\":\"IN\",\"display_name\":\"Nikunj P.\",\"handle\":\"nikunj-p-afeb\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"8051c09877e0422e7eeee0dcab82f7baeae25a4697ab7eb1fa3450449ef7414a\",\"product\":\"$5,000 DolveroTrader Instant Funding\",\"purchased_on\":\"2026-10-13\",\"rating\":5,\"rid\":\"9c88cb1f-5381-48af-a010-6edb012dd4ab\",\"title\":\"Superb experience\",\"ts\":\"2026-10-31T23:14:08Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "4841d11f00ad126176b830a317b15ffd395919b112631164d378cb12e3e802c1",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgeGYqi7nO43+CVGL6FOh+CwEjbNG\nKX0EQLAQHf/56kQ5KnU12gT7HaFpa0wnsKBl12dyesAstXpQ0xTXcFkNmw==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiMVREdldtNmk5bXlXVVpKLWdTa29hMmxqWV92NUNuLV80TmxYbGdlWFpEUSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlLCJvdGhlcl9rZXlzX2Nhbl9iZV9hZGRlZF9oZXJlIjoiZG8gbm90IGNvbXBhcmUgY2xpZW50RGF0YUpTT04gYWdhaW5zdCBhIHRlbXBsYXRlLiBTZWUgaHR0cHM6Ly9nb28uZ2wveWFiUGV4In0",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEYCIQDrKMaMXjYimvdaCDOa8Gd8_bhfc85m-si4KKlT6_K2LQIhAOv_wWN05W9dL_VHS0HfKwiWIvva04bbSLxjXyVO63hm"
+            },
+            "account": {
+                "login": "LIVE2610138260",
+                "product": "$5,000 DolveroTrader Instant Funding",
+                "platform": "DOLVEROTRADER",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-13",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Payout Withdrawal",
+                        "detail": "After your payout of $230.99, the account balance was settled to $5,000.00, which is at or below the trailing drawdown floor of $5,152.25 (high-water mark $5,423.42 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account - congratulations on securing your profit.",
+                        "detected_at_utc": "2026-10-29 08:19:24",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03544",
+                            "rules_sha256": "105d5da75c29927d38e83b03d38a9bb8879e71af5bc13812afef50389f636599",
+                            "doc_sha256": "d1e983e423e61603850e8900f8edb7ef50b773f37b603be58963f7764aedacae",
+                            "signed_at_utc": "2026-10-29 02:50:49",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-43B1-24A0"
+                        },
+                        "report_url": null,
+                        "proof": {
+                            "salt": "a74e0932e1ee52e25f72b80ada221b4d368a4308c4fa8ce1501b6cc6a8312bf4",
+                            "leaf_hash": "16c90cb9a6737be23f10aed4ceaabc4fe1ca1fad0ccf07c33370de7b45724b95",
+                            "day": "2026-10-31",
+                            "sealed": false
+                        }
+                    }
+                ],
+                "payouts": [
+                    {
+                        "paid_on": "2026-10-29",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TNNTSC-9F4A02"
+                    }
+                ]
+            },
+            "replies": []
+        },
         {
             "id": 9,
             "rid": "b61bc792-6b43-43e2-ad68-d6aa43aa1c3d",
