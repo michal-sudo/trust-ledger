@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-10-31T14:15:01+00:00",
+    "generated_at": "2026-10-31T14:20:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -61,5 +61,55 @@
             "5": 0
         }
     },
-    "reviews": []
+    "reviews": [],
+    "reports": [
+        {
+            "month": "2026-10",
+            "sha256": "164a813474b710c9c90aede42cc8b96b0d9cb1c273320578a1cd9d6ce3aec7de",
+            "leaf": null,
+            "data": {
+                "anchors": {
+                    "arweave_records": 1,
+                    "base_attestations": 1,
+                    "bitcoin_blocks": [
+                        973962
+                    ],
+                    "bitcoin_confirmed": 1,
+                    "days_sealed": 1,
+                    "roots": [
+                        {
+                            "day": "2026-10-30",
+                            "root": "1885aea37b5f43135639a265cc45d794c881ed34f8536187dac804fbc752e832"
+                        }
+                    ]
+                },
+                "closed": false,
+                "generated_at": "2026-10-31T14:17:10+00:00",
+                "mirror": {
+                    "feed": "https://dolvero.com/trust-feed.json",
+                    "github": "https://github.com/michal-sudo/trust-ledger"
+                },
+                "month": "2026-10",
+                "replies": {
+                    "dolvero": 0,
+                    "edited_versions": 0,
+                    "passkey_signed": 0,
+                    "trader_follow_ups": 0
+                },
+                "reviews": {
+                    "about_failed_accounts": 0,
+                    "average_rating": null,
+                    "deleted_ever": 0,
+                    "distribution": [],
+                    "hidden_in_month": 0,
+                    "hidden_reasons": [],
+                    "passkey_signed": 0,
+                    "published": 0,
+                    "total_to_date": 0
+                },
+                "schema": "dolvero-trust-report/1",
+                "signed_by": "Michal Król, CEO"
+            }
+        }
+    ]
 }
