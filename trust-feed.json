@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-10-31T19:23:01+00:00",
+    "generated_at": "2026-10-31T20:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -51,17 +51,62 @@
         }
     ],
     "stats": {
-        "count": 6,
+        "count": 7,
         "average": 5,
         "distribution": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 6
+            "5": 7
         }
     },
     "reviews": [
+        {
+            "id": 9,
+            "rid": "b61bc792-6b43-43e2-ad68-d6aa43aa1c3d",
+            "status": "published",
+            "created_at_utc": "2026-10-31 20:20:35",
+            "payload_sha": "ea2888e2b4a3ebb401cd8cffcafde3bb480326dd4545f77c143f4a3b9a711bce",
+            "prev": "3a5a4dfaa251b6dcd7427abb3d250d787e22d3a6607ad23dce3825f18b5e9a53",
+            "leaf": {
+                "salt": "a7871d120644f2b33fad4f55ac3957ab33640cc5348b55d3c20d83341aba9ba5",
+                "leaf_hash": "8051c09877e0422e7eeee0dcab82f7baeae25a4697ab7eb1fa3450449ef7414a",
+                "day": "2026-10-31",
+                "sealed": false
+            },
+            "chain": [],
+            "rating": 5,
+            "title": "Clear rules, clear results",
+            "body": "I was very pleased with the extremely low spreads, the user-friendly interface on the Dolver website in the evaluation section, and the opportunity to regularly earn points that can be redeemed for an evaluation or anything else.",
+            "lang": "cs",
+            "display_name": "Jaroslav C.",
+            "handle": "jaroslav-c-d839",
+            "country": "CZ",
+            "ip_country": "CZ",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"EVAL2610020436\",\"body\":\"I was very pleased with the extremely low spreads, the user-friendly interface on the Dolver website in the evaluation section, and the opportunity to regularly earn points that can be redeemed for an evaluation or anything else.\",\"country\":\"CZ\",\"display_name\":\"Jaroslav C.\",\"handle\":\"jaroslav-c-d839\",\"kind\":\"review\",\"lang\":\"cs\",\"prev\":\"3a5a4dfaa251b6dcd7427abb3d250d787e22d3a6607ad23dce3825f18b5e9a53\",\"product\":\"$200,000 MT5 Evaluation\",\"purchased_on\":\"2026-10-02\",\"rating\":5,\"rid\":\"b61bc792-6b43-43e2-ad68-d6aa43aa1c3d\",\"title\":\"Clear rules, clear results\",\"ts\":\"2026-10-31T20:20:17Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "c78a4f847081a8450d4d2b7a18c3caf50f409b8ac4cac727a7aa79874e58640d",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEe6XNn+dp2TFZOfB3gWMyZn5H0yIc\nCheKDdpvT10OIHon9t9xk15MNes5XIMdV2jXt7k94Z71SSRYqzeXJ1tLsg==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiNmlpSTRyU2o2N1FCell6X3l2M2p1MGdESnQxRlJmZDhGRDlLTzVweEc4NCIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEQCIGwUwOSmK-BvbjlpGu7PA2aSlgsHASpl6nKk5gvM7kuFAiAGeyXBxx-Xt3SlBz2uGA5PPELjJBirH7ROHioXXI0RAQ"
+            },
+            "account": {
+                "login": "EVAL2610020436",
+                "product": "$200,000 MT5 Evaluation",
+                "platform": "MT5",
+                "size_usd": 200000,
+                "purchased_on": "2026-10-02",
+                "status": "active",
+                "breaches": [],
+                "payouts": []
+            },
+            "replies": []
+        },
         {
             "id": 8,
             "rid": "20fec216-b296-48e4-b519-4f1f4e3dbcbc",
@@ -87,7 +132,7 @@
                     "id": "XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
                     "url": "https://arweave.net/XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
                     "view_url": "https://viewblock.io/arweave/tx/XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
-                    "status": "sent"
+                    "status": "confirmed"
                 }
             },
             "rating": 5,
