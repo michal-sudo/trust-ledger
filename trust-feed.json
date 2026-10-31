@@ -1,0 +1,65 @@
+{
+    "schema": "dolvero-trust/1",
+    "generated_at": "2026-10-31T14:15:01+00:00",
+    "rp_id": "app.dolvero.com",
+    "leaf_scheme": {
+        "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
+        "node": "sha256(0x01 || left || right)",
+        "depth": 16,
+        "canonical": "JSON, keys sorted, no whitespace, UTF-8 unescaped"
+    },
+    "chains": {
+        "bitcoin": {
+            "status": "live",
+            "how": "OpenTimestamps, daily ledger root"
+        },
+        "base": {
+            "status": "live",
+            "how": "EAS attestation per root, review and reply",
+            "schema": "0x0f2a83ff4bb975b827339152156d315ee01aa9965a51dcf02bde2823ca5a7f9f",
+            "attester": "0x97FAeCe478665b52D56510cD7a0DFD2c1Bb73E33"
+        },
+        "arweave": {
+            "status": "live",
+            "how": "permanent public record per root, review and reply",
+            "wallet": "vFhb7afURcnMc0FsiNy8PksRnEvd4x2W8562kATZvls"
+        }
+    },
+    "anchors": [
+        {
+            "day": "2026-10-30",
+            "root": "1885aea37b5f43135639a265cc45d794c881ed34f8536187dac804fbc752e832",
+            "ots_status": "complete",
+            "bitcoin_block": 973962,
+            "sealed_at_utc": "2026-10-31 09:49:27",
+            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-10-30",
+            "chain": {
+                "base": {
+                    "uid": "0xabe5b87d8561313782465347fe1d471069d875099814d90459a5f0afb14b9f27",
+                    "tx": "f58c8d34ce486272f42eb98338cdd2c4b4d6daba20d5195fb015eaea521f8722",
+                    "url": "https://base.easscan.org/attestation/view/0xabe5b87d8561313782465347fe1d471069d875099814d90459a5f0afb14b9f27",
+                    "tx_url": "https://basescan.org/tx/0xf58c8d34ce486272f42eb98338cdd2c4b4d6daba20d5195fb015eaea521f8722",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
+                    "url": "https://arweave.net/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
+                    "view_url": "https://viewblock.io/arweave/tx/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
+                    "status": "confirmed"
+                }
+            }
+        }
+    ],
+    "stats": {
+        "count": 0,
+        "average": null,
+        "distribution": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+        }
+    },
+    "reviews": []
+}

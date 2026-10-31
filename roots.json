@@ -1,0 +1,22 @@
+[
+ {
+  "day": "2026-10-30",
+  "root": "1885aea37b5f43135639a265cc45d794c881ed34f8536187dac804fbc752e832",
+  "bitcoin_block": 973962,
+  "chain": {
+   "base": {
+    "uid": "0xabe5b87d8561313782465347fe1d471069d875099814d90459a5f0afb14b9f27",
+    "tx": "f58c8d34ce486272f42eb98338cdd2c4b4d6daba20d5195fb015eaea521f8722",
+    "url": "https://base.easscan.org/attestation/view/0xabe5b87d8561313782465347fe1d471069d875099814d90459a5f0afb14b9f27",
+    "tx_url": "https://basescan.org/tx/0xf58c8d34ce486272f42eb98338cdd2c4b4d6daba20d5195fb015eaea521f8722",
+    "status": "confirmed"
+   },
+   "arweave": {
+    "id": "1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
+    "url": "https://arweave.net/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
+    "view_url": "https://viewblock.io/arweave/tx/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
+    "status": "confirmed"
+   }
+  }
+ }
+]
