@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-10-31T16:20:01+00:00",
+    "generated_at": "2026-10-31T17:20:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -51,17 +51,63 @@
         }
     ],
     "stats": {
-        "count": 0,
-        "average": null,
+        "count": 1,
+        "average": 5,
         "distribution": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 0
+            "5": 1
         }
     },
-    "reviews": [],
+    "reviews": [
+        {
+            "id": 3,
+            "rid": "4fe2e375-400f-4d02-8b5e-586c30a4a54f",
+            "status": "published",
+            "created_at_utc": "2026-10-31 17:18:30",
+            "payload_sha": "e375fac5596ef93685aca2bc6a45e9ec1a63e3fbc2e56c3e7f33524aa7cf6e5f",
+            "prev": null,
+            "leaf": {
+                "salt": "1eef8bbfe4b0e9d12afe66506dc678ce0743d01af65e8dfd6e030bf044f12448",
+                "leaf_hash": "7f23b349d39d9dd786408bd174ad73c2aab561d88e73c4d1fc20ef7077438bb0",
+                "day": "2026-10-31",
+                "sealed": false
+            },
+            "chain": [],
+            "rating": 5,
+            "title": "Bestesttt",
+            "body": "Even though I’ve breached multiple accounts and haven’t received a payout yet, I can honestly say that Dolvero is the best prop firm I’ve worked with. \nThe breaches were entirely my fault. However, the level of support, transparency, and professionalism I’ve received from their team is something I haven’t found anywhere else.",
+            "lang": "en",
+            "display_name": "Anas Ahmed S.",
+            "handle": "anassiddiqui",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2610302546\",\"body\":\"Even though I’ve breached multiple accounts and haven’t received a payout yet, I can honestly say that Dolvero is the best prop firm I’ve worked with. \\nThe breaches were entirely my fault. However, the level of support, transparency, and professionalism I’ve received from their team is something I haven’t found anywhere else.\",\"country\":\"IN\",\"display_name\":\"Anas Ahmed S.\",\"handle\":\"anassiddiqui\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":null,\"product\":\"$5,000 DolveroTrader Instant Funding\",\"purchased_on\":\"2026-10-30\",\"rating\":5,\"rid\":\"4fe2e375-400f-4d02-8b5e-586c30a4a54f\",\"title\":\"Bestesttt\",\"ts\":\"2026-10-31T17:18:27Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "237673a7532d599d42e95eb26890ef7f94cee89831cb881e55f66556e587a9b0",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEv6qnaOM5LLOX8rxgu3NteLD3h8Xu\nGmQ2jT6SrNWPq1u7obZJHr3fb+BcDoHuA+OVARgOMCVGyQo+NvK28Yuq/w==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiNDNYNnhWbHUtVGFGcktLOGFrWHA3QnBqNF92QzVXdy1mek5TU3FmUGJsOCIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEYCIQDkV4u4r2EGAfbtKwhc2VBtoS0pHm9o5fXf6gnoi4dvRQIhANXgreh-7ucqf-cL62XacUq5ZGDIET1zwY7mjDKBA8wK"
+            },
+            "account": {
+                "login": "LIVE2610302546",
+                "product": "$5,000 DolveroTrader Instant Funding",
+                "platform": "DOLVEROTRADER",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-30",
+                "status": "funded",
+                "breaches": [],
+                "payouts": []
+            },
+            "replies": []
+        }
+    ],
     "reports": [
         {
             "month": "2026-10",
