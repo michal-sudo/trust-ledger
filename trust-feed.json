@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-10-31T17:20:01+00:00",
+    "generated_at": "2026-10-31T18:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -51,17 +51,76 @@
         }
     ],
     "stats": {
-        "count": 1,
+        "count": 2,
         "average": 5,
         "distribution": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 1
+            "5": 2
         }
     },
     "reviews": [
+        {
+            "id": 4,
+            "rid": "c7270a67-4ae4-424b-9358-79fd66cafc0b",
+            "status": "published",
+            "created_at_utc": "2026-10-31 17:42:57",
+            "payload_sha": "b94ecc3ede0b7b34d102565503e15f9a1a4c9ebc44ecc15b13029e82e9ca2e4f",
+            "prev": "7f23b349d39d9dd786408bd174ad73c2aab561d88e73c4d1fc20ef7077438bb0",
+            "leaf": {
+                "salt": "a789ecb4a7cda9644ccd9090ccf13c80c6240431045e8ff52de7152ce543353f",
+                "leaf_hash": "5a26c6d8f4978e031ea4884716d70269347cc91e9af7f7706f8d4f89fe9e0918",
+                "day": "2026-10-31",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xe335953e96b5d4c8e6d33750645e040aee45312a4d04023c42e0b69675061fd4",
+                    "tx": "546c2adac8ef87284a7b60b3367efb1be71f40b9a7aa7ce69287fb874231b43a",
+                    "url": "https://base.easscan.org/attestation/view/0xe335953e96b5d4c8e6d33750645e040aee45312a4d04023c42e0b69675061fd4",
+                    "tx_url": "https://basescan.org/tx/0x546c2adac8ef87284a7b60b3367efb1be71f40b9a7aa7ce69287fb874231b43a",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "PeoxusGjngb5rKqg54ueVJviQw1BUOWDua9Ji1bQxac",
+                    "url": "https://arweave.net/PeoxusGjngb5rKqg54ueVJviQw1BUOWDua9Ji1bQxac",
+                    "view_url": "https://viewblock.io/arweave/tx/PeoxusGjngb5rKqg54ueVJviQw1BUOWDua9Ji1bQxac",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "Great Support & Fast Respons",
+            "body": "After purchasing a 5k instant account, I ran into some issues regarding the rules, but they were very quick to respond to every concern; I hope Dolvero can keep that up.\n\nGood Job DOLVERO,,",
+            "lang": "en",
+            "display_name": "ADIAR",
+            "handle": "adiar-ded0",
+            "country": "ID",
+            "ip_country": "ID",
+            "device": "desktop/Windows",
+            "payload": "{\"account_login\":\"LIVE2610243879\",\"body\":\"After purchasing a 5k instant account, I ran into some issues regarding the rules, but they were very quick to respond to every concern; I hope Dolvero can keep that up.\\n\\nGood Job DOLVERO,,\",\"country\":\"ID\",\"display_name\":\"ADIAR\",\"handle\":\"adiar-ded0\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"7f23b349d39d9dd786408bd174ad73c2aab561d88e73c4d1fc20ef7077438bb0\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-24\",\"rating\":5,\"rid\":\"c7270a67-4ae4-424b-9358-79fd66cafc0b\",\"title\":\"Great Support & Fast Respons\",\"ts\":\"2026-10-31T17:42:01Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "d79b4093c979d4fe81d5f64066b9e7f327abe3707b3304ac6e75d7985648517c",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEj8+flSqXBL9oJ0tfxViKoOGXZZbo\nAD+oUsr6URhJsxHX3WzCgugDctP5XuwZTgm+IMU7Lky9MYOyQ78Aoy+ruA==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoidVU3TVB0NExlelRSQWxaVkEtRmZtaHBNbnJ4RTdNRmJFd0tlZ3VuS0xrOCIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccZAAAAAA",
+                "signature": "MEUCIFS8utT_ExGT9OXvtGb4ctleVKdFah1dqX1iO2fLXkK6AiEAt9e73l9242niTrsKtX4YGwp9Jv2xM1deuxItncnB49o"
+            },
+            "account": {
+                "login": "LIVE2610243879",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-24",
+                "status": "funded",
+                "breaches": [],
+                "payouts": []
+            },
+            "replies": []
+        },
         {
             "id": 3,
             "rid": "4fe2e375-400f-4d02-8b5e-586c30a4a54f",
@@ -75,7 +134,21 @@
                 "day": "2026-10-31",
                 "sealed": false
             },
-            "chain": [],
+            "chain": {
+                "base": {
+                    "uid": "0x6136cfbe55aecec8190586259e7e2116b6b6429b6f00872bcc854d56b2dcba60",
+                    "tx": "3be1d9cc3d7d2c058bcf1e9b9e1e076eba3c4d81202e253eda61dca9069ca6de",
+                    "url": "https://base.easscan.org/attestation/view/0x6136cfbe55aecec8190586259e7e2116b6b6429b6f00872bcc854d56b2dcba60",
+                    "tx_url": "https://basescan.org/tx/0x3be1d9cc3d7d2c058bcf1e9b9e1e076eba3c4d81202e253eda61dca9069ca6de",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "bvPtzSKBZ1lh1veprWg3IKDVJLW189lpQ4R1eMlqVlc",
+                    "url": "https://arweave.net/bvPtzSKBZ1lh1veprWg3IKDVJLW189lpQ4R1eMlqVlc",
+                    "view_url": "https://viewblock.io/arweave/tx/bvPtzSKBZ1lh1veprWg3IKDVJLW189lpQ4R1eMlqVlc",
+                    "status": "confirmed"
+                }
+            },
             "rating": 5,
             "title": "Bestesttt",
             "body": "Even though I’ve breached multiple accounts and haven’t received a payout yet, I can honestly say that Dolvero is the best prop firm I’ve worked with. \nThe breaches were entirely my fault. However, the level of support, transparency, and professionalism I’ve received from their team is something I haven’t found anywhere else.",
@@ -105,7 +178,48 @@
                 "breaches": [],
                 "payouts": []
             },
-            "replies": []
+            "replies": [
+                {
+                    "id": 3,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, Anas. A review from a trader whose accounts ended by his own rules, and who still writes this, is worth more to me than ten five-star ones after a payout. The breaches sit on the record next to your words, and your first payout will sit there too when it comes. Take the next account slower; we are not going anywhere.",
+                    "supersedes": null,
+                    "created_at_utc": "2026-10-31 17:32:32",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, Anas. A review from a trader whose accounts ended by his own rules, and who still writes this, is worth more to me than ten five-star ones after a payout. The breaches sit on the record next to your words, and your first payout will sit there too when it comes. Take the next account slower; we are not going anywhere.\",\"kind\":\"reply\",\"review_id\":3,\"review_sha\":\"e375fac5596ef93685aca2bc6a45e9ec1a63e3fbc2e56c3e7f33524aa7cf6e5f\",\"supersedes\":null,\"ts\":\"2026-10-31T17:31:45Z\",\"v\":1}",
+                    "payload_sha": "eecca62589425c7471951af9470ba6132b030f38fa81bbc84381e3f0e148c9a9",
+                    "signature": {
+                        "method": "passkey",
+                        "alg": -7,
+                        "credential_sha": "e39591e78977b0f97d405e8d639de54177adcf6143755782836c54fae0f6f088",
+                        "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8z15gEzGkRv3+NWCvcLCoaVJ0Y6v\nczFAxR8/kLzjHFnEbNwSIwPDu2PPUQr7TcPjK6ee3/RQ4aJHUAe9Aq0XTw==\n-----END PUBLIC KEY-----\n",
+                        "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiN3N5bUpZbENYSFJ4bFJyNVJ3dW1FeXNERHpqNmdidklRNEhqOE9GSXlhayIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlLCJvdGhlcl9rZXlzX2Nhbl9iZV9hZGRlZF9oZXJlIjoiZG8gbm90IGNvbXBhcmUgY2xpZW50RGF0YUpTT04gYWdhaW5zdCBhIHRlbXBsYXRlLiBTZWUgaHR0cHM6Ly9nb28uZ2wveWFiUGV4In0",
+                        "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                        "signature": "MEQCIEwloUV0wvT4QxDGT8oPMSBYh_lfE3T0Bs_eyqGKzXiiAiBDBmY9zOpP70VjrVaMukivyrKsc3v3ZZyDXBO9nHdBOQ"
+                    },
+                    "leaf": {
+                        "salt": "394f20fb0747c66da2ddeb358d064581d3647edf4634fb2658122bad20c4265e",
+                        "leaf_hash": "a0e42ad9136ba3b2109bc3b3b307803d5667e6e26365aa2ce49dc97bbabf56c2",
+                        "day": "2026-10-31",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xc46adcb1273cc1f0133f33246361bb903a3cf9192fa162112bc4c4de0c1e494b",
+                            "tx": "1a9d517fb2d410f172a74417baf877a65f1bc4b0914a7037abce618637f09a75",
+                            "url": "https://base.easscan.org/attestation/view/0xc46adcb1273cc1f0133f33246361bb903a3cf9192fa162112bc4c4de0c1e494b",
+                            "tx_url": "https://basescan.org/tx/0x1a9d517fb2d410f172a74417baf877a65f1bc4b0914a7037abce618637f09a75",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "bQ3nPtxVXjbs3ma2m26rMQsabjtihu5qpRbu3qUJ0go",
+                            "url": "https://arweave.net/bQ3nPtxVXjbs3ma2m26rMQsabjtihu5qpRbu3qUJ0go",
+                            "view_url": "https://viewblock.io/arweave/tx/bQ3nPtxVXjbs3ma2m26rMQsabjtihu5qpRbu3qUJ0go",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         }
     ],
     "reports": [
