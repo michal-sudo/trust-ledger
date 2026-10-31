@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-10-31T18:22:01+00:00",
+    "generated_at": "2026-10-31T19:23:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -51,17 +51,303 @@
         }
     ],
     "stats": {
-        "count": 2,
+        "count": 6,
         "average": 5,
         "distribution": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 2
+            "5": 6
         }
     },
     "reviews": [
+        {
+            "id": 8,
+            "rid": "20fec216-b296-48e4-b519-4f1f4e3dbcbc",
+            "status": "published",
+            "created_at_utc": "2026-10-31 19:14:41",
+            "payload_sha": "53806b8d3a3611b82993c4db55f66533ebf7edbefc73c4d67ef3b18cb446db5a",
+            "prev": "055cef6211141077d2a69161b3549084e4031068a49f34e500ab52ff508e39a7",
+            "leaf": {
+                "salt": "85241cc2bab21a78550767fb3fcb9a2fc9dcfd0b0cc392424903d158fff87b7c",
+                "leaf_hash": "3a5a4dfaa251b6dcd7427abb3d250d787e22d3a6607ad23dce3825f18b5e9a53",
+                "day": "2026-10-31",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x9f68edc13c9d61543b7d256efd19743dff10f5d3fe7183224a42cbfa0ea0cc48",
+                    "tx": "4191977ce5e5d9bcf044ddd7a0981e378939ad5c5ed093228850367fb5b7eec4",
+                    "url": "https://base.easscan.org/attestation/view/0x9f68edc13c9d61543b7d256efd19743dff10f5d3fe7183224a42cbfa0ea0cc48",
+                    "tx_url": "https://basescan.org/tx/0x4191977ce5e5d9bcf044ddd7a0981e378939ad5c5ed093228850367fb5b7eec4",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
+                    "url": "https://arweave.net/XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
+                    "view_url": "https://viewblock.io/arweave/tx/XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
+                    "status": "sent"
+                }
+            },
+            "rating": 5,
+            "title": "Buying double chance but forgot to put the specific code",
+            "body": "I bought $5k account with events double chance, and im forgot to put the specific code to get the second chance if i breach..., open support ticket and discuss with Mr Miroslav as Dolvero support that handle my case, after discussed with Mr Miroslav, my account that didn't have double chance got the previlege of double chance, once again Thankyou for Dolvero support, Mr Miroslav, and ofc our great CEO Michal Król..",
+            "lang": "en",
+            "display_name": "Ferdinand R.",
+            "handle": "ferdinand-r-b2d3",
+            "country": "ID",
+            "ip_country": "CL",
+            "device": "desktop/Windows",
+            "payload": "{\"account_login\":\"LIVE2610173508\",\"body\":\"I bought $5k account with events double chance, and im forgot to put the specific code to get the second chance if i breach..., open support ticket and discuss with Mr Miroslav as Dolvero support that handle my case, after discussed with Mr Miroslav, my account that didn't have double chance got the previlege of double chance, once again Thankyou for Dolvero support, Mr Miroslav, and ofc our great CEO Michal Król..\",\"country\":\"ID\",\"display_name\":\"Ferdinand R.\",\"handle\":\"ferdinand-r-b2d3\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"055cef6211141077d2a69161b3549084e4031068a49f34e500ab52ff508e39a7\",\"product\":\"$5,000 DolveroTrader Instant Funding\",\"purchased_on\":\"2026-10-17\",\"rating\":5,\"rid\":\"20fec216-b296-48e4-b519-4f1f4e3dbcbc\",\"title\":\"Buying double chance but forgot to put the specific code\",\"ts\":\"2026-10-31T19:14:01Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "061a96fe3824d9a41749c96f199f92c2696c89794f6e8c3250fc24ddbb9e3056",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUMCvIx/3HjJaznPZIiU29sZKRu4E\nnTk9jFxh+AEhPMvQuaGhD+GupR8+ESvV2BLkgqMpHIwJBHjdqvrMjgY3BA==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiVTRCcmpUbzJFYmdwazhUYlZmWmxNLXYzN2I3OGM4VFdmdk94akxSRzIxbyIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccZAAAAAA",
+                "signature": "MEUCIHiUz82m8Uf0na4Ny0WQWHXW7Xx7lcikb-is5xpV7SSxAiEAv2_cucQR7KMuvP__QjYFTOz3VCG2dtq_aJqvvD-50q0"
+            },
+            "account": {
+                "login": "LIVE2610173508",
+                "product": "$5,000 DolveroTrader Instant Funding",
+                "platform": "DOLVEROTRADER",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-17",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-10-27, the combined daily net P&L (closed trades plus floating P&L on open positions) was -$150.88 (3.02% of starting balance $5,000.00). This exceeds the daily loss limit of 3.0% ($150.00) by $0.88. Trades on this day: #600019664040 XAUUSD BUY 0.10L P&L: $-37.40; #600019664067 XAUUSD BUY 0.10L P&L: $-83.30; #600019664075 XAUUSD BUY 0.05L P&L: $-30.18",
+                        "detected_at_utc": "2026-10-27 01:34:25",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-01651",
+                            "rules_sha256": "105d5da75c29927d38e83b03d38a9bb8879e71af5bc13812afef50389f636599",
+                            "doc_sha256": "c8a9c8422870e60e0d57c362142ed58f4e03ffde619c3f160d521ec0e9abbe44",
+                            "signed_at_utc": "2026-10-17 13:02:39",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-F023-6172"
+                        },
+                        "report_url": null,
+                        "proof": {
+                            "salt": "d00e928bc5fffd077e263c0934bac7c6ac80f6d9470a5cd35af2e8826f2364a2",
+                            "leaf_hash": "94a4c7a99a31abd5d9b7f9a1c3f358a20d38d727aa6749cf089ce64051413bf0",
+                            "day": "2026-10-31",
+                            "sealed": false
+                        }
+                    }
+                ],
+                "payouts": []
+            },
+            "replies": []
+        },
+        {
+            "id": 7,
+            "rid": "4272686b-d4b1-4870-9d27-8c9074be64f3",
+            "status": "published",
+            "created_at_utc": "2026-10-31 18:52:23",
+            "payload_sha": "595b48f80db192a4f840e0d01b8d15540139bdd88c1c94b209f2003d36cad78f",
+            "prev": "c65644e4ac97adab32b494f2609046866e61fddf28d29e8d803ab88aef583c25",
+            "leaf": {
+                "salt": "e34fcdda5e52e8324c88fc0ed3872315bb68a95ee43674cd024ce1be6d569dbc",
+                "leaf_hash": "055cef6211141077d2a69161b3549084e4031068a49f34e500ab52ff508e39a7",
+                "day": "2026-10-31",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x369efd2bb054b705a1a9833952ba6da7bf1f08acfc0cedf7b97f2b09d7ae75f9",
+                    "tx": "95b1879159ab8c96870c065caabde94c8a24d21922f3ae42127cf2ae5050b7cf",
+                    "url": "https://base.easscan.org/attestation/view/0x369efd2bb054b705a1a9833952ba6da7bf1f08acfc0cedf7b97f2b09d7ae75f9",
+                    "tx_url": "https://basescan.org/tx/0x95b1879159ab8c96870c065caabde94c8a24d21922f3ae42127cf2ae5050b7cf",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "bubvMS6Tgoq-jTuWLSydbG_6RCsX-bM4NhpszTTkEXA",
+                    "url": "https://arweave.net/bubvMS6Tgoq-jTuWLSydbG_6RCsX-bM4NhpszTTkEXA",
+                    "view_url": "https://viewblock.io/arweave/tx/bubvMS6Tgoq-jTuWLSydbG_6RCsX-bM4NhpszTTkEXA",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "Most reliable Propfirm",
+            "body": "I’ve been with Dolvero for quite some time now, and my experience has been great. The support team is always helpful, responsive, and quick to resolve any issues. Payouts are also processed incredibly fast, which makes the overall experience even better. Definitely happy with Dolvero so far❤️",
+            "lang": "en",
+            "display_name": "Duc Hieu N.",
+            "handle": "lemiguel",
+            "country": "CZ",
+            "ip_country": "CZ",
+            "device": "mobile/iOS",
+            "payload": "{\"account_login\":\"EVAL2610053235\",\"body\":\"I’ve been with Dolvero for quite some time now, and my experience has been great. The support team is always helpful, responsive, and quick to resolve any issues. Payouts are also processed incredibly fast, which makes the overall experience even better. Definitely happy with Dolvero so far❤️\",\"country\":\"CZ\",\"display_name\":\"Duc Hieu N.\",\"handle\":\"lemiguel\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"c65644e4ac97adab32b494f2609046866e61fddf28d29e8d803ab88aef583c25\",\"product\":\"$200,000 MT5 Evaluation\",\"purchased_on\":\"2026-10-03\",\"rating\":5,\"rid\":\"4272686b-d4b1-4870-9d27-8c9074be64f3\",\"title\":\"Most reliable Propfirm\",\"ts\":\"2026-10-31T18:52:12Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "d828957d9d78b9a58b73064c8fc1a79ec8db0db09848f4b3db428bb3047bf015",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE05MKUSu96Xii1fj+1y2mopcYk9kg\npQVYkhgPGHgskfDMKZDaVmPYrzNvoaDIx4dGWujo4WUS1Pf1OWuOWbjOgA==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiV1Z0SS1BMnhrcVQ0UU9EUUc0MFZWQUU1dmRpTUhKU3lDZklBUFRiSzE0OCIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEQCIBT-k3KK07AYPG-lxAFcylL-yk0Z4B2VIdTmA_tDVxykAiB8h51dXNgpv5koYO0XQtdDhm8Fh28azIQanuwpeO-caA"
+            },
+            "account": {
+                "login": "EVAL2610053235",
+                "product": "$200,000 MT5 Evaluation",
+                "platform": "MT5",
+                "size_usd": 200000,
+                "purchased_on": "2026-10-03",
+                "status": "passed",
+                "breaches": [],
+                "payouts": []
+            },
+            "replies": []
+        },
+        {
+            "id": 6,
+            "rid": "fe157763-8a33-45f4-82f2-a778af776fed",
+            "status": "published",
+            "created_at_utc": "2026-10-31 18:40:24",
+            "payload_sha": "692a7284d851dac32d3dc62f4285ee348bcd20bcf4e098e57cadeb23056c6297",
+            "prev": "af0c7c00b2d53afb09dffec211df1d2885e0b15a6bd7a9953cd05916c74c8fb9",
+            "leaf": {
+                "salt": "ffd533d55ad1821f53583f2cc127e02c31e79ce720fcbf8600476e4027380b5f",
+                "leaf_hash": "c65644e4ac97adab32b494f2609046866e61fddf28d29e8d803ab88aef583c25",
+                "day": "2026-10-31",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x6771beabf2847b0b3849b4e509f29f797fa8237724285d8fbbb34f00ca7239e8",
+                    "tx": "ff82f9713923920e704eaafd801df1b34e9877e1aedd980533d38ad64ab5f861",
+                    "url": "https://base.easscan.org/attestation/view/0x6771beabf2847b0b3849b4e509f29f797fa8237724285d8fbbb34f00ca7239e8",
+                    "tx_url": "https://basescan.org/tx/0xff82f9713923920e704eaafd801df1b34e9877e1aedd980533d38ad64ab5f861",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "Gn7DIQeV7Qnsr3gNoi_-MwND8ropn7Da51-04g302Oo",
+                    "url": "https://arweave.net/Gn7DIQeV7Qnsr3gNoi_-MwND8ropn7Da51-04g302Oo",
+                    "view_url": "https://viewblock.io/arweave/tx/Gn7DIQeV7Qnsr3gNoi_-MwND8ropn7Da51-04g302Oo",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "DOLVERO THE FASTEST",
+            "body": "Dolvero 5k instant account is the chepest and i was able to get the a pyout of 200$+ in less than 5 min after request and kyc process, thank you so much for helping me start my journey",
+            "lang": "en",
+            "display_name": "Muhammed S.",
+            "handle": "muhammed-s-cb8f",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2610128939\",\"body\":\"Dolvero 5k instant account is the chepest and i was able to get the a pyout of 200$+ in less than 5 min after request and kyc process, thank you so much for helping me start my journey\",\"country\":\"IN\",\"display_name\":\"Muhammed S.\",\"handle\":\"muhammed-s-cb8f\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"af0c7c00b2d53afb09dffec211df1d2885e0b15a6bd7a9953cd05916c74c8fb9\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-12\",\"rating\":5,\"rid\":\"fe157763-8a33-45f4-82f2-a778af776fed\",\"title\":\"DOLVERO THE FASTEST\",\"ts\":\"2026-10-31T18:38:55Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "e332512bbd6843f487cafc515471cb76d24fc799330e94c8e61cf353d0e0245b",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeNCvHv8CBpXDzPtdLR3Q0bviSTQs\n8U/6jRxgrMyLwwVVx0991qaaaxhB4cHSn/qtkcvK/TEDzPDwXp2+4kKoUA==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiYVNweWhOaFIyc010UGNZdlFvWHVOSXZOSUx6MDRKamxmSzNySXdWc1lwYyIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlLCJvdGhlcl9rZXlzX2Nhbl9iZV9hZGRlZF9oZXJlIjoiZG8gbm90IGNvbXBhcmUgY2xpZW50RGF0YUpTT04gYWdhaW5zdCBhIHRlbXBsYXRlLiBTZWUgaHR0cHM6Ly9nb28uZ2wveWFiUGV4In0",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEUCICiq8pO6oznAdci9oCnI9881clX3cgN3soyphCtxikNUAiEAqz0yk3sCaqQCzjwmFRlldx90dUUGGX3K8JpxDKAwI10"
+            },
+            "account": {
+                "login": "LIVE2610128939",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-12",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Payout Withdrawal",
+                        "detail": "After your payout of $228.70 (PAY-2026-3011), $326.71 of profit was settled from the account (your share plus the firm's share), which brought the balance to $5,000.00. That is at or below the trailing drawdown floor of $5,060.37 (high-water mark $5,326.71 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account: you broke no trading rule, and your profit is secured.",
+                        "detected_at_utc": "2026-10-27 15:18:03",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-01344",
+                            "rules_sha256": "357d62308cb5eb5dcbf3890adbcc081662cb82d851dad475094cc4c7c0126b47",
+                            "doc_sha256": "a84ebd82564310e202c370dcd7c5ba480d87c51b73cc82f3d2fd1c2d998485a8",
+                            "signed_at_utc": "2026-10-12 15:19:39",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-630A-6A89"
+                        },
+                        "report_url": null,
+                        "proof": {
+                            "salt": "1483108247c1700aa35a04f974402a79e14666845e54cb5608af23b11203ba3b",
+                            "leaf_hash": "ddce7751d84002ad33eb7c5a1dcda39b3c88ae0a05764a4be7179cb052010df3",
+                            "day": "2026-10-31",
+                            "sealed": false
+                        }
+                    }
+                ],
+                "payouts": [
+                    {
+                        "paid_on": "2026-10-27",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TNKNTI-86F956"
+                    }
+                ]
+            },
+            "replies": []
+        },
+        {
+            "id": 5,
+            "rid": "f1f54588-ac95-498b-93ed-bbb7595f0d6d",
+            "status": "published",
+            "created_at_utc": "2026-10-31 18:22:12",
+            "payload_sha": "7dbb87bf34912f765a1d8291a9fe13d2af73db644dce65590f6f02a16394d9be",
+            "prev": "5a26c6d8f4978e031ea4884716d70269347cc91e9af7f7706f8d4f89fe9e0918",
+            "leaf": {
+                "salt": "c1fdccafcad8dcb053b9cd7e3ce37accd612043e63148ffaebc2ca3347cd64e4",
+                "leaf_hash": "af0c7c00b2d53afb09dffec211df1d2885e0b15a6bd7a9953cd05916c74c8fb9",
+                "day": "2026-10-31",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xeb8a3f7ac49c808460f6df41f26920b886fe1f53de44dd534547e6dd53a084dc",
+                    "tx": "1ff5e4899f2acd66c680b9174f68c52745f767820676a542749d2a318b1817a2",
+                    "url": "https://base.easscan.org/attestation/view/0xeb8a3f7ac49c808460f6df41f26920b886fe1f53de44dd534547e6dd53a084dc",
+                    "tx_url": "https://basescan.org/tx/0x1ff5e4899f2acd66c680b9174f68c52745f767820676a542749d2a318b1817a2",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "-DxaKveIThIYpBqHyjkX3tP-veY1Ij89NzUo7a4-f3o",
+                    "url": "https://arweave.net/-DxaKveIThIYpBqHyjkX3tP-veY1Ij89NzUo7a4-f3o",
+                    "view_url": "https://viewblock.io/arweave/tx/-DxaKveIThIYpBqHyjkX3tP-veY1Ij89NzUo7a4-f3o",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "My Positive Experience with Dolvero – Smooth Payout and Professional Service",
+            "body": "I had a very good experience with Dolvero. The $5,000 MT5 Instant Funding account has been a great opportunity, and I am happy to have received my payout of $140.48 successfully.\n\nThe payout process was smooth, and I appreciate the team's professionalism and transparency. It's encouraging to see a prop firm that values traders and provides an opportunity to demonstrate their trading skills.\n\nOverall, I am satisfied with my experience so far and appreciate the support from Dolvero. Looking forward to continuing my trading journey with them. Highly recommended!",
+            "lang": "en",
+            "display_name": "AKHOYKUMAR SHARMA",
+            "handle": "guruaribam-akhoykumar-s-e88d",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "desktop/Windows",
+            "payload": "{\"account_login\":\"LIVE2610102679\",\"body\":\"I had a very good experience with Dolvero. The $5,000 MT5 Instant Funding account has been a great opportunity, and I am happy to have received my payout of $140.48 successfully.\\n\\nThe payout process was smooth, and I appreciate the team's professionalism and transparency. It's encouraging to see a prop firm that values traders and provides an opportunity to demonstrate their trading skills.\\n\\nOverall, I am satisfied with my experience so far and appreciate the support from Dolvero. Looking forward to continuing my trading journey with them. Highly recommended!\",\"country\":\"IN\",\"display_name\":\"AKHOYKUMAR SHARMA\",\"handle\":\"guruaribam-akhoykumar-s-e88d\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"5a26c6d8f4978e031ea4884716d70269347cc91e9af7f7706f8d4f89fe9e0918\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-10\",\"rating\":5,\"rid\":\"f1f54588-ac95-498b-93ed-bbb7595f0d6d\",\"title\":\"My Positive Experience with Dolvero – Smooth Payout and Professional Service\",\"ts\":\"2026-10-31T18:21:30Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "0dbd2275fb5b4acb1b5714e3a22ab5898ecdd37f28492c41383306e7408a3cf5",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhztntx+OnUgdCM6Y+jYvmNSgP3KA\noIUR280Wq5kW+kZ/PFmZBpiZ6paXgnl4L8+VCXv1zVex6b8mcjdqNqX5eA==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiZmJ1SHZ6U1JMM1phSFlLUnFmNFQwcTl6MjJSTnptVlpEMjhDb1dPVTJiNCIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccFAAAAAQ",
+                "signature": "MEQCIBeB3Ffd2UXlzA8fYzgvWQtiJjDvFwHabHFGvZmRX4jYAiB0Zsex9HiZJn0Wyn6sMv1-JFwNm0-ySu4d79l5Mq0-tw"
+            },
+            "account": {
+                "login": "LIVE2610102679",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-10",
+                "status": "funded",
+                "breaches": [],
+                "payouts": [
+                    {
+                        "paid_on": "2026-10-27",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TNK4LK-4AF616"
+                    }
+                ]
+            },
+            "replies": []
+        },
         {
             "id": 4,
             "rid": "c7270a67-4ae4-424b-9358-79fd66cafc0b",
