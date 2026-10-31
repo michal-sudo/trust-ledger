@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-10-31T20:22:01+00:00",
+    "generated_at": "2026-10-31T21:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -75,7 +75,21 @@
                 "day": "2026-10-31",
                 "sealed": false
             },
-            "chain": [],
+            "chain": {
+                "base": {
+                    "uid": "0x8188397c62b899c6d14bfbe7ce1d6164d247f93842a9a0601a5a6536ca007dc1",
+                    "tx": "11d503f858b07c2e93fbe37e481516d3bc3c65578c022495f1d6f8bab6f42276",
+                    "url": "https://base.easscan.org/attestation/view/0x8188397c62b899c6d14bfbe7ce1d6164d247f93842a9a0601a5a6536ca007dc1",
+                    "tx_url": "https://basescan.org/tx/0x11d503f858b07c2e93fbe37e481516d3bc3c65578c022495f1d6f8bab6f42276",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "igW57KoyjZsVMXUbqgmGRRH2nKUpOxL9GxG5SnNQ1WQ",
+                    "url": "https://arweave.net/igW57KoyjZsVMXUbqgmGRRH2nKUpOxL9GxG5SnNQ1WQ",
+                    "view_url": "https://viewblock.io/arweave/tx/igW57KoyjZsVMXUbqgmGRRH2nKUpOxL9GxG5SnNQ1WQ",
+                    "status": "confirmed"
+                }
+            },
             "rating": 5,
             "title": "Clear rules, clear results",
             "body": "I was very pleased with the extremely low spreads, the user-friendly interface on the Dolver website in the evaluation section, and the opportunity to regularly earn points that can be redeemed for an evaluation or anything else.",
