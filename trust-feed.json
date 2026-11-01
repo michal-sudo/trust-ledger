@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-01T05:21:01+00:00",
+    "generated_at": "2026-11-01T06:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -74,17 +74,172 @@
         }
     ],
     "stats": {
-        "count": 11,
-        "average": 5,
+        "count": 12,
+        "average": 4.92,
         "distribution": {
             "1": 0,
             "2": 0,
             "3": 0,
-            "4": 0,
+            "4": 1,
             "5": 11
         }
     },
     "reviews": [
+        {
+            "id": 14,
+            "rid": "e1b7e4e1-93e6-45a6-ab7a-67cd076e47b0",
+            "status": "published",
+            "created_at_utc": "2026-11-01 06:10:12",
+            "payload_sha": "2c294ba4e7187c59d19f121f86108c2661230f31035793dee899c5a3bde83975",
+            "prev": "be8ec5752946a357b7afdd860643bf98c613e8ad39f27a60f7bf6e63b8556f8b",
+            "leaf": {
+                "salt": "2148efd8401fc0cca367ac5f0fc34d200a4bb9e600942f9c8c2b6b8ddcfa4214",
+                "leaf_hash": "860682913844c55d8eee73f0331067253788bb237f80593667e2c779a495920e",
+                "day": "2026-11-01",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x157af847ce48de5c5675e5ae0f5f77b68c5a7b9f3e230921b3335a9bce17db98",
+                    "tx": "4fe6b740ef815147db9875352bfe384a4681679d02bad3a2c43555ba9bb9ad88",
+                    "url": "https://base.easscan.org/attestation/view/0x157af847ce48de5c5675e5ae0f5f77b68c5a7b9f3e230921b3335a9bce17db98",
+                    "tx_url": "https://basescan.org/tx/0x4fe6b740ef815147db9875352bfe384a4681679d02bad3a2c43555ba9bb9ad88",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "20KjWpj4iWTSzT2v7IbF4dpSDhDqDw9J782jNeQ8URY",
+                    "url": "https://arweave.net/20KjWpj4iWTSzT2v7IbF4dpSDhDqDw9J782jNeQ8URY",
+                    "view_url": "https://viewblock.io/arweave/tx/20KjWpj4iWTSzT2v7IbF4dpSDhDqDw9J782jNeQ8URY",
+                    "status": "sent"
+                }
+            },
+            "rating": 4,
+            "title": "received payout",
+            "body": "I recently received a payout from Dolvero Funding's Instant Account, and I'm genuinely happy with my experience so far.\n\nOverall, my experience with Dolvero Funding has been positive. I appreciate the opportunity, the payout experience, and the support throughout the process. Looking forward to continuing my trading journey with them. Highly recommended!",
+            "lang": "en",
+            "display_name": "Danish A.",
+            "handle": "danish-a-5bc3",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "desktop/Windows",
+            "payload": "{\"account_login\":\"LIVE2609151891\",\"body\":\"I recently received a payout from Dolvero Funding's Instant Account, and I'm genuinely happy with my experience so far.\\n\\nOverall, my experience with Dolvero Funding has been positive. I appreciate the opportunity, the payout experience, and the support throughout the process. Looking forward to continuing my trading journey with them. Highly recommended!\",\"country\":\"IN\",\"display_name\":\"Danish A.\",\"handle\":\"danish-a-5bc3\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"be8ec5752946a357b7afdd860643bf98c613e8ad39f27a60f7bf6e63b8556f8b\",\"product\":\"$5,000 DolveroTrader Instant Funding\",\"purchased_on\":\"2026-09-15\",\"rating\":4,\"rid\":\"e1b7e4e1-93e6-45a6-ab7a-67cd076e47b0\",\"title\":\"received payout\",\"ts\":\"2026-11-01T06:09:06Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "fc26b7b2b07b9befc747977a822146dae0576babb310b9117f0eacf9d0d5dd72",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE75tyA5oYPNw7uTq3IgW/xZMm8HrY\nmSGtmSLgJa/A5pryzKBPxSfxqLpIt3HjmaLBvIlmut+6VNafYmMvbMvkSw==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiTENsTHBPY1lmRm5SbnhJZmhoQ01KbUVqRHpFRFY1UGU2Sm5Gbzczb09YVSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEYCIQD2N4xAb_aHybbL4Rvnz1FMVi8ONDRo1N3zBRI0QBkbjQIhAO6l6iaARxz9MsF84UrN6x6iBvJ_yZlEu_z33FKS8F5y"
+            },
+            "account": {
+                "login": "LIVE2609151891",
+                "product": "$5,000 DolveroTrader Instant Funding",
+                "platform": "DOLVEROTRADER",
+                "size_usd": 5000,
+                "purchased_on": "2026-09-15",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Payout Withdrawal",
+                        "detail": "After your payout of $249.76, the account balance was settled to $5,000.00, which is at or below the trailing drawdown floor of $5,088.96 (high-water mark $5,356.80 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account - congratulations on securing your profit.",
+                        "detected_at_utc": "2026-09-29 17:56:58",
+                        "agreement": {
+                            "no": "DLV-RLA-2609-00322",
+                            "rules_sha256": "0aad35cb920473e8c098d8043bf493793f502d482822a3979086112e786f72ee",
+                            "doc_sha256": "8b66d1a4a232d9f5154802504269cf471416bbc9aa21db3c0350499228e27204",
+                            "signed_at_utc": "2026-09-15 12:08:22",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2609-3273-5123"
+                        },
+                        "report_url": null,
+                        "proof": {
+                            "salt": "34138531bd96ff9f9762649455183200c81e21f0813b5daa7a89513cfcfea198",
+                            "leaf_hash": "49538fb70a84415be7bb063a25301c6837e562a3894e88103d0abe635b32851a",
+                            "day": "2026-10-31",
+                            "sealed": true,
+                            "index": 47353,
+                            "path": [
+                                {
+                                    "side": "L",
+                                    "hash": "4a07981f3a3f84ccdf280977ef069640ed1250cc3689258bf7e9904da21b8279"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "2fa65e80dfd4786394d786fbd6ad7a3ed86ca2e272028aa296d93518a0126991"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "6a4e86ef2561dec5803296728b477bdc08ded6b6be2b12dcef525e1257b371b3"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "fb41868814c84d4d85cf248e2f2c2a3a826a118fcfbd735b74a8d40f3b167eb6"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "b5aabb827ea7714fda7393abb3b05c0d2bdd9747a05cdda60939e6f6c92208da"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "f7f586b68d4b31a9545fd057e39e44cacf9130aa46cba70f880cd95d5abcfce6"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "9135d6771a9a92b58b5f71f07f6b9f95b0b856f5cc40763d98829c2c220551cb"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "b3da84ddf8df7b4a5fb6bebe61f03c4782849cf396c7b9180aaaa0ae61d05500"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "07cb586652b610dbe382073e15dabea339c3a8db9f66217ff6a3c61b68255668"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "5b41fb2ee844a0ef9bb0ec4c7d1bb7c1fbab18ce8c6e6da08492cf0017ee9dc8"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "b14798316040df58a13b5cd188cbb14d17cd514327003c1a18be9cdd0100a410"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "ed4e72649baa448639f8bb87e03242dc4741a4589d3efcf190137315ad61f818"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "22b7e32849a6f90e8c24d393e814a0c285df1244d423023dd82bcab9e604b35e"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "de3ef62cc5fbd5cce4cca6becabd06e7385a29f924a95ab34128878d92b17f6b"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "0d4e52c18af5941fd4bfe3cc0e82a09e076150019e289e9cbcbbe5e080ce877b"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "0ea5e7934ea96355013daecd681eaada8a4d9e354ed099024c6d00ec1f0e9918"
+                                }
+                            ],
+                            "root": "38e8d1234e7a0d49fb2c196758f282b5b1416d6179bfbaf2a2f3235bef9c7230",
+                            "ots_status": "complete",
+                            "bitcoin_block": 974047,
+                            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-10-31"
+                        }
+                    }
+                ],
+                "payouts": [
+                    {
+                        "paid_on": "2026-09-29",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TM50IY-CA7302"
+                    }
+                ]
+            },
+            "replies": []
+        },
         {
             "id": 13,
             "rid": "84d22e49-779b-437e-b652-ae55e418ec89",
