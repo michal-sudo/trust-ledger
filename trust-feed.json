@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-01T07:21:02+00:00",
+    "generated_at": "2026-11-01T08:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -74,17 +74,76 @@
         }
     ],
     "stats": {
-        "count": 12,
+        "count": 13,
         "average": 4.92,
         "distribution": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 1,
-            "5": 11
+            "5": 12
         }
     },
     "reviews": [
+        {
+            "id": 15,
+            "rid": "413dac9a-8d12-4852-af08-c3a42bcb0908",
+            "status": "published",
+            "created_at_utc": "2026-11-01 07:52:38",
+            "payload_sha": "104375fff66f40d2246d8e964f50994b67d38f03be8836633795d6706efb70b8",
+            "prev": "860682913844c55d8eee73f0331067253788bb237f80593667e2c779a495920e",
+            "leaf": {
+                "salt": "72b2b02f1933fc26c3edb7b4aec2af4e466fd2366c2d0b659beefd16e0f42354",
+                "leaf_hash": "a3a410da04fa35b2f20c93c4e8d70283d4c4ec450dbdb653a1478f0843198cbf",
+                "day": "2026-11-01",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xe97424964599bab2e1237d47b1e1fd7f772d6168628326698b414cd57ec1b7ce",
+                    "tx": "fe75992ed325a933d084357cd38b7abd51f1278bc6f94034b36ed066a3860c78",
+                    "url": "https://base.easscan.org/attestation/view/0xe97424964599bab2e1237d47b1e1fd7f772d6168628326698b414cd57ec1b7ce",
+                    "tx_url": "https://basescan.org/tx/0xfe75992ed325a933d084357cd38b7abd51f1278bc6f94034b36ed066a3860c78",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "12yxqaHNpUpvhbfNKMM1__5J--VDypXCwdmoYKHyyxw",
+                    "url": "https://arweave.net/12yxqaHNpUpvhbfNKMM1__5J--VDypXCwdmoYKHyyxw",
+                    "view_url": "https://viewblock.io/arweave/tx/12yxqaHNpUpvhbfNKMM1__5J--VDypXCwdmoYKHyyxw",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "My review",
+            "body": "One thing I love about dolvero is they’re customer service that is top tier,they usually respond to emails fast and resolve them with immediate effect.They’re rules are clear no hidden rules ,they’re dashboard is easy to access and I love how it alerts that there is news going on from this time till this time since they’re don’t allow news trading.\n\nI also love how the CEO and his team usually talk to us on discord.so honestly I have never came across a propfirm like this that values they’re clients,I also love they’re endless promos,I started with the 5k account which I fell like is budget friendly.I haven’t reached payout yet I’m looking forward to it.my hope I only hope for is for them to do demand or instant payouts",
+            "lang": "en",
+            "display_name": "Selinah mary B.",
+            "handle": "selinah-mary-b-d6bc",
+            "country": "BW",
+            "ip_country": "BW",
+            "device": "mobile/iOS",
+            "payload": "{\"account_login\":\"LIVE2610303992\",\"body\":\"One thing I love about dolvero is they’re customer service that is top tier,they usually respond to emails fast and resolve them with immediate effect.They’re rules are clear no hidden rules ,they’re dashboard is easy to access and I love how it alerts that there is news going on from this time till this time since they’re don’t allow news trading.\\n\\nI also love how the CEO and his team usually talk to us on discord.so honestly I have never came across a propfirm like this that values they’re clients,I also love they’re endless promos,I started with the 5k account which I fell like is budget friendly.I haven’t reached payout yet I’m looking forward to it.my hope I only hope for is for them to do demand or instant payouts\",\"country\":\"BW\",\"display_name\":\"Selinah mary B.\",\"handle\":\"selinah-mary-b-d6bc\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"860682913844c55d8eee73f0331067253788bb237f80593667e2c779a495920e\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-30\",\"rating\":5,\"rid\":\"413dac9a-8d12-4852-af08-c3a42bcb0908\",\"title\":\"My review\",\"ts\":\"2026-11-01T07:52:25Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "4cd2bfb70551b48d7940d3185cdc5823e9373f682576b4c4031f70af6983c2f6",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtOMoAKWM+1Hx8gYpzNA7ERMFXRnR\ncQE6PXHcp9Pe+NKx4w7viYPkkWss8aptsXVOA/4eON0V1xMrOfdWqEM32Q==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiRUVOMV9fWnZRTklrYlk2V1QxQ1pTMmZUandPLWlEWmpONVhXY0c3N2NMZyIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEUCIGJXzVBhaxeca18r1tPb6Fke3AUet73A_Z9etXCNEJeWAiEAj323vMvhDEmF96d1jFArMjZgXx6tpdBLdNa7FuvaAQI"
+            },
+            "account": {
+                "login": "LIVE2610303992",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-30",
+                "status": "funded",
+                "breaches": [],
+                "payouts": []
+            },
+            "replies": []
+        },
         {
             "id": 14,
             "rid": "e1b7e4e1-93e6-45a6-ab7a-67cd076e47b0",
