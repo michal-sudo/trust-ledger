@@ -13,7 +13,7 @@
    },
    "arweave": {
     "id": "5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
-    "url": "https://arweave.net/5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
+    "url": "https://arweave.net/raw/5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
     "view_url": "https://viewblock.io/arweave/tx/5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
     "status": "confirmed"
    }
@@ -33,7 +33,7 @@
    },
    "arweave": {
     "id": "1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
-    "url": "https://arweave.net/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
+    "url": "https://arweave.net/raw/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
     "view_url": "https://viewblock.io/arweave/tx/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
     "status": "confirmed"
    }

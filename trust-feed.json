@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-01T22:22:01+00:00",
+    "generated_at": "2026-11-01T23:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -43,7 +43,7 @@
                 },
                 "arweave": {
                     "id": "5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
-                    "url": "https://arweave.net/5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
+                    "url": "https://arweave.net/raw/5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
                     "view_url": "https://viewblock.io/arweave/tx/5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
                     "status": "confirmed"
                 }
@@ -66,7 +66,7 @@
                 },
                 "arweave": {
                     "id": "1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
-                    "url": "https://arweave.net/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
+                    "url": "https://arweave.net/raw/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
                     "view_url": "https://viewblock.io/arweave/tx/1yDkDu1XXkkBlsPE_OmeQsonQviMpsq8SAC2bOHyhKA",
                     "status": "confirmed"
                 }
@@ -108,7 +108,7 @@
                 },
                 "arweave": {
                     "id": "12yxqaHNpUpvhbfNKMM1__5J--VDypXCwdmoYKHyyxw",
-                    "url": "https://arweave.net/12yxqaHNpUpvhbfNKMM1__5J--VDypXCwdmoYKHyyxw",
+                    "url": "https://arweave.net/raw/12yxqaHNpUpvhbfNKMM1__5J--VDypXCwdmoYKHyyxw",
                     "view_url": "https://viewblock.io/arweave/tx/12yxqaHNpUpvhbfNKMM1__5J--VDypXCwdmoYKHyyxw",
                     "status": "confirmed"
                 }
@@ -167,7 +167,7 @@
                 },
                 "arweave": {
                     "id": "20KjWpj4iWTSzT2v7IbF4dpSDhDqDw9J782jNeQ8URY",
-                    "url": "https://arweave.net/20KjWpj4iWTSzT2v7IbF4dpSDhDqDw9J782jNeQ8URY",
+                    "url": "https://arweave.net/raw/20KjWpj4iWTSzT2v7IbF4dpSDhDqDw9J782jNeQ8URY",
                     "view_url": "https://viewblock.io/arweave/tx/20KjWpj4iWTSzT2v7IbF4dpSDhDqDw9J782jNeQ8URY",
                     "status": "confirmed"
                 }
@@ -322,7 +322,7 @@
                 },
                 "arweave": {
                     "id": "2RuIgJIbkZWrCD8q08PXb9_2aykD7mw8WHwXgc0P4t0",
-                    "url": "https://arweave.net/2RuIgJIbkZWrCD8q08PXb9_2aykD7mw8WHwXgc0P4t0",
+                    "url": "https://arweave.net/raw/2RuIgJIbkZWrCD8q08PXb9_2aykD7mw8WHwXgc0P4t0",
                     "view_url": "https://viewblock.io/arweave/tx/2RuIgJIbkZWrCD8q08PXb9_2aykD7mw8WHwXgc0P4t0",
                     "status": "confirmed"
                 }
@@ -386,7 +386,7 @@
                 },
                 "arweave": {
                     "id": "_i0HOfgNm2C4V3pXCKLnJ-V4xEQNpGNSPN19kqaSs2I",
-                    "url": "https://arweave.net/_i0HOfgNm2C4V3pXCKLnJ-V4xEQNpGNSPN19kqaSs2I",
+                    "url": "https://arweave.net/raw/_i0HOfgNm2C4V3pXCKLnJ-V4xEQNpGNSPN19kqaSs2I",
                     "view_url": "https://viewblock.io/arweave/tx/_i0HOfgNm2C4V3pXCKLnJ-V4xEQNpGNSPN19kqaSs2I",
                     "status": "confirmed"
                 }
@@ -631,7 +631,7 @@
                 },
                 "arweave": {
                     "id": "_SIN2eDum4U7t77cZgqSNfR9N1Jb5nDJKxA6OEx0XcE",
-                    "url": "https://arweave.net/_SIN2eDum4U7t77cZgqSNfR9N1Jb5nDJKxA6OEx0XcE",
+                    "url": "https://arweave.net/raw/_SIN2eDum4U7t77cZgqSNfR9N1Jb5nDJKxA6OEx0XcE",
                     "view_url": "https://viewblock.io/arweave/tx/_SIN2eDum4U7t77cZgqSNfR9N1Jb5nDJKxA6OEx0XcE",
                     "status": "confirmed"
                 }
@@ -942,7 +942,7 @@
                 },
                 "arweave": {
                     "id": "Dhgt-FXrKU9Nwa4wpB3NfaDdxnot_vIL5P_s1s_OUUM",
-                    "url": "https://arweave.net/Dhgt-FXrKU9Nwa4wpB3NfaDdxnot_vIL5P_s1s_OUUM",
+                    "url": "https://arweave.net/raw/Dhgt-FXrKU9Nwa4wpB3NfaDdxnot_vIL5P_s1s_OUUM",
                     "view_url": "https://viewblock.io/arweave/tx/Dhgt-FXrKU9Nwa4wpB3NfaDdxnot_vIL5P_s1s_OUUM",
                     "status": "confirmed"
                 }
@@ -1168,7 +1168,7 @@
                 },
                 "arweave": {
                     "id": "igW57KoyjZsVMXUbqgmGRRH2nKUpOxL9GxG5SnNQ1WQ",
-                    "url": "https://arweave.net/igW57KoyjZsVMXUbqgmGRRH2nKUpOxL9GxG5SnNQ1WQ",
+                    "url": "https://arweave.net/raw/igW57KoyjZsVMXUbqgmGRRH2nKUpOxL9GxG5SnNQ1WQ",
                     "view_url": "https://viewblock.io/arweave/tx/igW57KoyjZsVMXUbqgmGRRH2nKUpOxL9GxG5SnNQ1WQ",
                     "status": "confirmed"
                 }
@@ -1298,7 +1298,7 @@
                 },
                 "arweave": {
                     "id": "XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
-                    "url": "https://arweave.net/XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
+                    "url": "https://arweave.net/raw/XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
                     "view_url": "https://viewblock.io/arweave/tx/XH4TQ_rikwa7W2O6jBDS5xJxdfsxQQ_IA9Stx9tIShc",
                     "status": "confirmed"
                 }
@@ -1519,7 +1519,7 @@
                 },
                 "arweave": {
                     "id": "bubvMS6Tgoq-jTuWLSydbG_6RCsX-bM4NhpszTTkEXA",
-                    "url": "https://arweave.net/bubvMS6Tgoq-jTuWLSydbG_6RCsX-bM4NhpszTTkEXA",
+                    "url": "https://arweave.net/raw/bubvMS6Tgoq-jTuWLSydbG_6RCsX-bM4NhpszTTkEXA",
                     "view_url": "https://viewblock.io/arweave/tx/bubvMS6Tgoq-jTuWLSydbG_6RCsX-bM4NhpszTTkEXA",
                     "status": "confirmed"
                 }
@@ -1649,7 +1649,7 @@
                 },
                 "arweave": {
                     "id": "Gn7DIQeV7Qnsr3gNoi_-MwND8ropn7Da51-04g302Oo",
-                    "url": "https://arweave.net/Gn7DIQeV7Qnsr3gNoi_-MwND8ropn7Da51-04g302Oo",
+                    "url": "https://arweave.net/raw/Gn7DIQeV7Qnsr3gNoi_-MwND8ropn7Da51-04g302Oo",
                     "view_url": "https://viewblock.io/arweave/tx/Gn7DIQeV7Qnsr3gNoi_-MwND8ropn7Da51-04g302Oo",
                     "status": "confirmed"
                 }
@@ -1875,7 +1875,7 @@
                 },
                 "arweave": {
                     "id": "-DxaKveIThIYpBqHyjkX3tP-veY1Ij89NzUo7a4-f3o",
-                    "url": "https://arweave.net/-DxaKveIThIYpBqHyjkX3tP-veY1Ij89NzUo7a4-f3o",
+                    "url": "https://arweave.net/raw/-DxaKveIThIYpBqHyjkX3tP-veY1Ij89NzUo7a4-f3o",
                     "view_url": "https://viewblock.io/arweave/tx/-DxaKveIThIYpBqHyjkX3tP-veY1Ij89NzUo7a4-f3o",
                     "status": "confirmed"
                 }
@@ -2010,7 +2010,7 @@
                 },
                 "arweave": {
                     "id": "PeoxusGjngb5rKqg54ueVJviQw1BUOWDua9Ji1bQxac",
-                    "url": "https://arweave.net/PeoxusGjngb5rKqg54ueVJviQw1BUOWDua9Ji1bQxac",
+                    "url": "https://arweave.net/raw/PeoxusGjngb5rKqg54ueVJviQw1BUOWDua9Ji1bQxac",
                     "view_url": "https://viewblock.io/arweave/tx/PeoxusGjngb5rKqg54ueVJviQw1BUOWDua9Ji1bQxac",
                     "status": "confirmed"
                 }
@@ -2140,7 +2140,7 @@
                 },
                 "arweave": {
                     "id": "bvPtzSKBZ1lh1veprWg3IKDVJLW189lpQ4R1eMlqVlc",
-                    "url": "https://arweave.net/bvPtzSKBZ1lh1veprWg3IKDVJLW189lpQ4R1eMlqVlc",
+                    "url": "https://arweave.net/raw/bvPtzSKBZ1lh1veprWg3IKDVJLW189lpQ4R1eMlqVlc",
                     "view_url": "https://viewblock.io/arweave/tx/bvPtzSKBZ1lh1veprWg3IKDVJLW189lpQ4R1eMlqVlc",
                     "status": "confirmed"
                 }
@@ -2280,7 +2280,7 @@
                         },
                         "arweave": {
                             "id": "bQ3nPtxVXjbs3ma2m26rMQsabjtihu5qpRbu3qUJ0go",
-                            "url": "https://arweave.net/bQ3nPtxVXjbs3ma2m26rMQsabjtihu5qpRbu3qUJ0go",
+                            "url": "https://arweave.net/raw/bQ3nPtxVXjbs3ma2m26rMQsabjtihu5qpRbu3qUJ0go",
                             "view_url": "https://viewblock.io/arweave/tx/bQ3nPtxVXjbs3ma2m26rMQsabjtihu5qpRbu3qUJ0go",
                             "status": "confirmed"
                         }
