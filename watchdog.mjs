@@ -25,7 +25,16 @@ for (const r of reviews) {
       if (leaf.toString('hex') !== r.leaf.leaf_hash) fail(`review ${r.id}: leaf hash`);
       if (r.leaf.sealed && climb(leaf, r.leaf.path) !== r.leaf.root) fail(`review ${r.id}: Merkle path does not reach root ${r.leaf.day}`); else if (r.leaf.sealed) ok(`review ${r.id} sealed in ${r.leaf.day}`);
     }
-    for (const x of r.replies || []) if (x.leaf && x.leaf.sealed) { const leaf = leafOf({ v: 1, kind: 'reply', ...JSON.parse(x.payload) }, x.leaf.salt); if (climb(leaf, x.leaf.path) !== x.leaf.root) fail(`reply ${x.id}: Merkle path`); }
+    // A reply leaf is its payload; a Dolvero reply signed with a passkey also carries the signature (same fields as a review).
+    for (const x of r.replies || []) if (x.leaf) {
+      const xs = x.signature || {};
+      const body = { v: 1, kind: 'reply', ...JSON.parse(x.payload) };
+      if (x.author === 'dolvero' && xs.method === 'passkey') body.signature = { method: 'passkey', credential_sha: xs.credential_sha, alg: xs.alg, client_data_json: xs.client_data_json, authenticator_data: xs.authenticator_data, signature: xs.signature };
+      const leaf = leafOf(body, x.leaf.salt);
+      if (leaf.toString('hex') !== x.leaf.leaf_hash) fail(`reply ${x.id}: leaf hash`);
+      else if (x.leaf.sealed && climb(leaf, x.leaf.path) !== x.leaf.root) fail(`reply ${x.id}: Merkle path does not reach root ${x.leaf.day}`);
+      else if (x.leaf.sealed) ok(`reply ${x.id} sealed in ${x.leaf.day}`);
+    }
   }
   if (r.leaf) prev = r.leaf.leaf_hash;
 }
