@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-01T01:22:01+00:00",
+    "generated_at": "2026-11-01T02:23:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -40,6 +40,12 @@
                     "url": "https://base.easscan.org/attestation/view/0x6c0b815063260c268dd1c3391774a053fdd29d057f6af1534392f35ba2aaf0de",
                     "tx_url": "https://basescan.org/tx/0x57bc59a2fbd8e52de762b1611d68f63b512a1be1c7173208a395cdd4e3b91beb",
                     "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
+                    "url": "https://arweave.net/5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
+                    "view_url": "https://viewblock.io/arweave/tx/5UR4zWs79edtfyGrYnlphna0oCvdXhS7ZcNikTBrrFM",
+                    "status": "confirmed"
                 }
             }
         },
@@ -68,17 +74,81 @@
         }
     ],
     "stats": {
-        "count": 10,
+        "count": 11,
         "average": 5,
         "distribution": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 10
+            "5": 11
         }
     },
     "reviews": [
+        {
+            "id": 13,
+            "rid": "84d22e49-779b-437e-b652-ae55e418ec89",
+            "status": "published",
+            "created_at_utc": "2026-11-01 02:18:12",
+            "payload_sha": "35d6af9275a0aac700dae66d620454dbf2c50e3205e3814a788cef7b52d58382",
+            "prev": "609c51268f93a8302aded9d69dfa7c81fd41ca5f0c635c2befb241a23fcd2116",
+            "leaf": {
+                "salt": "e1f14684fcfd1be93ffc130556cb88431dd3d1fc55d8e03284baf2561db1cb77",
+                "leaf_hash": "be8ec5752946a357b7afdd860643bf98c613e8ad39f27a60f7bf6e63b8556f8b",
+                "day": "2026-11-01",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xcfcc7266367747ee2498265176e925b7a61b45fea23e62409e4d448693b410df",
+                    "tx": "48b01ad654bbd9607225dfe1e9601487d6f37693b032fdb17036fcbfc59fc8d9",
+                    "url": "https://base.easscan.org/attestation/view/0xcfcc7266367747ee2498265176e925b7a61b45fea23e62409e4d448693b410df",
+                    "tx_url": "https://basescan.org/tx/0x48b01ad654bbd9607225dfe1e9601487d6f37693b032fdb17036fcbfc59fc8d9",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "2RuIgJIbkZWrCD8q08PXb9_2aykD7mw8WHwXgc0P4t0",
+                    "url": "https://arweave.net/2RuIgJIbkZWrCD8q08PXb9_2aykD7mw8WHwXgc0P4t0",
+                    "view_url": "https://viewblock.io/arweave/tx/2RuIgJIbkZWrCD8q08PXb9_2aykD7mw8WHwXgc0P4t0",
+                    "status": "sent"
+                }
+            },
+            "rating": 5,
+            "title": "Best Propfirm In Industries",
+            "body": "I Had Very Great Experience with Dolvero I made profits on Instant ACC and in only next 1 hour I recieved my payout❤️☮️ Thanks Dolvero you are best",
+            "lang": "en",
+            "display_name": "Mandar M.",
+            "handle": "mandar-m-ed0f",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2609115969\",\"body\":\"I Had Very Great Experience with Dolvero I made profits on Instant ACC and in only next 1 hour I recieved my payout❤️☮️ Thanks Dolvero you are best\",\"country\":\"IN\",\"display_name\":\"Mandar M.\",\"handle\":\"mandar-m-ed0f\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"609c51268f93a8302aded9d69dfa7c81fd41ca5f0c635c2befb241a23fcd2116\",\"product\":\"$5,000 DolveroTrader Instant Funding\",\"purchased_on\":\"2026-09-11\",\"rating\":5,\"rid\":\"84d22e49-779b-437e-b652-ae55e418ec89\",\"title\":\"Best Propfirm In Industries\",\"ts\":\"2026-11-01T02:17:59Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "fb6a8023805683ac371dfb5f60f69f32d19d6c5f5bdb6a9043a171e404380281",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETalIPFn2KInu/rxv5XqUikdtMoRa\nZDPr6D4CpOPanG0HB63jASwsROR3JyUFQMsvg2g4YXzvifqaLpzeqj4+NA==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiTmRhdmtuV2dxc2NBMnVadFlnUlUyX0xGRGpJRjQ0RktlSXp2ZTFMVmc0SSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEYCIQDqcTfOM7R1zqfWgDbs_mZQd0dNdtktZtzybGNGU4GHzAIhAOGt7s_ZeAAjIgimCamekAzlptvf-ukMTHZk5sjm_i47"
+            },
+            "account": {
+                "login": "LIVE2609115969",
+                "product": "$5,000 DolveroTrader Instant Funding",
+                "platform": "DOLVEROTRADER",
+                "size_usd": 5000,
+                "purchased_on": "2026-09-11",
+                "status": "closed",
+                "breaches": [],
+                "payouts": [
+                    {
+                        "paid_on": "2026-09-25",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-UWJER5-0WXL2R"
+                    }
+                ]
+            },
+            "replies": []
+        },
         {
             "id": 12,
             "rid": "75e728e0-9945-45ec-857b-3861582ae5f4",
