@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-02T13:21:02+00:00",
+    "generated_at": "2026-11-02T14:21:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -300,8 +300,47 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-10-30",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-11-02, the combined daily net P&L measured on equity was -$181.07 (3.62% of starting balance $5,000.00). The lowest equity of the day was $4,719.62 at 2026-11-02 14:39:21.413 (MT5 server time) against a day-start equity of $4,900.69. This exceeds the daily loss limit of 3.0% ($150.00) by $31.07; the measurement error bound for this day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #1909375 XAUUSD BUY 0.01L P&L: $-10.07; #1909884 XAUUSD BUY 0.01L P&L: +$1.52; #1918844 XAUUSD SELL 0.03L P&L: $-27.15; #1922870 XAUUSD SELL 0.01L P&L: $-14.48; #1917212 XAUUSD SELL 0.03L P&L: $-98.07 Intraday equity minimum of $4,729.94 at 2026-11-02 14:39:12 (broker time, minute sampler) was $170.75 below the day-start equity of $4,900.69; the lowest point of the day counts, not only the moment of this check.",
+                        "detected_at_utc": "2026-11-02 13:40:31",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03859",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "12f3efdf5a218aa66542253022bbe02b23f633012773bb0b4e0ffed02c8af1f7",
+                            "signed_at_utc": "2026-10-30 13:31:08",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-6AE7-3B69"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610303992-trailing-dd.html",
+                        "proof": {
+                            "salt": "48ab3183f5cb31ab372d3223083269030bf1b669ec53031da1bb53987a8afe4c",
+                            "leaf_hash": "5cec6529d79edc29e0c0279d78833a6534fda99b17456b27a1ba8b5ce648124d",
+                            "day": "2026-11-02",
+                            "sealed": false
+                        }
+                    },
+                    {
+                        "rule": "Trailing Drawdown",
+                        "detail": "Maximum drawdown reached 5.63% ($281.40 from peak $5,001.02), exceeding the trailing limit of 5.0% ($250.05). The lowest equity was $4,719.62 on 2026-11-02 at 14:39:21.413 (MT5 server time), $31.35 below the floor of $4,750.97; the measurement error bound for that day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "detected_at_utc": "2026-11-02 13:40:31",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03859",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "12f3efdf5a218aa66542253022bbe02b23f633012773bb0b4e0ffed02c8af1f7",
+                            "signed_at_utc": "2026-10-30 13:31:08",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-6AE7-3B69"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610303992-trailing-dd.html",
+                        "proof": {
+                            "salt": "74a36e8613defcfab66e88d4463d35022bfde9f816031063e2752ed97b5d5452",
+                            "leaf_hash": "bfc3d675a04374fb59e3e5f64b39672356142c209e3b59b9c5ccc64dc4885c10",
+                            "day": "2026-11-02",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": []
             },
             "partner": null,
