@@ -47,3 +47,7 @@ ots verify proofs/2026-10-30.root.ots
 E-mail addresses, internal ids, IP addresses (country only), totals of a customer's accounts or payouts. Breach evidence is disclosed only next to the review it belongs to, with the signed rules, the forensic MT5 record and its own anchored proof.
 
 MIT licence. Questions: michal@dolvero.com
+
+### Staff-key signed replies (2 Nov 2026)
+
+A Dolvero reply published from the admin desk while a staff member is logged in is signed with the Dolvero staff key: Ed25519 over the reply hash (sha256 of the canonical reply payload). Its leaf payload is `{v: 1, kind: "reply", ...reply, signature: {method: "staff_key", alg: "ed25519", public_key_hex, signature, signer_user_id}}`, the public key is published in the feed as `staff_signing_key`, and `watchdog.mjs` verifies the signature as well as the leaf. A passkey-signed reply (device-bound) keeps the passkey assertion in its leaf as before.

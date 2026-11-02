@@ -30,6 +30,18 @@ for (const r of reviews) {
       const xs = x.signature || {};
       const body = { v: 1, kind: 'reply', ...JSON.parse(x.payload) };
       if (x.author === 'dolvero' && xs.method === 'passkey') body.signature = { method: 'passkey', credential_sha: xs.credential_sha, alg: xs.alg, client_data_json: xs.client_data_json, authenticator_data: xs.authenticator_data, signature: xs.signature };
+      // Since 2 Nov 2026 a Dolvero reply published from the admin desk is signed with the Dolvero staff key (Ed25519 over the
+      // reply hash). The leaf carries that signature too, and the public key is in the feed (staff_signing_key).
+      if (x.author === 'dolvero' && xs.method === 'staff_key') {
+        body.signature = { method: 'staff_key', alg: xs.alg, public_key_hex: xs.public_key_hex, signature: xs.signature, signer_user_id: xs.signer_user_id };
+        try {
+          const { createPublicKey, verify } = await import('node:crypto');
+          const spki = Buffer.concat([Buffer.from('302a300506032b6570032100', 'hex'), Buffer.from(xs.public_key_hex, 'hex')]);
+          const okSig = verify(null, Buffer.from(x.payload_sha, 'hex'), createPublicKey({ key: spki, format: 'der', type: 'spki' }), Buffer.from(xs.signature.replace(/-/g, '+').replace(/_/g, '/'), 'base64'));
+          if (!okSig) fail(`reply ${x.id}: staff key signature does not verify`);
+          if (feed.staff_signing_key && feed.staff_signing_key.public_key_hex !== xs.public_key_hex) fail(`reply ${x.id}: signed with a key that is not the published staff key`);
+        } catch (e) { fail(`reply ${x.id}: staff key check error ${e.message}`); }
+      }
       const leaf = leafOf(body, x.leaf.salt);
       if (leaf.toString('hex') !== x.leaf.leaf_hash) fail(`reply ${x.id}: leaf hash`);
       else if (x.leaf.sealed && climb(leaf, x.leaf.path) !== x.leaf.root) fail(`reply ${x.id}: Merkle path does not reach root ${x.leaf.day}`);

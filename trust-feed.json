@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-02T22:22:01+00:00",
+    "generated_at": "2026-11-02T22:43:18+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -906,7 +906,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "fEqMLAKjR3grJW9rGSke8RbdQ0f8-MTbUzyPPeZaN033MeT0TwSpOWP4jW9LM-XVzRUrm8wVWLaCyF-ww8ceDg",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "fd574191f2f452abd77680756826e0ec9ac866f5a784a16505a34d19a69d6a2a",
@@ -1085,7 +1085,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "ZxHu3wNdu6dl9vEPK19FrjmdElA-OtovEqzhqHdYpF3CKvZ3d7UgScVI_x59wxrDnr3PryT72MsUR4SEYoH7CA",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "f20145e8af3a83c91ac65d18db85ffd4e892021dcc24c8d4b0650129880fdcfe",
@@ -1461,7 +1461,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "AvMH2bxNosDGFqlHlZdvxPpKY-fI8j2eO2DhgB1YwomcJrLtIRqiuqzm8YBTyU1ua-yEo0lgensQn3inOjccDA",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "4cad4581c223e80395bcbeaea880a1bc4267e91a274208de0798fd6f75576f36",
@@ -1831,7 +1831,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "4EOlkxWdQrS76d3SPlQB2sJVKLsYKSiCMRpbd7Zjfz0n22WfCNgx7gcrSoR7f1199Q8UrPKi8qvRKjHSLN7gDw",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "8222792228bfb522eb079b5c49ef05de2ea8fc07b64dac6a5192b030336f375a",
@@ -2104,7 +2104,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "Jw760qlWlYyBbx6nFL9379OMESrB53XMFuYolQC1xzxT6QQOgLX8iJJrcr5GX5NwX1nTtd6_KTRMjJQa2qSnAw",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "22e9de5fab25f90895419d2224b4214bd33356ab3821f966262ea8463b8a0f41",
@@ -2276,7 +2276,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "9DwTjwHgo9fiMNww500WMY-TGuil-ua4QiIYdEzjE3nel-7IwlCMOIMLMdvvLg50b-Le2S54_WNAsxhm-TceCA",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "98c5e70c10e9a3e796affca1d8804d083bfad0027a52beef3f6ae7485655835c",
@@ -2546,7 +2546,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "2-JZ9VOXVYNbI5y2zzmLo1g2cAmazfRNXm5CWBW1xr58W3Mk13LEmgNgUpAwlCa8m0c3Tk3NlEsqTocv4aNSAg",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "a06947fb01a4c31fa69a196708b22ad8732bb960d54fec42e69cc9645b1f7ad2",
@@ -2726,7 +2726,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "RMh96prcFYxMhmYndJvPUc5W_J_SUorPHers9pjv5cebnGRLDg81x6DK62izkC4WPw3ZfKQ8TZzalg5z2GjkBw",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "4f69f8c72031e9823890423ddeae2ef7f3f1b1650995b537cee3987fc0c4520a",
@@ -3001,7 +3001,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "OWnIvFDU_Y11fiAFe55ZuihcpBoE2Jr4Qe2JBuJO0EczXCSYwfoyVRHAxYLWTFgc5XndwgQkRXWbJVBfhj06Bw",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "92cb7e34212be1107e80eee5594050a25c7e6ab7cd12002f12f965678266aa18",
@@ -3180,7 +3180,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "eH5Loo0BfqQ6ochKxsywKWP43_bnb_rSg6XfcVhcouPaEF2iEAHpv_fVb-Mp2qZ7Ar307LGFWSLseF2fVqV_BA",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "5cf66656f229333f9abf19eddda5c95b9735bc032a9c787e14766335d90eaaae",
@@ -3352,7 +3352,7 @@
                         "alg": "ed25519",
                         "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
                         "signature": "JddNKYJEhhr4-4LofHPnpyPm4VFAr1zoXOMUbjXiFDMtgQ2U4lz3YrwwEDRjIRocupx3xNNuPT_KGk_EClSkBA",
-                        "signer_user_id": 0
+                        "signer_user_id": 29
                     },
                     "leaf": {
                         "salt": "c595e326cd87e95657fbe08860a3e6a0a797dcdd14304a7ead1894cebea4e152",
