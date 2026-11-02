@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-02T19:22:01+00:00",
+    "generated_at": "2026-11-02T20:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -277,7 +277,8 @@
                         }
                     }
                 ],
-                "payouts": []
+                "payouts": [],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -382,9 +383,12 @@
                 "payouts": [
                     {
                         "paid_on": "2026-11-02",
+                        "amount_usd": 141.85,
+                        "code": "DLV-TNV9VJ-EF6B56",
                         "verify_url": "https://app.dolvero.com/verify?code=DLV-TNV9VJ-EF6B56"
                     }
-                ]
+                ],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -560,14 +564,13 @@
                     {
                         "rule": "Daily Loss Limit",
                         "detail": "On 2026-11-02, the combined daily net P&L measured on equity was -$181.07 (3.62% of starting balance $5,000.00). The lowest equity of the day was $4,719.62 at 2026-11-02 14:39:21.413 (MT5 server time) against a day-start equity of $4,900.69. This exceeds the daily loss limit of 3.0% ($150.00) by $31.07; the measurement error bound for this day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #1909375 XAUUSD BUY 0.01L P&L: $-10.07; #1909884 XAUUSD BUY 0.01L P&L: +$1.52; #1918844 XAUUSD SELL 0.03L P&L: $-27.15; #1922870 XAUUSD SELL 0.01L P&L: $-14.48; #1917212 XAUUSD SELL 0.03L P&L: $-98.07 Intraday equity minimum of $4,729.94 at 2026-11-02 14:39:12 (broker time, minute sampler) was $170.75 below the day-start equity of $4,900.69; the lowest point of the day counts, not only the moment of this check.",
-                        "summary": "On 2026-11-02, the combined daily net P&L measured on equity was -$181.07 (3.62% of starting balance $5,000.00). The lowest equity of the day was $4,719.62 at 2026-11-02 14:39:21.413 (MT5 server time) against a day-start equity of $4,900.69. This exceeds the daily loss limit of 3.0% ($150.00) by $31.07; the measurement error bound for this day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "summary": "On 2026-11-02, the combined daily net P&L measured on equity was -$181.07 (3.62% of starting balance $5,000.00). The lowest equity of the day was $4,719.62 at 2026-11-02 14:39:21.413 (MT5 server time) against a day-start equity of $4,900.69. This exceeds the daily loss limit of 3.0% ($150.00) by $31.07; the measurement error bound for this day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Intraday equity minimum of $4,729.94 at 2026-11-02 14:39:12 (broker time, minute sampler) was $170.75 below the day-start equity of $4,900.69; the lowest point of the day counts, not only the moment of this check.",
                         "items": [
                             "#1909375 XAUUSD BUY 0.01L P&L: $-10.07",
                             "#1909884 XAUUSD BUY 0.01L P&L: +$1.52",
                             "#1918844 XAUUSD SELL 0.03L P&L: $-27.15",
                             "#1922870 XAUUSD SELL 0.01L P&L: $-14.48",
-                            "#1917212 XAUUSD SELL 0.03L P&L: $-98.07 Intraday equity minimum of $4,729.94 at 2026-11-02 14:39:12 (broker time, minute sampler) was $170.75 below the day-start equity of $4,900.69",
-                            "the lowest point of the day counts, not only the moment of this check."
+                            "#1917212 XAUUSD SELL 0.03L P&L: $-98.07"
                         ],
                         "items_label": "Trades on this day",
                         "detected_at_utc": "2026-11-02 13:40:31",
@@ -609,7 +612,8 @@
                         }
                     }
                 ],
-                "payouts": []
+                "payouts": [],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -879,9 +883,12 @@
                 "payouts": [
                     {
                         "paid_on": "2026-09-29",
+                        "amount_usd": 249.76,
+                        "code": "DLV-TM50IY-CA7302",
                         "verify_url": "https://app.dolvero.com/verify?code=DLV-TM50IY-CA7302"
                     }
-                ]
+                ],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -1055,9 +1062,12 @@
                 "payouts": [
                     {
                         "paid_on": "2026-09-25",
+                        "amount_usd": 214,
+                        "code": "DLV-UWJER5-0WXL2R",
                         "verify_url": "https://app.dolvero.com/verify?code=DLV-UWJER5-0WXL2R"
                     }
-                ]
+                ],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -1420,7 +1430,18 @@
                 "payouts": [
                     {
                         "paid_on": "2026-10-19",
+                        "amount_usd": 165.03,
+                        "code": "DLV-TN58ZJ-4F461C",
                         "verify_url": "https://app.dolvero.com/verify?code=DLV-TN58ZJ-4F461C"
+                    }
+                ],
+                "payouts_all": [
+                    {
+                        "paid_on": "2026-08-29",
+                        "account_login": "LIVE2608168857",
+                        "amount_usd": 100,
+                        "code": "DLV-TKISUI-4319CB",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TKISUI-4319CB"
                     }
                 ]
             },
@@ -1791,7 +1812,8 @@
                         }
                     }
                 ],
-                "payouts": []
+                "payouts": [],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -2059,9 +2081,12 @@
                 "payouts": [
                     {
                         "paid_on": "2026-10-29",
+                        "amount_usd": 230.99,
+                        "code": "DLV-TNNTSC-9F4A02",
                         "verify_url": "https://app.dolvero.com/verify?code=DLV-TNNTSC-9F4A02"
                     }
-                ]
+                ],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -2232,7 +2257,8 @@
                 "purchased_on": "2026-10-02",
                 "status": "active",
                 "breaches": [],
-                "payouts": []
+                "payouts": [],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -2501,7 +2527,8 @@
                         }
                     }
                 ],
-                "payouts": []
+                "payouts": [],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
@@ -2672,10 +2699,50 @@
                 "purchased_on": "2026-10-03",
                 "status": "passed",
                 "breaches": [],
-                "payouts": []
+                "payouts": [],
+                "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 14,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Hieu. Full disclosure for everyone else: Hieu moderates our Discord as lemiguel, helps on the support desk, and the evaluation on this page was granted, not bought. That is why this review is labelled as a team review and does not count towards the rating.\n\nWe publish it anyway, for one reason. He answers your tickets, so you may as well know what he thinks of the place he answers them from. And the payout he mentions was his own, from a traded account, long before he joined the desk.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 19:39:42",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Hieu. Full disclosure for everyone else: Hieu moderates our Discord as lemiguel, helps on the support desk, and the evaluation on this page was granted, not bought. That is why this review is labelled as a team review and does not count towards the rating.\\n\\nWe publish it anyway, for one reason. He answers your tickets, so you may as well know what he thinks of the place he answers them from. And the payout he mentions was his own, from a traded account, long before he joined the desk.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":7,\"review_sha\":\"595b48f80db192a4f840e0d01b8d15540139bdd88c1c94b209f2003d36cad78f\",\"supersedes\":null,\"ts\":\"2026-11-02T19:39:42Z\",\"v\":1}",
+                    "payload_sha": "616951cd2e4abfd5cc8e5898cb0da58885e9e7dbe546d30257d4255d3b774164",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "RMh96prcFYxMhmYndJvPUc5W_J_SUorPHers9pjv5cebnGRLDg81x6DK62izkC4WPw3ZfKQ8TZzalg5z2GjkBw",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "4f69f8c72031e9823890423ddeae2ef7f3f1b1650995b537cee3987fc0c4520a",
+                        "leaf_hash": "03fa0b12cfff1915dbb6858af6aa8f5a5ecc75978fde35f5f7709bad8388bfeb",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xbeaf9150a7917c107b0c6f4458fccc1f7f48c2006cb15a65812c8700eed375cc",
+                            "tx": "ded34574d8b7e0f17726dcffd8dfe761cb9c4eca943e65bccda46acd30ca9aea",
+                            "url": "https://base.easscan.org/attestation/view/0xbeaf9150a7917c107b0c6f4458fccc1f7f48c2006cb15a65812c8700eed375cc",
+                            "tx_url": "https://basescan.org/tx/0xded34574d8b7e0f17726dcffd8dfe761cb9c4eca943e65bccda46acd30ca9aea",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "mbymjpFGus8DkbdpsTFA4Y7ywnUc_Q7Z4LFKBRQCJbg",
+                            "url": "https://arweave.net/raw/mbymjpFGus8DkbdpsTFA4Y7ywnUc_Q7Z4LFKBRQCJbg",
+                            "view_url": "https://viewblock.io/arweave/tx/mbymjpFGus8DkbdpsTFA4Y7ywnUc_Q7Z4LFKBRQCJbg",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -2903,12 +2970,54 @@
                 "payouts": [
                     {
                         "paid_on": "2026-10-27",
+                        "amount_usd": 228.7,
+                        "code": "DLV-TNKNTI-86F956",
                         "verify_url": "https://app.dolvero.com/verify?code=DLV-TNKNTI-86F956"
                     }
-                ]
+                ],
+                "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 15,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Muhammed. Your stopwatch, from our side of the glass:\n\n14:20:47 UTC, you press Request.\n15:08:42, your identity check comes back green.\n15:16:04, the USDT leaves.\n\nSeven minutes after the check, fifty-six from the first click, and the certificate carries all three times, so \"less than five minutes\" is the only line in your review we have to correct. We are flattered by the rounding.\n\nTwelve dollars for the account that paid you 228 is the number I would put in the title. Nobody here is paid by the fee.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 19:41:18",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Muhammed. Your stopwatch, from our side of the glass:\\n\\n14:20:47 UTC, you press Request.\\n15:08:42, your identity check comes back green.\\n15:16:04, the USDT leaves.\\n\\nSeven minutes after the check, fifty-six from the first click, and the certificate carries all three times, so \\\"less than five minutes\\\" is the only line in your review we have to correct. We are flattered by the rounding.\\n\\nTwelve dollars for the account that paid you 228 is the number I would put in the title. Nobody here is paid by the fee.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":6,\"review_sha\":\"692a7284d851dac32d3dc62f4285ee348bcd20bcf4e098e57cadeb23056c6297\",\"supersedes\":null,\"ts\":\"2026-11-02T19:41:18Z\",\"v\":1}",
+                    "payload_sha": "560449b207dbab87468451f08b6245a69805b734cb7323a5b2bd5ab65523249d",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "OWnIvFDU_Y11fiAFe55ZuihcpBoE2Jr4Qe2JBuJO0EczXCSYwfoyVRHAxYLWTFgc5XndwgQkRXWbJVBfhj06Bw",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "92cb7e34212be1107e80eee5594050a25c7e6ab7cd12002f12f965678266aa18",
+                        "leaf_hash": "a40eb8ebb503739cc48777c67aa1996237efcc9c2f8da79e2cc9d9165f5ec470",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xbd2f41c98342715385cef415c91dd2411783af63abbce58d71166b3f30f1c4b6",
+                            "tx": "24cf70afb74d58fc9ee5825f08fc569c6fbc9e8527326a37da29f968740a1772",
+                            "url": "https://base.easscan.org/attestation/view/0xbd2f41c98342715385cef415c91dd2411783af63abbce58d71166b3f30f1c4b6",
+                            "tx_url": "https://basescan.org/tx/0x24cf70afb74d58fc9ee5825f08fc569c6fbc9e8527326a37da29f968740a1772",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "Dp-wWhg7gxzspYwNKqvnZqlNxMhzEWEV59TDAv90AYQ",
+                            "url": "https://arweave.net/raw/Dp-wWhg7gxzspYwNKqvnZqlNxMhzEWEV59TDAv90AYQ",
+                            "view_url": "https://viewblock.io/arweave/tx/Dp-wWhg7gxzspYwNKqvnZqlNxMhzEWEV59TDAv90AYQ",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 5,
@@ -3040,12 +3149,54 @@
                 "payouts": [
                     {
                         "paid_on": "2026-10-27",
+                        "amount_usd": 141.9,
+                        "code": "DLV-TNK4LK-4AF616",
                         "verify_url": "https://app.dolvero.com/verify?code=DLV-TNK4LK-4AF616"
                     }
-                ]
+                ],
+                "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 16,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Akhoy. One thing your review does not mention, probably because nobody tells traders this: your account survived its own payout.\n\nWhen the 140.48 left, the profit was settled off the account, the balance went back to 5,000 and the history was archived, but the trailing floor stayed where your best day had put it, at 4,942.57. Most accounts cannot take that step. Yours did, with fifty-seven dollars to spare, and it is still trading a week later.\n\nThat is also why the next payout on this same account pays eighty percent, not seventy. The firm's share goes down each time an account proves it can be paid and keep going. You are the case the rule was written for.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 19:42:37",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Akhoy. One thing your review does not mention, probably because nobody tells traders this: your account survived its own payout.\\n\\nWhen the 140.48 left, the profit was settled off the account, the balance went back to 5,000 and the history was archived, but the trailing floor stayed where your best day had put it, at 4,942.57. Most accounts cannot take that step. Yours did, with fifty-seven dollars to spare, and it is still trading a week later.\\n\\nThat is also why the next payout on this same account pays eighty percent, not seventy. The firm's share goes down each time an account proves it can be paid and keep going. You are the case the rule was written for.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":5,\"review_sha\":\"7dbb87bf34912f765a1d8291a9fe13d2af73db644dce65590f6f02a16394d9be\",\"supersedes\":null,\"ts\":\"2026-11-02T19:42:37Z\",\"v\":1}",
+                    "payload_sha": "88be316a82fd214bf5950e2c98a64c0b4bad3fb569036fb43df4ce35f45e3f3b",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "eH5Loo0BfqQ6ochKxsywKWP43_bnb_rSg6XfcVhcouPaEF2iEAHpv_fVb-Mp2qZ7Ar307LGFWSLseF2fVqV_BA",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "5cf66656f229333f9abf19eddda5c95b9735bc032a9c787e14766335d90eaaae",
+                        "leaf_hash": "a717bbc5fa42dff558d3e2da7c57a1129acbae0cb927f1166aa55629850c3f18",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xd078adbe3d08eb81a9a5c9a0864881c863bb057e8327cd81b24ffae7c2b59600",
+                            "tx": "2b9f3f9488def7fb1af19223c2235259bcfdb913241d93fe0f98a659dfe9a1da",
+                            "url": "https://base.easscan.org/attestation/view/0xd078adbe3d08eb81a9a5c9a0864881c863bb057e8327cd81b24ffae7c2b59600",
+                            "tx_url": "https://basescan.org/tx/0x2b9f3f9488def7fb1af19223c2235259bcfdb913241d93fe0f98a659dfe9a1da",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "vdK2YpTl-ebKvGXv8QseW0hgU7Fnkh1FvJwLQqBzP2w",
+                            "url": "https://arweave.net/raw/vdK2YpTl-ebKvGXv8QseW0hgU7Fnkh1FvJwLQqBzP2w",
+                            "view_url": "https://viewblock.io/arweave/tx/vdK2YpTl-ebKvGXv8QseW0hgU7Fnkh1FvJwLQqBzP2w",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -3174,10 +3325,50 @@
                 "purchased_on": "2026-10-24",
                 "status": "funded",
                 "breaches": [],
-                "payouts": []
+                "payouts": [],
+                "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 17,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Adiar. Let me name the \"issues regarding the rules\", because they were not yours.\n\nOn 28 October at 01:36 UTC our news rule closed your account. It was the old rule, thirty minutes around any high-impact release on any instrument. You wrote to us at 02:19 and had an answer at 02:21. The next day the rule became what it should have been from the start, ten minutes and only the currency of the release, and your account came back with every trade on it.\n\nSo the quick responses are the part we can promise to keep up. The better part is that the rule itself got fixed, and your ticket was one of the reasons it did. You are up 244 dollars since then. Keep going.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 19:46:04",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Adiar. Let me name the \\\"issues regarding the rules\\\", because they were not yours.\\n\\nOn 28 October at 01:36 UTC our news rule closed your account. It was the old rule, thirty minutes around any high-impact release on any instrument. You wrote to us at 02:19 and had an answer at 02:21. The next day the rule became what it should have been from the start, ten minutes and only the currency of the release, and your account came back with every trade on it.\\n\\nSo the quick responses are the part we can promise to keep up. The better part is that the rule itself got fixed, and your ticket was one of the reasons it did. You are up 244 dollars since then. Keep going.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":4,\"review_sha\":\"b94ecc3ede0b7b34d102565503e15f9a1a4c9ebc44ecc15b13029e82e9ca2e4f\",\"supersedes\":null,\"ts\":\"2026-11-02T19:46:04Z\",\"v\":1}",
+                    "payload_sha": "9b2ee47f1b858d38d08a011e2c9ce79ac020ce44766b17030b59eb7bec6d7e1d",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "JddNKYJEhhr4-4LofHPnpyPm4VFAr1zoXOMUbjXiFDMtgQ2U4lz3YrwwEDRjIRocupx3xNNuPT_KGk_EClSkBA",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "c595e326cd87e95657fbe08860a3e6a0a797dcdd14304a7ead1894cebea4e152",
+                        "leaf_hash": "ed65783558ad3441f93f5e3b18505d005671d537460c454fd4d9e055f8aa11cd",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x9a162e960442eb3c7fb6a076dcc77dc6ebf15aa2f5fec61630e35739614ab6a6",
+                            "tx": "7c595ceb5b56570685ffb544681eacbe37393c52383f13f5566d92a60aa4b69f",
+                            "url": "https://base.easscan.org/attestation/view/0x9a162e960442eb3c7fb6a076dcc77dc6ebf15aa2f5fec61630e35739614ab6a6",
+                            "tx_url": "https://basescan.org/tx/0x7c595ceb5b56570685ffb544681eacbe37393c52383f13f5566d92a60aa4b69f",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "XhSLVfu4sKWmiUEod_D8RLN-VK19M8Pnk42Ug4YdEWQ",
+                            "url": "https://arweave.net/raw/XhSLVfu4sKWmiUEod_D8RLN-VK19M8Pnk42Ug4YdEWQ",
+                            "view_url": "https://viewblock.io/arweave/tx/XhSLVfu4sKWmiUEod_D8RLN-VK19M8Pnk42Ug4YdEWQ",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 3,
@@ -3306,7 +3497,8 @@
                 "purchased_on": "2026-10-30",
                 "status": "funded",
                 "breaches": [],
-                "payouts": []
+                "payouts": [],
+                "payouts_all": []
             },
             "partner": null,
             "replies": [
