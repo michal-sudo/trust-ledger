@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-02T18:22:01+00:00",
+    "generated_at": "2026-11-02T19:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -1460,7 +1460,7 @@
                             "id": "vmucIL_7jYJ4erXz-hgQUwc0H_fasWlvL1eZaeVMdEQ",
                             "url": "https://arweave.net/raw/vmucIL_7jYJ4erXz-hgQUwc0H_fasWlvL1eZaeVMdEQ",
                             "view_url": "https://viewblock.io/arweave/tx/vmucIL_7jYJ4erXz-hgQUwc0H_fasWlvL1eZaeVMdEQ",
-                            "status": "sent"
+                            "status": "confirmed"
                         }
                     }
                 }
@@ -1829,7 +1829,7 @@
                             "id": "IaZEOUP6ftMpO0cq5RGAsqqWyFwLAUvn5JNX-I1PFks",
                             "url": "https://arweave.net/raw/IaZEOUP6ftMpO0cq5RGAsqqWyFwLAUvn5JNX-I1PFks",
                             "view_url": "https://viewblock.io/arweave/tx/IaZEOUP6ftMpO0cq5RGAsqqWyFwLAUvn5JNX-I1PFks",
-                            "status": "sent"
+                            "status": "confirmed"
                         }
                     }
                 }
@@ -2099,7 +2099,7 @@
                             "id": "H1Ya6eYZAJxF3C60GGCTkDffvRKV4LVJT3rwGYj3Whw",
                             "url": "https://arweave.net/raw/H1Ya6eYZAJxF3C60GGCTkDffvRKV4LVJT3rwGYj3Whw",
                             "view_url": "https://viewblock.io/arweave/tx/H1Ya6eYZAJxF3C60GGCTkDffvRKV4LVJT3rwGYj3Whw",
-                            "status": "sent"
+                            "status": "confirmed"
                         }
                     }
                 }
@@ -2270,7 +2270,7 @@
                             "id": "RRh3d6MeyrjPFaiZeEtKrZ4E-qSFYYbjoz98rkSB08w",
                             "url": "https://arweave.net/raw/RRh3d6MeyrjPFaiZeEtKrZ4E-qSFYYbjoz98rkSB08w",
                             "view_url": "https://viewblock.io/arweave/tx/RRh3d6MeyrjPFaiZeEtKrZ4E-qSFYYbjoz98rkSB08w",
-                            "status": "sent"
+                            "status": "confirmed"
                         }
                     }
                 }
@@ -2527,7 +2527,21 @@
                         "day": "2026-11-02",
                         "sealed": false
                     },
-                    "chain": []
+                    "chain": {
+                        "base": {
+                            "uid": "0xb2e8c142521a5f31744b7519522ea6698d72e881e97e2716d7b7d11a13b9b8fd",
+                            "tx": "b25cac12244bba82672583c330c75d815008f1ba46c5a367a30d5eb477d8dbbe",
+                            "url": "https://base.easscan.org/attestation/view/0xb2e8c142521a5f31744b7519522ea6698d72e881e97e2716d7b7d11a13b9b8fd",
+                            "tx_url": "https://basescan.org/tx/0xb25cac12244bba82672583c330c75d815008f1ba46c5a367a30d5eb477d8dbbe",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "K-Jpjw2YfuTTBMBx7LD88EsRX7Val7kFiLQicf8hj6U",
+                            "url": "https://arweave.net/raw/K-Jpjw2YfuTTBMBx7LD88EsRX7Val7kFiLQicf8hj6U",
+                            "view_url": "https://viewblock.io/arweave/tx/K-Jpjw2YfuTTBMBx7LD88EsRX7Val7kFiLQicf8hj6U",
+                            "status": "confirmed"
+                        }
+                    }
                 }
             ]
         },
