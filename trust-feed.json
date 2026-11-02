@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-02T17:22:02+00:00",
+    "generated_at": "2026-11-02T18:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -424,7 +424,7 @@
                             "id": "sd6gsW9U5ImfPo0jnqxNtXwOiAGsty-EoRUoSf-QIto",
                             "url": "https://arweave.net/raw/sd6gsW9U5ImfPo0jnqxNtXwOiAGsty-EoRUoSf-QIto",
                             "view_url": "https://viewblock.io/arweave/tx/sd6gsW9U5ImfPo0jnqxNtXwOiAGsty-EoRUoSf-QIto",
-                            "status": "sent"
+                            "status": "confirmed"
                         }
                     }
                 }
@@ -612,7 +612,48 @@
                 "payouts": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 6,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Selinah. The alerts, the Discord and the fast answers are there on purpose, so it is good to hear they land.\n\nOn payouts on demand: I understand the wish, and the answer is no, for a reason that protects you. The first payout opens 14 days after the first trade and needs 10 profitable days, so what gets paid is trading, not one lucky afternoon. Once the window opens we are fast: the payouts we sent today left within hours of the request, one of them in eleven minutes after the identity check.\n\nYour record is public next to this review, so I will say it plainly: your accounts so far have ended on the daily loss limit and the trailing drawdown, and three of them we replaced for free. LIVE2611025154 started today. Trade it smaller than you feel like, collect the ten days, and the first payout will be the one you are looking forward to. We will be here for it.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 17:47:03",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Selinah. The alerts, the Discord and the fast answers are there on purpose, so it is good to hear they land.\\n\\nOn payouts on demand: I understand the wish, and the answer is no, for a reason that protects you. The first payout opens 14 days after the first trade and needs 10 profitable days, so what gets paid is trading, not one lucky afternoon. Once the window opens we are fast: the payouts we sent today left within hours of the request, one of them in eleven minutes after the identity check.\\n\\nYour record is public next to this review, so I will say it plainly: your accounts so far have ended on the daily loss limit and the trailing drawdown, and three of them we replaced for free. LIVE2611025154 started today. Trade it smaller than you feel like, collect the ten days, and the first payout will be the one you are looking forward to. We will be here for it.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":15,\"review_sha\":\"104375fff66f40d2246d8e964f50994b67d38f03be8836633795d6706efb70b8\",\"supersedes\":null,\"ts\":\"2026-11-02T17:46:46Z\",\"v\":1}",
+                    "payload_sha": "edcb160c20fb416d1b0738e3d94daa349f24c5bd9b7e15ec08baf95749251823",
+                    "signature": {
+                        "method": "passkey",
+                        "alg": -7,
+                        "credential_sha": "e39591e78977b0f97d405e8d639de54177adcf6143755782836c54fae0f6f088",
+                        "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8z15gEzGkRv3+NWCvcLCoaVJ0Y6v\nczFAxR8/kLzjHFnEbNwSIwPDu2PPUQr7TcPjK6ee3/RQ4aJHUAe9Aq0XTw==\n-----END PUBLIC KEY-----\n",
+                        "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiN2NzV0RDRDdRVzBiQnpqajJVMnFOSjhreGIyYmZoWHNDTHI1VjBrbEdDTSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                        "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                        "signature": "MEQCIA2X7RBphK883UZH09bjqrCeb7CeEOM27XvtGsvrLqcyAiBa191PmURX6SBLjOcIsbxyWP0cjM45iD7cZ8XpDdm90Q"
+                    },
+                    "leaf": {
+                        "salt": "55db02be7ae34eac533a42d398ba952e86a3b8c08df633f9cee35cd31fab1ee3",
+                        "leaf_hash": "eecad786bc19e0b16b4af52108d9620b9b2a5d84dac01d61ce8af1eea45f3e05",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xc10f76eed8625c056f1a2834d72989483669762342c0e4d1cac7ab0a1d910adf",
+                            "tx": "292193edaf18408625056f3fc43828de98c30d235ae608f22687dd3af9f3196c",
+                            "url": "https://base.easscan.org/attestation/view/0xc10f76eed8625c056f1a2834d72989483669762342c0e4d1cac7ab0a1d910adf",
+                            "tx_url": "https://basescan.org/tx/0x292193edaf18408625056f3fc43828de98c30d235ae608f22687dd3af9f3196c",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "k3wsQtkOvzih8BVcHoCNJzpxdiwCUc5n_1JbB0Ln29U",
+                            "url": "https://arweave.net/raw/k3wsQtkOvzih8BVcHoCNJzpxdiwCUc5n_1JbB0Ln29U",
+                            "view_url": "https://viewblock.io/arweave/tx/k3wsQtkOvzih8BVcHoCNJzpxdiwCUc5n_1JbB0Ln29U",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 14,
@@ -843,7 +884,46 @@
                 ]
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 7,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Danish, thank you. Six minutes from your request to the money on the wallet, that is the number I like most on your record.\n\nWhat I like second: the account that paid you took eleven trading days and a hundred small trades. The one you opened a few days later lasted three. Same trader, same rules, different pace. You already know which version of you gets paid.\n\nThe trial you have been running since October is a good place to find that pace again before the next $5,000 account. When you are ready, the second payout on a new account comes with the same six-minute habit on our side.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 18:01:23",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Danish, thank you. Six minutes from your request to the money on the wallet, that is the number I like most on your record.\\n\\nWhat I like second: the account that paid you took eleven trading days and a hundred small trades. The one you opened a few days later lasted three. Same trader, same rules, different pace. You already know which version of you gets paid.\\n\\nThe trial you have been running since October is a good place to find that pace again before the next $5,000 account. When you are ready, the second payout on a new account comes with the same six-minute habit on our side.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":14,\"review_sha\":\"2c294ba4e7187c59d19f121f86108c2661230f31035793dee899c5a3bde83975\",\"supersedes\":null,\"ts\":\"2026-11-02T18:01:23Z\",\"v\":1}",
+                    "payload_sha": "183f6c4252a80502a5d86c73c066d27afdfa7e25259fb43753f1ca1da8358c0d",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "fEqMLAKjR3grJW9rGSke8RbdQ0f8-MTbUzyPPeZaN033MeT0TwSpOWP4jW9LM-XVzRUrm8wVWLaCyF-ww8ceDg",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "fd574191f2f452abd77680756826e0ec9ac866f5a784a16505a34d19a69d6a2a",
+                        "leaf_hash": "5f2ba99f008eae2a20c8cc791708f57631e85981cf8f3b844957d43a17ab48b0",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x1eb8bb349908e4a102fc5709a19978f8e282b3160ba4cce1d7932ffa06e7d63e",
+                            "tx": "a3ceebd9948b6f1bbe14fc326b208dc2908da8f945671bc94f8c9ab5c6ebb050",
+                            "url": "https://base.easscan.org/attestation/view/0x1eb8bb349908e4a102fc5709a19978f8e282b3160ba4cce1d7932ffa06e7d63e",
+                            "tx_url": "https://basescan.org/tx/0xa3ceebd9948b6f1bbe14fc326b208dc2908da8f945671bc94f8c9ab5c6ebb050",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "Zvlec76GDsAi7c_H--o4ropd6QQ2IYh41A-3LYB7vaE",
+                            "url": "https://arweave.net/raw/Zvlec76GDsAi7c_H--o4ropd6QQ2IYh41A-3LYB7vaE",
+                            "view_url": "https://viewblock.io/arweave/tx/Zvlec76GDsAi7c_H--o4ropd6QQ2IYh41A-3LYB7vaE",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 13,
@@ -980,7 +1060,46 @@
                 ]
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 8,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Mandar. Ninety-four minutes from request to payout, and a review signed with your own passkey and sealed in the ledger the same morning. That is the kind of record we built this page for: no screenshots, no \"trust me\", the numbers next to the words.\n\nIf you ever feel we slipped, write that here too. It will sit next to this one.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 18:07:39",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Mandar. Ninety-four minutes from request to payout, and a review signed with your own passkey and sealed in the ledger the same morning. That is the kind of record we built this page for: no screenshots, no \\\"trust me\\\", the numbers next to the words.\\n\\nIf you ever feel we slipped, write that here too. It will sit next to this one.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":13,\"review_sha\":\"35d6af9275a0aac700dae66d620454dbf2c50e3205e3814a788cef7b52d58382\",\"supersedes\":null,\"ts\":\"2026-11-02T18:07:39Z\",\"v\":1}",
+                    "payload_sha": "167890fee85eaef2a26efdc732a2e56505f1f72b846c278974612e97f47b1160",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "ZxHu3wNdu6dl9vEPK19FrjmdElA-OtovEqzhqHdYpF3CKvZ3d7UgScVI_x59wxrDnr3PryT72MsUR4SEYoH7CA",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "f20145e8af3a83c91ac65d18db85ffd4e892021dcc24c8d4b0650129880fdcfe",
+                        "leaf_hash": "1aa7752cddb626b744b3baa6bacf729de5ef699f7d1960623b1e72071adf8d87",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xcd86bb96d926487da931979d0dc783a55c184edecb152b965b88b7412cd54d81",
+                            "tx": "1f814d85c2a6cc707ed6844e46f53d16354fc1bba9125c3547a348abfef2e362",
+                            "url": "https://base.easscan.org/attestation/view/0xcd86bb96d926487da931979d0dc783a55c184edecb152b965b88b7412cd54d81",
+                            "tx_url": "https://basescan.org/tx/0x1f814d85c2a6cc707ed6844e46f53d16354fc1bba9125c3547a348abfef2e362",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "PKNriYBj8Dq-KKdXx5jHREW_SYttdIBDlvfvdPcknrw",
+                            "url": "https://arweave.net/raw/PKNriYBj8Dq-KKdXx5jHREW_SYttdIBDlvfvdPcknrw",
+                            "view_url": "https://viewblock.io/arweave/tx/PKNriYBj8Dq-KKdXx5jHREW_SYttdIBDlvfvdPcknrw",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 12,
@@ -1306,7 +1425,46 @@
                 ]
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 9,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Farchan, you were here in August, so you can measure us better than most.\n\nAugust 28, your first payout: 30 hours from request to wallet.\nOctober 19, your second: 3 hours and 9 minutes.\n\nBetween those two lines we rebuilt the whole path, identity check, payout desk, the public ledger every payout now lands in. You did not just notice the change, you were the yardstick for it.\n\nOn the complaints: the \"rejected entry\" case you opened on 14 October was exactly the kind of report that moves a line like that. Keep sending them. And thank your friends for us, six of them already trade here through you.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 18:11:12",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Farchan, you were here in August, so you can measure us better than most.\\n\\nAugust 28, your first payout: 30 hours from request to wallet.\\nOctober 19, your second: 3 hours and 9 minutes.\\n\\nBetween those two lines we rebuilt the whole path, identity check, payout desk, the public ledger every payout now lands in. You did not just notice the change, you were the yardstick for it.\\n\\nOn the complaints: the \\\"rejected entry\\\" case you opened on 14 October was exactly the kind of report that moves a line like that. Keep sending them. And thank your friends for us, six of them already trade here through you.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":12,\"review_sha\":\"8b1e9d8258088a81161a77da1b5d3331f970b8ce11a37612d519ff3a5397a528\",\"supersedes\":null,\"ts\":\"2026-11-02T18:11:12Z\",\"v\":1}",
+                    "payload_sha": "9fecdd5567dda2fca98d0aa5a7fe90cb662586efe1bee8421b68bf7dcf9fff3e",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "AvMH2bxNosDGFqlHlZdvxPpKY-fI8j2eO2DhgB1YwomcJrLtIRqiuqzm8YBTyU1ua-yEo0lgensQn3inOjccDA",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "4cad4581c223e80395bcbeaea880a1bc4267e91a274208de0798fd6f75576f36",
+                        "leaf_hash": "ec9ee324d6f6b8214c1e16914c54621bfb5410e4993ba3dee1369ffa012afc66",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x718e8dcaded944b7f725801737101b3a97d24ab08307ad8596f3834cd6ba6323",
+                            "tx": "23722b36a07e5fed6b3634b7137b0a76b62a6df71d114eed424b7400e11f9abf",
+                            "url": "https://base.easscan.org/attestation/view/0x718e8dcaded944b7f725801737101b3a97d24ab08307ad8596f3834cd6ba6323",
+                            "tx_url": "https://basescan.org/tx/0x23722b36a07e5fed6b3634b7137b0a76b62a6df71d114eed424b7400e11f9abf",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "vmucIL_7jYJ4erXz-hgQUwc0H_fasWlvL1eZaeVMdEQ",
+                            "url": "https://arweave.net/raw/vmucIL_7jYJ4erXz-hgQUwc0H_fasWlvL1eZaeVMdEQ",
+                            "view_url": "https://viewblock.io/arweave/tx/vmucIL_7jYJ4erXz-hgQUwc0H_fasWlvL1eZaeVMdEQ",
+                            "status": "sent"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 11,
@@ -1636,7 +1794,46 @@
                 "payouts": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 10,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Haikal. Since you are inviting your friends, let me write this one to them.\n\nGuys: Haikal is on his second chance here, and the record is public, so look before you join. His first account ended on day one. The second one lasted three days. The third, the one we gave him for free, is alive after 186 trades and five days, up by eighteen cents. We are not laughing at that number. Eighteen cents with the account still standing beats two hundred dollars with the account gone, and it is the first week he has traded inside the limits.\n\nSo come, but come the way the third account trades, not the first.\n\nHaikal, the tag line is yours, the lesson is ours to repeat: the rules are the product. Keep the third one alive.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 18:13:53",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Haikal. Since you are inviting your friends, let me write this one to them.\\n\\nGuys: Haikal is on his second chance here, and the record is public, so look before you join. His first account ended on day one. The second one lasted three days. The third, the one we gave him for free, is alive after 186 trades and five days, up by eighteen cents. We are not laughing at that number. Eighteen cents with the account still standing beats two hundred dollars with the account gone, and it is the first week he has traded inside the limits.\\n\\nSo come, but come the way the third account trades, not the first.\\n\\nHaikal, the tag line is yours, the lesson is ours to repeat: the rules are the product. Keep the third one alive.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":11,\"review_sha\":\"48c7de740d213af35b8432cbd0945dc0240c97711179e4e0ff3b50f55cfaded9\",\"supersedes\":null,\"ts\":\"2026-11-02T18:13:53Z\",\"v\":1}",
+                    "payload_sha": "8f0480eb2576a75c181ac4e194764b6bd387b08498cd17d2e0debb38c070d9be",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "4EOlkxWdQrS76d3SPlQB2sJVKLsYKSiCMRpbd7Zjfz0n22WfCNgx7gcrSoR7f1199Q8UrPKi8qvRKjHSLN7gDw",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "8222792228bfb522eb079b5c49ef05de2ea8fc07b64dac6a5192b030336f375a",
+                        "leaf_hash": "fa909da67f223f9b28d30f86dde7eb2030426fc11b9c374cc4b902e833efabd1",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xd072bd263503564e68ee8d85ef30ab4ce064ce95d44df8a9b670afa97070d026",
+                            "tx": "c7408c0309fd011e8850ff7d762d7a58670b8d5ce7122d2ca0e16d37a3b212d9",
+                            "url": "https://base.easscan.org/attestation/view/0xd072bd263503564e68ee8d85ef30ab4ce064ce95d44df8a9b670afa97070d026",
+                            "tx_url": "https://basescan.org/tx/0xc7408c0309fd011e8850ff7d762d7a58670b8d5ce7122d2ca0e16d37a3b212d9",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "IaZEOUP6ftMpO0cq5RGAsqqWyFwLAUvn5JNX-I1PFks",
+                            "url": "https://arweave.net/raw/IaZEOUP6ftMpO0cq5RGAsqqWyFwLAUvn5JNX-I1PFks",
+                            "view_url": "https://viewblock.io/arweave/tx/IaZEOUP6ftMpO0cq5RGAsqqWyFwLAUvn5JNX-I1PFks",
+                            "status": "sent"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 10,
@@ -1867,7 +2064,46 @@
                 ]
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 11,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Nikunj. One correction first: Petra is Petr. He has been promoted to a new gender by at least three reviews now and takes it well.\n\nYours was the first payout we ever sent by bank to India: SWIFT to a Kotak account, one percent fee, the rest exactly as the certificate says. You mention \"no account freeze issue\" as if it were a feature. It is not. The bank route is simply the bank route, and the public ledger shows every step of it, so the next Indian trader does not have to take your word or ours.\n\nFive hours from your request to the transfer, with the identity check in between. We will try to make the second one boring.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 18:14:48",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Nikunj. One correction first: Petra is Petr. He has been promoted to a new gender by at least three reviews now and takes it well.\\n\\nYours was the first payout we ever sent by bank to India: SWIFT to a Kotak account, one percent fee, the rest exactly as the certificate says. You mention \\\"no account freeze issue\\\" as if it were a feature. It is not. The bank route is simply the bank route, and the public ledger shows every step of it, so the next Indian trader does not have to take your word or ours.\\n\\nFive hours from your request to the transfer, with the identity check in between. We will try to make the second one boring.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":10,\"review_sha\":\"d530ef5a6ea2f66c9651927e8129286b696363fbf90a7fbfe0d9579607976434\",\"supersedes\":null,\"ts\":\"2026-11-02T18:14:48Z\",\"v\":1}",
+                    "payload_sha": "af17ceaed3da0be4d67b0c490c30d7bdce97d27e3ed0eeb27a569e7464c5bb8b",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "Jw760qlWlYyBbx6nFL9379OMESrB53XMFuYolQC1xzxT6QQOgLX8iJJrcr5GX5NwX1nTtd6_KTRMjJQa2qSnAw",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "22e9de5fab25f90895419d2224b4214bd33356ab3821f966262ea8463b8a0f41",
+                        "leaf_hash": "f1050d1ca8fddad2735c4696e1495d2658ab7450ec2e43cd47dca75477753c1c",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x8de81fd83fa5a145650e984ffc06885cfd397880d8345bf2ae76a644fd7ba20c",
+                            "tx": "c01822ffb8a9394867472ed54439723c093587867cb1e28beb6bbd42f4a97330",
+                            "url": "https://base.easscan.org/attestation/view/0x8de81fd83fa5a145650e984ffc06885cfd397880d8345bf2ae76a644fd7ba20c",
+                            "tx_url": "https://basescan.org/tx/0xc01822ffb8a9394867472ed54439723c093587867cb1e28beb6bbd42f4a97330",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "H1Ya6eYZAJxF3C60GGCTkDffvRKV4LVJT3rwGYj3Whw",
+                            "url": "https://arweave.net/raw/H1Ya6eYZAJxF3C60GGCTkDffvRKV4LVJT3rwGYj3Whw",
+                            "view_url": "https://viewblock.io/arweave/tx/H1Ya6eYZAJxF3C60GGCTkDffvRKV4LVJT3rwGYj3Whw",
+                            "status": "sent"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 9,
@@ -1999,7 +2235,46 @@
                 "payouts": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 12,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Jaroslav. Account number 66 in our database, which makes you older than most of our rules.\n\nFor everyone else reading: Jaroslav is also a Dolvero partner, and this page says so, which is why his five stars sit outside the rating. We would rather lose a five-star average point than hide where a review comes from.\n\nThe spreads are the one thing on this list we cannot take credit for. They are the market's. The interface and the points are ours, and the evaluation you are on, thirty trades over fourteen days without a single rule flag, is the kind of record that makes the points worth something.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 18:17:37",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Jaroslav. Account number 66 in our database, which makes you older than most of our rules.\\n\\nFor everyone else reading: Jaroslav is also a Dolvero partner, and this page says so, which is why his five stars sit outside the rating. We would rather lose a five-star average point than hide where a review comes from.\\n\\nThe spreads are the one thing on this list we cannot take credit for. They are the market's. The interface and the points are ours, and the evaluation you are on, thirty trades over fourteen days without a single rule flag, is the kind of record that makes the points worth something.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":9,\"review_sha\":\"ea2888e2b4a3ebb401cd8cffcafde3bb480326dd4545f77c143f4a3b9a711bce\",\"supersedes\":null,\"ts\":\"2026-11-02T18:17:37Z\",\"v\":1}",
+                    "payload_sha": "68f52cd0c823eb5f445417e897a1003bd38dd9f3b926c4863454cef95e9037f6",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "9DwTjwHgo9fiMNww500WMY-TGuil-ua4QiIYdEzjE3nel-7IwlCMOIMLMdvvLg50b-Le2S54_WNAsxhm-TceCA",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "98c5e70c10e9a3e796affca1d8804d083bfad0027a52beef3f6ae7485655835c",
+                        "leaf_hash": "f83b61e4502c73ccea3de8b54b18c7fe3ead962626dcb5ada112d3f672b3d92a",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x04a5603c5077587ccfa3c230a6a7668e3b18898ad42347a75c3425c974fcd256",
+                            "tx": "862b5140b6e9784677c3b2b1173a6987b3fec6bf5c9433b36d0f77608a6f400f",
+                            "url": "https://base.easscan.org/attestation/view/0x04a5603c5077587ccfa3c230a6a7668e3b18898ad42347a75c3425c974fcd256",
+                            "tx_url": "https://basescan.org/tx/0x862b5140b6e9784677c3b2b1173a6987b3fec6bf5c9433b36d0f77608a6f400f",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "RRh3d6MeyrjPFaiZeEtKrZ4E-qSFYYbjoz98rkSB08w",
+                            "url": "https://arweave.net/raw/RRh3d6MeyrjPFaiZeEtKrZ4E-qSFYYbjoz98rkSB08w",
+                            "view_url": "https://viewblock.io/arweave/tx/RRh3d6MeyrjPFaiZeEtKrZ4E-qSFYYbjoz98rkSB08w",
+                            "status": "sent"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 8,
@@ -2229,7 +2504,32 @@
                 "payouts": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 13,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Ferdinand, and I will pass the thanks to Miroslav, who did the work.\n\nA note for anyone reading this and thinking \"so the code does not matter\": it does, but it is a key, not a password. The Double Chance belonged to every $5,000 account bought during the promotion. You bought yours inside that window and typed nothing, so Miroslav attached what was already yours. Had you bought it a day after the promotion ended, no amount of discussing would have added it.\n\nSecond chances are not a product. Reading the record carefully is. That is what you got, in September as well, when a news calendar moved an event by an hour after the fact and we restored your account on our own error.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 18:20:18",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Ferdinand, and I will pass the thanks to Miroslav, who did the work.\\n\\nA note for anyone reading this and thinking \\\"so the code does not matter\\\": it does, but it is a key, not a password. The Double Chance belonged to every $5,000 account bought during the promotion. You bought yours inside that window and typed nothing, so Miroslav attached what was already yours. Had you bought it a day after the promotion ended, no amount of discussing would have added it.\\n\\nSecond chances are not a product. Reading the record carefully is. That is what you got, in September as well, when a news calendar moved an event by an hour after the fact and we restored your account on our own error.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":8,\"review_sha\":\"53806b8d3a3611b82993c4db55f66533ebf7edbefc73c4d67ef3b18cb446db5a\",\"supersedes\":null,\"ts\":\"2026-11-02T18:20:18Z\",\"v\":1}",
+                    "payload_sha": "a0eccaafe064b703623d2e72070615a6eb8eb04354a791b03abd98968b1755d2",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "2-JZ9VOXVYNbI5y2zzmLo1g2cAmazfRNXm5CWBW1xr58W3Mk13LEmgNgUpAwlCa8m0c3Tk3NlEsqTocv4aNSAg",
+                        "signer_user_id": 0
+                    },
+                    "leaf": {
+                        "salt": "a06947fb01a4c31fa69a196708b22ad8732bb960d54fec42e69cc9645b1f7ad2",
+                        "leaf_hash": "e73c7bdbf8059a3c77691bb8e4efdfeb755fa7d18e9d02b98e3707879dd48825",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": []
+                }
+            ]
         },
         {
             "id": 7,
@@ -3110,6 +3410,11 @@
             ]
         }
     ],
+    "staff_signing_key": {
+        "alg": "ed25519",
+        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+        "note": "Replies published from the Dolvero admin desk while the signer is logged in are signed with this key over the reply hash (sha256 of the canonical payload)."
+    },
     "reports": [
         {
             "month": "2026-10",
