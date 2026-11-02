@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-02T16:21:02+00:00",
+    "generated_at": "2026-11-02T17:22:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -97,11 +97,11 @@
         }
     ],
     "stats": {
-        "count": 14,
-        "average": 4.93,
+        "count": 15,
+        "average": 4.73,
         "distribution": {
             "1": 0,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 1,
             "5": 13
@@ -109,6 +109,220 @@
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 17,
+            "rid": "877ac4f2-0086-4013-9826-15ff117419c1",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-02 16:44:44",
+            "payload_sha": "8169dbe103ac294576d2ca346f38e64bba6086a52cefbfcddc73ab67506fb21b",
+            "prev": "86825e9bb7a345d5946ac6b7965738cf2e28d01daae391bd19b5781d997cae77",
+            "leaf": {
+                "salt": "d412a2d2eee5dcc0cc26350a272d50383866af135c8ac462e410b561a0500093",
+                "leaf_hash": "6e476a6d28e6dce1acc706363c785afeb757da9177a8fbd671703a307cbacb5b",
+                "day": "2026-11-02",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x962f5ab7e82bec1ba5b285a9ddbad36db681884fa6a2ee9fa0021957a1188ebc",
+                    "tx": "a44f16772522c4658fae4e1abe9a92c04fcf7e770a82a818bb4c602ffe53b67e",
+                    "url": "https://base.easscan.org/attestation/view/0x962f5ab7e82bec1ba5b285a9ddbad36db681884fa6a2ee9fa0021957a1188ebc",
+                    "tx_url": "https://basescan.org/tx/0xa44f16772522c4658fae4e1abe9a92c04fcf7e770a82a818bb4c602ffe53b67e",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "I8Zy6txzuDU_iIGlnaVMQOEb9Nmh5KBfimjXvL5Tw2c",
+                    "url": "https://arweave.net/raw/I8Zy6txzuDU_iIGlnaVMQOEb9Nmh5KBfimjXvL5Tw2c",
+                    "view_url": "https://viewblock.io/arweave/tx/I8Zy6txzuDU_iIGlnaVMQOEb9Nmh5KBfimjXvL5Tw2c",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 2,
+            "title": "Extremely Strict Rules and Disproportionate Penalties",
+            "body": "Every prop firm has its own rules, and I fully understand that traders are responsible for following them. However, my review is based on my personal experience with Dolvero and a comparison with an established, professional prop firm such as FTMO.\n\nMy experience with Dolvero has not been entirely satisfactory. The company has extremely strict rules regarding trading during high-impact economic news events (NEWS). I accidentally opened a trade 27 minutes before the end of the restricted 30-minute window, and my account was terminated. Customer support refused to reinstate it.\n\nOn another account, I had 9 BUY positions open, each with a volume of 0.1 lot, and accidentally opened one opposite SELL position of 0.1 lot. This was neither intentional hedging nor part of any trading strategy. Nevertheless, my account was immediately terminated, and customer support once again refused to reinstate it.\n\nI acknowledge that both situations technically violated Dolvero's rules. However, when comparing Dolvero with FTMO, I believe there is a significant difference in their overall approach to traders, particularly in terms of risk management, the proportionality of penalties, and customer support.\n\nI believe that a professional prop firm should not only strictly enforce its rules but also be able to distinguish between deliberate abuse of trading conditions and genuine human error.\n\nMy rating therefore primarily reflects a comparison of the quality of service and overall approach of FTMO and Dolvero, rather than simply my dissatisfaction with the termination of my accounts.\n\nI recommend that traders carefully review all trading restrictions before purchasing a challenge.",
+            "lang": "cs",
+            "display_name": "Dušan D.",
+            "handle": "dusan",
+            "country": "SK",
+            "ip_country": "SK",
+            "device": "desktop/Windows",
+            "payload": "{\"account_login\":\"EVAL2610207103\",\"body\":\"Every prop firm has its own rules, and I fully understand that traders are responsible for following them. However, my review is based on my personal experience with Dolvero and a comparison with an established, professional prop firm such as FTMO.\\n\\nMy experience with Dolvero has not been entirely satisfactory. The company has extremely strict rules regarding trading during high-impact economic news events (NEWS). I accidentally opened a trade 27 minutes before the end of the restricted 30-minute window, and my account was terminated. Customer support refused to reinstate it.\\n\\nOn another account, I had 9 BUY positions open, each with a volume of 0.1 lot, and accidentally opened one opposite SELL position of 0.1 lot. This was neither intentional hedging nor part of any trading strategy. Nevertheless, my account was immediately terminated, and customer support once again refused to reinstate it.\\n\\nI acknowledge that both situations technically violated Dolvero's rules. However, when comparing Dolvero with FTMO, I believe there is a significant difference in their overall approach to traders, particularly in terms of risk management, the proportionality of penalties, and customer support.\\n\\nI believe that a professional prop firm should not only strictly enforce its rules but also be able to distinguish between deliberate abuse of trading conditions and genuine human error.\\n\\nMy rating therefore primarily reflects a comparison of the quality of service and overall approach of FTMO and Dolvero, rather than simply my dissatisfaction with the termination of my accounts.\\n\\nI recommend that traders carefully review all trading restrictions before purchasing a challenge.\",\"country\":\"SK\",\"display_name\":\"Dušan D.\",\"handle\":\"dusan\",\"kind\":\"review\",\"lang\":\"cs\",\"prev\":\"86825e9bb7a345d5946ac6b7965738cf2e28d01daae391bd19b5781d997cae77\",\"product\":\"$100,000 MT5 Evaluation\",\"purchased_on\":\"2026-10-20\",\"rating\":2,\"rid\":\"877ac4f2-0086-4013-9826-15ff117419c1\",\"title\":\"Extremely Strict Rules and Disproportionate Penalties\",\"ts\":\"2026-11-02T16:44:27Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "559dac973a4c54805ba59adf203a54005afc3283cb23022055507fb746b937a3",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsyHlbKvUmoH3VWfHXchqPSdDunNv\nNvIaN9vZgNOFoTzLiGka6Z8xMbCuoKGinPh9gi0K8sBbz8mtbc0lkMMZrw==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiZ1duYjRRT3NLVVYyMHNvMGJ6am1TN3BnaHFVczc3X04zSE9yWjFCdnNocyIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEUCIQDS3sRmRurNwlBnZFNsIJmx4dV3yxkp-6q5vwEL-pWNSwIge_F0Wy-0ZG9OzRlxfwAnf0FKmuCRi4rNkNtSDa6npNs"
+            },
+            "account": {
+                "login": "EVAL2610207103",
+                "product": "$100,000 MT5 Evaluation",
+                "platform": "MT5",
+                "size_usd": 100000,
+                "purchased_on": "2026-10-20",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Prohibited Strategies",
+                        "detail": "Prohibited trading strategies detected: Detected: 17 hedging. These strategies are not allowed as they can be used to manipulate drawdown calculations or constitute gambling behavior. Details: Hedging on XAUUSD: Trade #1894413 (BUY, 0.10 lots) vs Trade #1894555 (SELL, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894412 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894414 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894439 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894445 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894446 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894452 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894459 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894462 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894467 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894479 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894501 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894505 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894509 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894513 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894516 (BUY, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #1894555 (SELL, 0.10 lots) vs Trade #1894519 (BUY, 0.10 lots) - opposite positions open simultaneously",
+                        "summary": "17 hedging pairs on XAUUSD: a buy and a sell on the same instrument were open at the same moment. Position #1894555 (SELL, 0.10 lots) was held open against 17 buys of 0.10 lots.",
+                        "items": [
+                            "#1894413 BUY 0.10 lots",
+                            "#1894412 BUY 0.10 lots",
+                            "#1894414 BUY 0.10 lots",
+                            "#1894439 BUY 0.10 lots",
+                            "#1894445 BUY 0.10 lots",
+                            "#1894446 BUY 0.10 lots",
+                            "#1894452 BUY 0.10 lots",
+                            "#1894459 BUY 0.10 lots",
+                            "#1894462 BUY 0.10 lots",
+                            "#1894467 BUY 0.10 lots",
+                            "#1894479 BUY 0.10 lots",
+                            "#1894501 BUY 0.10 lots",
+                            "#1894505 BUY 0.10 lots",
+                            "#1894509 BUY 0.10 lots",
+                            "#1894513 BUY 0.10 lots",
+                            "#1894516 BUY 0.10 lots",
+                            "#1894519 BUY 0.10 lots"
+                        ],
+                        "items_label": "Opposite positions open at the same time as #1894555",
+                        "detected_at_utc": "2026-10-29 20:54:46",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03597",
+                            "rules_sha256": "145301f0dcb5e3e6164f0393669cd14c600e4399fdd10d30f48702b6b8c78b89",
+                            "doc_sha256": "89ba505ebbc18e35540f9e2cbd23a96543e9eaa8134ed0087f516c3176c40943",
+                            "signed_at_utc": "2026-10-29 07:08:57",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-094D-72AC"
+                        },
+                        "report_url": "https://dolvero.com/reviews/eval2610207103-hedging.html",
+                        "proof": {
+                            "salt": "324861bacb4e257e334d14c5db3978e75cc7d4c8f93bc31fe898fe7d3d8b3c51",
+                            "leaf_hash": "c22c1095d6add59af5d7de7450e0ef64b12dc543cbb1635b189c664d4d31958c",
+                            "day": "2026-10-31",
+                            "sealed": true,
+                            "index": 50646,
+                            "path": [
+                                {
+                                    "side": "R",
+                                    "hash": "6199d576f43843e3c18b372d5148e5e33836572dc91e24228df5353c90f9de29"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "6830acbce6bb0629e5369ce33e4183baa30b126f3c129e6d16f713ae8262d69f"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "160bd793fbb820c59b33fc49979abbfa8eaff082ffe596b0c1a0e9ebe7b0d37b"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "9fda1a32ac2eb6b90002daba47e35abb4312dc7564aa0725c2256a9389c469b2"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "3d19f7d701f329ecd508617cf1099ab0f9e60be5298cfc2c30570f7c101db296"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "f2b7d14274549285e308a376254fa379eadb6723aae380a67f76347a66423b4c"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "2a8be719f6a162cd5169705da2e49e61f56851f38a158eb65222cfb9728d6273"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "08ee782cc42cbc7e3a93838716fae9286379647251d2804210e12da4021931a4"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "469bf3a067650433d9ea331a851d25e60ea64259c79ee211b86fbf004bfc3e72"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "f6988765acb4412c50d781399020969c337a18419412ad7c6010c1492ef36c87"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "8506f12d47c526235ff8be4f8deaac0cf5f49c5a8d636d89a4132a008488ec1a"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "8d7f26ff82bcda274cca34c957abc1bc07a75325c214dce73a1483160b3a20f7"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "27b24df46629ca79ae0dea758fcb69c4b65f851f1d4a384c1598ea2bd211fea0"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "3eda4d0ba77ce0f3b78120c96d0d9259512626fc26c02ff6768ad85cea0cfe10"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "a240fe72c5d5ac3b544eadd6d8a219163dc5197fe47a6d23386a6bf42fa81e24"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "0ea5e7934ea96355013daecd681eaada8a4d9e354ed099024c6d00ec1f0e9918"
+                                }
+                            ],
+                            "root": "38e8d1234e7a0d49fb2c196758f282b5b1416d6179bfbaf2a2f3235bef9c7230",
+                            "ots_status": "complete",
+                            "bitcoin_block": 974047,
+                            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-10-31"
+                        }
+                    }
+                ],
+                "payouts": []
+            },
+            "partner": null,
+            "replies": [
+                {
+                    "id": 4,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Dušan, thank you for writing it in the open. Our reviews sit next to the account record, so let me put the record next to your words.\n\nOne thing your review leaves out: we did forgive you once. On 17 September your first account was flagged for hedging, 13 pairs. I read every one of your 41 trades myself, accepted that it was two mistaken clicks, restored the account personally, with its balance and trades intact, and wrote to you in black and white that hedging is not allowed and would not be forgiven a second time. So the distinction between abuse and human error that you ask for was made, in your favour, and you knew where the line was.\n\nSince 15 September you have opened eight $100,000 evaluations with us, one of them free with a promotion. Seven have ended, and only two of them by the rules you describe as disproportionate. The other five ended on the risk limits every prop firm has: four on the daily loss limit (days of minus 5,600 to minus 6,000 USD), four on the 10% maximum drawdown (13.2%, 13.0%, 14.1% and 10.3%), three on the 2% risk-per-trade rule (single trades losing 6,480, 6,784, 12,713 and 12,912 USD) and two on weekend holding, with positions kept open for 10 and 13 days across weekends. Those are not technicalities.\n\nHedging, the second time. On 29 October it happened again, on the free account: not 9 buy positions but 17, 1.80 lots of gold open at once, and a sell opened from your phone against all of them. I do not doubt that it was unintentional. The rule you signed does not ask about intent, and the one exception had already been used, in writing.\n\nNews. The trade on 16 October was opened 24 minutes after the release and 6 minutes before the end of the window, not 27 minutes before the end. On 29 October we narrowed the news window to 10 minutes and to the currency of the release, for everyone, going forward, after feedback that included yours. No prop firm applies a new rule backwards, and neither do we.\n\nYou signed the trading rules fifteen times, once per account and once per new version, each time with a one-time code. Every breach has a published report with the full record, for instance dolvero.com/reviews/eval2610207103-hedging.html, and this review of yours is published with your account data beside it. I would welcome that comparison with any firm you name.\n\nYour paid account EVAL2610202851 is active and in profit. You are still trading with us, and you are welcome to.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 16:59:02",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Dušan, thank you for writing it in the open. Our reviews sit next to the account record, so let me put the record next to your words.\\n\\nOne thing your review leaves out: we did forgive you once. On 17 September your first account was flagged for hedging, 13 pairs. I read every one of your 41 trades myself, accepted that it was two mistaken clicks, restored the account personally, with its balance and trades intact, and wrote to you in black and white that hedging is not allowed and would not be forgiven a second time. So the distinction between abuse and human error that you ask for was made, in your favour, and you knew where the line was.\\n\\nSince 15 September you have opened eight $100,000 evaluations with us, one of them free with a promotion. Seven have ended, and only two of them by the rules you describe as disproportionate. The other five ended on the risk limits every prop firm has: four on the daily loss limit (days of minus 5,600 to minus 6,000 USD), four on the 10% maximum drawdown (13.2%, 13.0%, 14.1% and 10.3%), three on the 2% risk-per-trade rule (single trades losing 6,480, 6,784, 12,713 and 12,912 USD) and two on weekend holding, with positions kept open for 10 and 13 days across weekends. Those are not technicalities.\\n\\nHedging, the second time. On 29 October it happened again, on the free account: not 9 buy positions but 17, 1.80 lots of gold open at once, and a sell opened from your phone against all of them. I do not doubt that it was unintentional. The rule you signed does not ask about intent, and the one exception had already been used, in writing.\\n\\nNews. The trade on 16 October was opened 24 minutes after the release and 6 minutes before the end of the window, not 27 minutes before the end. On 29 October we narrowed the news window to 10 minutes and to the currency of the release, for everyone, going forward, after feedback that included yours. No prop firm applies a new rule backwards, and neither do we.\\n\\nYou signed the trading rules fifteen times, once per account and once per new version, each time with a one-time code. Every breach has a published report with the full record, for instance dolvero.com/reviews/eval2610207103-hedging.html, and this review of yours is published with your account data beside it. I would welcome that comparison with any firm you name.\\n\\nYour paid account EVAL2610202851 is active and in profit. You are still trading with us, and you are welcome to.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":17,\"review_sha\":\"8169dbe103ac294576d2ca346f38e64bba6086a52cefbfcddc73ab67506fb21b\",\"supersedes\":null,\"ts\":\"2026-11-02T16:58:44Z\",\"v\":1}",
+                    "payload_sha": "d47e7e6d4dd3c2880d4eb9457fc3b3b32700759110361eb25fd3654dc3224815",
+                    "signature": {
+                        "method": "passkey",
+                        "alg": -7,
+                        "credential_sha": "e39591e78977b0f97d405e8d639de54177adcf6143755782836c54fae0f6f088",
+                        "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8z15gEzGkRv3+NWCvcLCoaVJ0Y6v\nczFAxR8/kLzjHFnEbNwSIwPDu2PPUQr7TcPjK6ee3/RQ4aJHUAe9Aq0XTw==\n-----END PUBLIC KEY-----\n",
+                        "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiMUg1LWJVM1R3b2dOVHJsRmY4T3pzeWNBZFpFUU5oNnlYOU5sVGNNaVNCVSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                        "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                        "signature": "MEUCIF_GvlYdYIgmjL2SY8_QmF_EAXIfLOzHBW9zOf1pwOO0AiEAtlfn4ofVP7iWzg-mw4iBYnq1aBjGYsO-2PH37cTfrYE"
+                    },
+                    "leaf": {
+                        "salt": "5678b7fb05635ea297481d0e84314b9a755b2bc1ad2044547bac3a069e64c0cc",
+                        "leaf_hash": "feb6132950eb8850b520b67f26e58fa9927b762960dc3f7569d03fe5f82047f0",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x19ce2403f9ffbf199177f085bab12275c0ea9bf00b609a5fc73472d8f2bbb5c2",
+                            "tx": "835b837b3e6012857706924649164f8906d49505b571864c5e34cd931ac2a208",
+                            "url": "https://base.easscan.org/attestation/view/0x19ce2403f9ffbf199177f085bab12275c0ea9bf00b609a5fc73472d8f2bbb5c2",
+                            "tx_url": "https://basescan.org/tx/0x835b837b3e6012857706924649164f8906d49505b571864c5e34cd931ac2a208",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "9Xo9CR5-pws6CxP4T2xAdrt5PEql55XgwhZwDsxLSiE",
+                            "url": "https://arweave.net/raw/9Xo9CR5-pws6CxP4T2xAdrt5PEql55XgwhZwDsxLSiE",
+                            "view_url": "https://viewblock.io/arweave/tx/9Xo9CR5-pws6CxP4T2xAdrt5PEql55XgwhZwDsxLSiE",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
+        },
         {
             "id": 16,
             "rid": "fe97fe9d-8de2-43fc-8463-0459fbd5014f",
@@ -173,7 +387,48 @@
                 ]
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 5,
+                    "author": "dolvero",
+                    "author_name": "Michal Król",
+                    "body": "Thank you, Soumyashree. Your payout went out in under seven hours, and the rules you call strict are the same ones that kept that payout safe.\n\nOn flexibility: you have already seen it happen. On 29 October we narrowed the news window from 30 to 10 minutes and limited it to the currency of the release, and your account was one of those restored under the new rule. We change a rule when the record shows it is wrong, not when it is uncomfortable, and we publish the change for everyone.\n\nYour account is active, the next payout on it pays 80% instead of 70%, and this review will sit beside your account record for as long as you trade with us.\n\nMichal Król, CEO",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-02 17:12:52",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Michal Król\",\"body\":\"Thank you, Soumyashree. Your payout went out in under seven hours, and the rules you call strict are the same ones that kept that payout safe.\\n\\nOn flexibility: you have already seen it happen. On 29 October we narrowed the news window from 30 to 10 minutes and limited it to the currency of the release, and your account was one of those restored under the new rule. We change a rule when the record shows it is wrong, not when it is uncomfortable, and we publish the change for everyone.\\n\\nYour account is active, the next payout on it pays 80% instead of 70%, and this review will sit beside your account record for as long as you trade with us.\\n\\nMichal Król, CEO\",\"kind\":\"reply\",\"review_id\":16,\"review_sha\":\"78f9b97ba87f29b3b0eed697c48c01f353232f6060cda233e71b185b287bc096\",\"supersedes\":null,\"ts\":\"2026-11-02T17:11:15Z\",\"v\":1}",
+                    "payload_sha": "989a00ebaaf70ede2d157bafa69cc13a9e2a32f320d1c20221c9a5af54f2b1df",
+                    "signature": {
+                        "method": "passkey",
+                        "alg": -7,
+                        "credential_sha": "e39591e78977b0f97d405e8d639de54177adcf6143755782836c54fae0f6f088",
+                        "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8z15gEzGkRv3+NWCvcLCoaVJ0Y6v\nczFAxR8/kLzjHFnEbNwSIwPDu2PPUQr7TcPjK6ee3/RQ4aJHUAe9Aq0XTw==\n-----END PUBLIC KEY-----\n",
+                        "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoibUpvQTY2cjNEdDR0Rlh1dnBwekJPcDRxTXZNZzBjSUNJY21scjFUeXNkOCIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                        "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                        "signature": "MEUCIA_w6FLcVwka7gCKlOeOVWhytopg27hszo76RF3-cC2rAiEArmMZVIZfzifXqc-i34QpAHvKzKu28_JgxhkhsHF7nP0"
+                    },
+                    "leaf": {
+                        "salt": "4efa61a00fdf65013d21d7d8a2055b869d5a98d5d655cefdcabfc021023fedda",
+                        "leaf_hash": "9cb854cf834bd93ef4197bc1114564e5fe7abb746d6b80ba5699092719627ecb",
+                        "day": "2026-11-02",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x36646d6eb849c2304166f81c09bab6a900af6f9f1cd29c54f5f0a78d1dc05043",
+                            "tx": "093f74113113b4077f3f2ba7f700f30872623f080cc6214d9c430edd4ca47e56",
+                            "url": "https://base.easscan.org/attestation/view/0x36646d6eb849c2304166f81c09bab6a900af6f9f1cd29c54f5f0a78d1dc05043",
+                            "tx_url": "https://basescan.org/tx/0x93f74113113b4077f3f2ba7f700f30872623f080cc6214d9c430edd4ca47e56",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "sd6gsW9U5ImfPo0jnqxNtXwOiAGsty-EoRUoSf-QIto",
+                            "url": "https://arweave.net/raw/sd6gsW9U5ImfPo0jnqxNtXwOiAGsty-EoRUoSf-QIto",
+                            "view_url": "https://viewblock.io/arweave/tx/sd6gsW9U5ImfPo0jnqxNtXwOiAGsty-EoRUoSf-QIto",
+                            "status": "sent"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 15,
@@ -305,6 +560,16 @@
                     {
                         "rule": "Daily Loss Limit",
                         "detail": "On 2026-11-02, the combined daily net P&L measured on equity was -$181.07 (3.62% of starting balance $5,000.00). The lowest equity of the day was $4,719.62 at 2026-11-02 14:39:21.413 (MT5 server time) against a day-start equity of $4,900.69. This exceeds the daily loss limit of 3.0% ($150.00) by $31.07; the measurement error bound for this day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #1909375 XAUUSD BUY 0.01L P&L: $-10.07; #1909884 XAUUSD BUY 0.01L P&L: +$1.52; #1918844 XAUUSD SELL 0.03L P&L: $-27.15; #1922870 XAUUSD SELL 0.01L P&L: $-14.48; #1917212 XAUUSD SELL 0.03L P&L: $-98.07 Intraday equity minimum of $4,729.94 at 2026-11-02 14:39:12 (broker time, minute sampler) was $170.75 below the day-start equity of $4,900.69; the lowest point of the day counts, not only the moment of this check.",
+                        "summary": "On 2026-11-02, the combined daily net P&L measured on equity was -$181.07 (3.62% of starting balance $5,000.00). The lowest equity of the day was $4,719.62 at 2026-11-02 14:39:21.413 (MT5 server time) against a day-start equity of $4,900.69. This exceeds the daily loss limit of 3.0% ($150.00) by $31.07; the measurement error bound for this day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [
+                            "#1909375 XAUUSD BUY 0.01L P&L: $-10.07",
+                            "#1909884 XAUUSD BUY 0.01L P&L: +$1.52",
+                            "#1918844 XAUUSD SELL 0.03L P&L: $-27.15",
+                            "#1922870 XAUUSD SELL 0.01L P&L: $-14.48",
+                            "#1917212 XAUUSD SELL 0.03L P&L: $-98.07 Intraday equity minimum of $4,729.94 at 2026-11-02 14:39:12 (broker time, minute sampler) was $170.75 below the day-start equity of $4,900.69",
+                            "the lowest point of the day counts, not only the moment of this check."
+                        ],
+                        "items_label": "Trades on this day",
                         "detected_at_utc": "2026-11-02 13:40:31",
                         "agreement": {
                             "no": "DLV-RLA-2610-03859",
@@ -324,6 +589,9 @@
                     {
                         "rule": "Trailing Drawdown",
                         "detail": "Maximum drawdown reached 5.63% ($281.40 from peak $5,001.02), exceeding the trailing limit of 5.0% ($250.05). The lowest equity was $4,719.62 on 2026-11-02 at 14:39:21.413 (MT5 server time), $31.35 below the floor of $4,750.97; the measurement error bound for that day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "summary": "Maximum drawdown reached 5.63% ($281.40 from peak $5,001.02), exceeding the trailing limit of 5.0% ($250.05). The lowest equity was $4,719.62 on 2026-11-02 at 14:39:21.413 (MT5 server time), $31.35 below the floor of $4,750.97; the measurement error bound for that day is $0.10. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [],
+                        "items_label": "",
                         "detected_at_utc": "2026-11-02 13:40:31",
                         "agreement": {
                             "no": "DLV-RLA-2610-03859",
@@ -476,6 +744,9 @@
                     {
                         "rule": "Payout Withdrawal",
                         "detail": "After your payout of $249.76, the account balance was settled to $5,000.00, which is at or below the trailing drawdown floor of $5,088.96 (high-water mark $5,356.80 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account - congratulations on securing your profit.",
+                        "summary": "After your payout of $249.76, the account balance was settled to $5,000.00, which is at or below the trailing drawdown floor of $5,088.96 (high-water mark $5,356.80 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account - congratulations on securing your profit.",
+                        "items": [],
+                        "items_label": "",
                         "detected_at_utc": "2026-09-29 17:56:58",
                         "agreement": {
                             "no": "DLV-RLA-2609-00322",
@@ -841,6 +1112,11 @@
                     {
                         "rule": "Payout Withdrawal",
                         "detail": "After your payout of $165.03 (PAY-2026-3632), $235.76 of profit was settled from the account (your 70% share plus the firm's share), which brought the balance to $5,000.00. That is below the trailing drawdown floor of $5,034.79 (high-water mark $5,299.78 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account: you broke no trading rule, and your profit is secured.",
+                        "summary": "After your payout of $165.03 (PAY-2026-3632), $235.76 of profit was settled from the account (your 70% share plus the firm's share), which brought the balance to $5,000.00. That is below the trailing drawdown floor of $5,034.79 (high-water mark $5,299.78 minus 5%). The trailing floor never descends, so the account is closed.",
+                        "items": [
+                            "This is the standard outcome of a full payout on a trailing-drawdown account: you broke no trading rule, and your profit is secured."
+                        ],
+                        "items_label": "Further detail",
                         "detected_at_utc": "2026-10-19 09:06:51",
                         "agreement": {
                             "no": "DLV-RLA-2610-00838",
@@ -931,6 +1207,9 @@
                     {
                         "rule": "Trailing Drawdown",
                         "detail": "Maximum drawdown reached 5.88% ($311.88 from peak $5,299.78), exceeding the trailing limit of 5.0% ($264.99). Trailing drawdown is measured from the highest equity point (high-water mark), which only rises and never descends. Measured at the intraday equity minimum of $4,987.90 at 2026-10-19 10:11:04 (broker time, minute sampler).",
+                        "summary": "Maximum drawdown reached 5.88% ($311.88 from peak $5,299.78), exceeding the trailing limit of 5.0% ($264.99). Trailing drawdown is measured from the highest equity point (high-water mark), which only rises and never descends. Measured at the intraday equity minimum of $4,987.90 at 2026-10-19 10:11:04 (broker time, minute sampler).",
+                        "items": [],
+                        "items_label": "",
                         "detected_at_utc": "2026-10-19 09:13:36",
                         "agreement": {
                             "no": "DLV-RLA-2610-00838",
@@ -1159,6 +1438,20 @@
                     {
                         "rule": "Daily Loss Limit",
                         "detail": "On 2026-10-23, the combined daily net P&L (closed trades plus floating P&L on open positions) was -$217.23 (4.34% of starting balance $5,000.00). This exceeds the daily loss limit of 3.0% ($150.00) by $67.23. Trades on this day: #1842508 XAUUSD BUY 0.03L P&L: $-22.14; #1842509 XAUUSD BUY 0.03L P&L: $-24.03; #1842661 XAUUSD BUY 0.03L P&L: $-14.10; #1842561 XAUUSD BUY 0.03L P&L: $-18.36; #1842663 XAUUSD BUY 0.03L P&L: $-21.06; #1842699 XAUUSD BUY 0.03L P&L: $-13.68; #1843127 XAUUSD SELL 0.03L P&L: $-26.61; #1843129 XAUUSD SELL 0.03L P&L: $-27.36; #1843130 XAUUSD SELL 0.03L P&L: $-24.93; #1843131 XAUUSD SELL 0.03L P&L: $-24.96",
+                        "summary": "On 2026-10-23, the combined daily net P&L (closed trades plus floating P&L on open positions) was -$217.23 (4.34% of starting balance $5,000.00). This exceeds the daily loss limit of 3.0% ($150.00) by $67.23.",
+                        "items": [
+                            "#1842508 XAUUSD BUY 0.03L P&L: $-22.14",
+                            "#1842509 XAUUSD BUY 0.03L P&L: $-24.03",
+                            "#1842661 XAUUSD BUY 0.03L P&L: $-14.10",
+                            "#1842561 XAUUSD BUY 0.03L P&L: $-18.36",
+                            "#1842663 XAUUSD BUY 0.03L P&L: $-21.06",
+                            "#1842699 XAUUSD BUY 0.03L P&L: $-13.68",
+                            "#1843127 XAUUSD SELL 0.03L P&L: $-26.61",
+                            "#1843129 XAUUSD SELL 0.03L P&L: $-27.36",
+                            "#1843130 XAUUSD SELL 0.03L P&L: $-24.93",
+                            "#1843131 XAUUSD SELL 0.03L P&L: $-24.96"
+                        ],
+                        "items_label": "Trades on this day",
                         "detected_at_utc": "2026-10-23 02:13:52",
                         "agreement": {
                             "no": "DLV-RLA-2610-02105",
@@ -1249,6 +1542,9 @@
                     {
                         "rule": "Trailing Drawdown",
                         "detail": "Maximum drawdown reached 5.75% ($291.88 from peak $5,074.87), exceeding the trailing limit of 5.0% ($253.74). Trailing drawdown is measured from the highest equity point (high-water mark), which only rises and never descends.",
+                        "summary": "Maximum drawdown reached 5.75% ($291.88 from peak $5,074.87), exceeding the trailing limit of 5.0% ($253.74). Trailing drawdown is measured from the highest equity point (high-water mark), which only rises and never descends.",
+                        "items": [],
+                        "items_label": "",
                         "detected_at_utc": "2026-10-23 02:13:52",
                         "agreement": {
                             "no": "DLV-RLA-2610-02105",
@@ -1472,6 +1768,9 @@
                     {
                         "rule": "Payout Withdrawal",
                         "detail": "After your payout of $230.99, the account balance was settled to $5,000.00, which is at or below the trailing drawdown floor of $5,152.25 (high-water mark $5,423.42 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account - congratulations on securing your profit.",
+                        "summary": "After your payout of $230.99, the account balance was settled to $5,000.00, which is at or below the trailing drawdown floor of $5,152.25 (high-water mark $5,423.42 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account - congratulations on securing your profit.",
+                        "items": [],
+                        "items_label": "",
                         "detected_at_utc": "2026-10-29 08:19:24",
                         "agreement": {
                             "no": "DLV-RLA-2610-03544",
@@ -1832,6 +2131,13 @@
                     {
                         "rule": "Daily Loss Limit",
                         "detail": "On 2026-10-27, the combined daily net P&L (closed trades plus floating P&L on open positions) was -$150.88 (3.02% of starting balance $5,000.00). This exceeds the daily loss limit of 3.0% ($150.00) by $0.88. Trades on this day: #600019664040 XAUUSD BUY 0.10L P&L: $-37.40; #600019664067 XAUUSD BUY 0.10L P&L: $-83.30; #600019664075 XAUUSD BUY 0.05L P&L: $-30.18",
+                        "summary": "On 2026-10-27, the combined daily net P&L (closed trades plus floating P&L on open positions) was -$150.88 (3.02% of starting balance $5,000.00). This exceeds the daily loss limit of 3.0% ($150.00) by $0.88.",
+                        "items": [
+                            "#600019664040 XAUUSD BUY 0.10L P&L: $-37.40",
+                            "#600019664067 XAUUSD BUY 0.10L P&L: $-83.30",
+                            "#600019664075 XAUUSD BUY 0.05L P&L: $-30.18"
+                        ],
+                        "items_label": "Trades on this day",
                         "detected_at_utc": "2026-10-27 01:34:25",
                         "agreement": {
                             "no": "DLV-RLA-2610-01651",
@@ -2187,6 +2493,11 @@
                     {
                         "rule": "Payout Withdrawal",
                         "detail": "After your payout of $228.70 (PAY-2026-3011), $326.71 of profit was settled from the account (your share plus the firm's share), which brought the balance to $5,000.00. That is at or below the trailing drawdown floor of $5,060.37 (high-water mark $5,326.71 minus 5%). The trailing floor never descends, so the account is closed. This is the standard outcome of a full payout on a trailing-drawdown account: you broke no trading rule, and your profit is secured.",
+                        "summary": "After your payout of $228.70 (PAY-2026-3011), $326.71 of profit was settled from the account (your share plus the firm's share), which brought the balance to $5,000.00. That is at or below the trailing drawdown floor of $5,060.37 (high-water mark $5,326.71 minus 5%). The trailing floor never descends, so the account is closed.",
+                        "items": [
+                            "This is the standard outcome of a full payout on a trailing-drawdown account: you broke no trading rule, and your profit is secured."
+                        ],
+                        "items_label": "Further detail",
                         "detected_at_utc": "2026-10-27 15:18:03",
                         "agreement": {
                             "no": "DLV-RLA-2610-01344",
