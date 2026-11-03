@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-03T13:22:02+00:00",
+    "generated_at": "2026-11-03T14:22:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -120,18 +120,88 @@
         }
     ],
     "stats": {
-        "count": 15,
-        "average": 4.73,
+        "count": 16,
+        "average": 4.75,
         "distribution": {
             "1": 0,
             "2": 1,
             "3": 0,
             "4": 1,
-            "5": 13
+            "5": 14
         },
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 18,
+            "rid": "97106853-8151-4b9e-9ee2-e7a3c1ff9325",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-03 14:16:10",
+            "payload_sha": "672121aec71168ee1819235cf78b2cdde9e9515552b82031af471953153af3e3",
+            "prev": "6e476a6d28e6dce1acc706363c785afeb757da9177a8fbd671703a307cbacb5b",
+            "leaf": {
+                "salt": "6e02e1265480e509bf96aa7103283809c34cb83adc9d0cbad059a6c7ae406139",
+                "leaf_hash": "903371848f7cbd062b41a1f5d02371904e72f86006218233ba2e6766be565783",
+                "day": "2026-11-03",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x86be02a159f7034e4d6304145be6d557e4f561f491ed2b1c8610374cb900b690",
+                    "tx": "6d304916767745026adac4ee90f68f81f50b73cf05899ecfda10702ac8afa79a",
+                    "url": "https://base.easscan.org/attestation/view/0x86be02a159f7034e4d6304145be6d557e4f561f491ed2b1c8610374cb900b690",
+                    "tx_url": "https://basescan.org/tx/0x6d304916767745026adac4ee90f68f81f50b73cf05899ecfda10702ac8afa79a",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "4DLbWUNAvq-wEw-j4xhXWDxhb7HN1Eve0bPll6coB00",
+                    "url": "https://arweave.net/raw/4DLbWUNAvq-wEw-j4xhXWDxhb7HN1Eve0bPll6coB00",
+                    "view_url": "https://viewblock.io/arweave/tx/4DLbWUNAvq-wEw-j4xhXWDxhb7HN1Eve0bPll6coB00",
+                    "status": "sent"
+                }
+            },
+            "rating": 5,
+            "title": "Payout received within 10 minutes of REQUEST!",
+            "body": "I like the layout of the website, the agreement that we first sign before we able to trade the account, every rule is properly written in the agreement, I like the logo, the certificate, the speed of the payout, and the news window notification that keeps changing colors from grey to red to green, it indicates the window in which we can safely enter into trades without violating news rule. Earlier it was harsh, but now the news rule has been made smooth for the traders. The CEO, the support staff all are very friendly and handle all your requests & know about in time with due diligence & care. In my opinion you should give it a try by buying any of their challenge, you will like their service, & I am sure your next purchase will also be with DOLVERO! They have MT5 as well as their own trading platform, you can go with anyone you like. The spreads are the lowest. I have very smooth experience.",
+            "lang": "en",
+            "display_name": "Mohammad S.",
+            "handle": "mohammad-s-bba7",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "desktop/Windows",
+            "payload": "{\"account_login\":\"LIVE2611036830\",\"body\":\"I like the layout of the website, the agreement that we first sign before we able to trade the account, every rule is properly written in the agreement, I like the logo, the certificate, the speed of the payout, and the news window notification that keeps changing colors from grey to red to green, it indicates the window in which we can safely enter into trades without violating news rule. Earlier it was harsh, but now the news rule has been made smooth for the traders. The CEO, the support staff all are very friendly and handle all your requests & know about in time with due diligence & care. In my opinion you should give it a try by buying any of their challenge, you will like their service, & I am sure your next purchase will also be with DOLVERO! They have MT5 as well as their own trading platform, you can go with anyone you like. The spreads are the lowest. I have very smooth experience.\",\"country\":\"IN\",\"display_name\":\"Mohammad S.\",\"handle\":\"mohammad-s-bba7\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"6e476a6d28e6dce1acc706363c785afeb757da9177a8fbd671703a307cbacb5b\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-11-03\",\"rating\":5,\"rid\":\"97106853-8151-4b9e-9ee2-e7a3c1ff9325\",\"title\":\"Payout received within 10 minutes of REQUEST!\",\"ts\":\"2026-11-03T14:15:42Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "c641f730e13d7cdaa9640d5004c9173f660e4c8d3aed88b285332efcb4ab9168",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErHuw55aN4kybekiPBEFL4j4cLROv\nEWxwjYIZ5U4LICNbQQ3YK2rXWY3CS0b9NXLzQtQtdxQm5j6qYSKaMUl3kA==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiWnlFaHJzY1JhTzRZR1NOYzk0c3MzZW5wVVZWU3VDQXhyMGNaVXhVNjgtTSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccZAAAAAA",
+                "signature": "MEUCIQCXHhW8coVLg8MJlkwd80jcl1YyDys9A8RrzN977TM0ZwIgMPs7XKmaS_tMUhNRpyaE-KuC8EmPnsSBffxUn84epBE"
+            },
+            "account": {
+                "login": "LIVE2611036830",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-11-03",
+                "status": "funded",
+                "breaches": [],
+                "payouts": [],
+                "payouts_all": [
+                    {
+                        "paid_on": "2026-11-03",
+                        "account_login": "LIVE2610206865",
+                        "amount_usd": 226,
+                        "code": "DLV-TNXG7C-03A8BB",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TNXG7C-03A8BB"
+                    }
+                ]
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 17,
             "rid": "877ac4f2-0086-4013-9826-15ff117419c1",
