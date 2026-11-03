@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-03T08:22:02+00:00",
+    "generated_at": "2026-11-03T09:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -614,8 +614,31 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-10-14",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Trailing Drawdown",
+                        "detail": "Maximum drawdown reached 5.08% ($265.48 from peak $5,227.29), exceeding the trailing limit of 5.0% ($261.36). The lowest equity was $4,961.81 on 2026-11-03 at 09:52:11.980 (MT5 server time), $4.12 below the floor of $4,965.93; the measurement error bound for that day is $0.07. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "summary": "Maximum drawdown reached 5.08% ($265.48 from peak $5,227.29), exceeding the trailing limit of 5.0% ($261.36). The lowest equity was $4,961.81 on 2026-11-03 at 09:52:11.980 (MT5 server time), $4.12 below the floor of $4,965.93; the measurement error bound for that day is $0.07. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [],
+                        "items_label": "",
+                        "detected_at_utc": "2026-11-03 08:55:36",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03546",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "468265722a7663a75c375a1522fdc7934ddbb05f2386f1704f701c79ccf4674b",
+                            "signed_at_utc": "2026-10-29 03:26:10",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-6EA8-9A04"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610146562-trailing-dd.html",
+                        "proof": {
+                            "salt": "3ec7248af124c0aa49736f786dee4112677cd06feb9ee29ceefa165d66665024",
+                            "leaf_hash": "8419d26b1745525b17d1ea630ee334085aea2a7faf7e1f11b2003cb59d75e397",
+                            "day": "2026-11-03",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [
                     {
                         "paid_on": "2026-11-02",
