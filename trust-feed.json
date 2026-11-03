@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-03T00:22:01+00:00",
+    "generated_at": "2026-11-03T01:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -33,7 +33,15 @@
             "bitcoin_block": null,
             "sealed_at_utc": "2026-11-03 00:20:07",
             "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-02",
-            "chain": []
+            "chain": {
+                "base": {
+                    "uid": "0x909cf084f4f17eabd8ad33018291aefd668cc810ac8fb2b15e4dd3826e9bb84d",
+                    "tx": "6eeb9e4265a9438d2feecb2f80310421e554c7829a3a92c4066e1e8d2cc62e3b",
+                    "url": "https://base.easscan.org/attestation/view/0x909cf084f4f17eabd8ad33018291aefd668cc810ac8fb2b15e4dd3826e9bb84d",
+                    "tx_url": "https://basescan.org/tx/0x6eeb9e4265a9438d2feecb2f80310421e554c7829a3a92c4066e1e8d2cc62e3b",
+                    "status": "confirmed"
+                }
+            }
         },
         {
             "day": "2026-11-01",
@@ -4790,8 +4798,31 @@
                 "platform": "DOLVEROTRADER",
                 "size_usd": 5000,
                 "purchased_on": "2026-10-30",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Trailing Drawdown",
+                        "detail": "At 2026-11-03 00:28:17 UTC equity (balance plus floating P&L on open positions) was $4,817.65, at or below the trailing drawdown floor of $4,822.57 (5.0%). Open positions were closed automatically at that moment. All times are UTC.",
+                        "summary": "At 2026-11-03 00:28:17 UTC equity (balance plus floating P&L on open positions) was $4,817.65, at or below the trailing drawdown floor of $4,822.57 (5.0%). Open positions were closed automatically at that moment. All times are UTC.",
+                        "items": [],
+                        "items_label": "",
+                        "detected_at_utc": "2026-11-03 00:28:17",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03820",
+                            "rules_sha256": "105d5da75c29927d38e83b03d38a9bb8879e71af5bc13812afef50389f636599",
+                            "doc_sha256": "5ea2f98ebd21ac2129e9512ee5a4696587caf1538c277d27942318944684b98f",
+                            "signed_at_utc": "2026-10-30 02:50:17",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-98E4-D541"
+                        },
+                        "report_url": null,
+                        "proof": {
+                            "salt": "dda35969d5915c5f595dfbe2cbcaefa5553434b810d29cb359c63cf6d1cf7cfa",
+                            "leaf_hash": "570ee6c339bea3472b97eb35173634d77031b3bdc304a248754dbddf26fd43c9",
+                            "day": "2026-11-03",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [],
                 "payouts_all": []
             },
