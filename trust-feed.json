@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-04T09:22:02+00:00",
+    "generated_at": "2026-11-04T10:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -143,18 +143,174 @@
         }
     ],
     "stats": {
-        "count": 16,
-        "average": 4.75,
+        "count": 17,
+        "average": 4.76,
         "distribution": {
             "1": 0,
             "2": 1,
             "3": 0,
             "4": 1,
-            "5": 14
+            "5": 15
         },
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 19,
+            "rid": "06a7588e-6bf1-4fc0-8076-af964939ef21",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-04 09:53:53",
+            "payload_sha": "2df9e3d1968b5a65801a48e253a5a67b86d9dd3a97cd667e67f58ee5a3a72be0",
+            "prev": "903371848f7cbd062b41a1f5d02371904e72f86006218233ba2e6766be565783",
+            "leaf": {
+                "salt": "da16cdd3491aa440c572a624bc948575485e5cf93f6037329820c5d5913c4d59",
+                "leaf_hash": "5df51a9b482644129cb54822ade904960874a877c1eaa5adf0d0ddb3c1e6dd34",
+                "day": "2026-11-04",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xd780117554f2ef81a8b7022d37c5f9188c6db89044f7ba7c855067587616872e",
+                    "tx": "33abec4f0ef9c0a917c68fd76b88251bae19e578f2918a89d54ff0f22a85c9e1",
+                    "url": "https://base.easscan.org/attestation/view/0xd780117554f2ef81a8b7022d37c5f9188c6db89044f7ba7c855067587616872e",
+                    "tx_url": "https://basescan.org/tx/0x33abec4f0ef9c0a917c68fd76b88251bae19e578f2918a89d54ff0f22a85c9e1",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "mozY16NxwM1WbPuDoAD9egsTnDu0eB7b2m9N1sIKaEQ",
+                    "url": "https://arweave.net/raw/mozY16NxwM1WbPuDoAD9egsTnDu0eB7b2m9N1sIKaEQ",
+                    "view_url": "https://viewblock.io/arweave/tx/mozY16NxwM1WbPuDoAD9egsTnDu0eB7b2m9N1sIKaEQ",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "Perbaikan aturan",
+            "body": "Akun ini dalam pembeli terjangkau namun perlu adanya pembenahan aturan terkait lamanya masa tunggu 10 hari trading.berharap ada masa satu hari trading bisa melakukan penarikan tidak harus menunggu trading 10 hari trading dulu dan di hapuskannya aturan konsistensi.",
+            "lang": "en",
+            "display_name": "Chandra Z Munaiseche",
+            "handle": "chandra-z-m-f9e1",
+            "country": "ID",
+            "ip_country": "ID",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2611020696\",\"body\":\"Akun ini dalam pembeli terjangkau namun perlu adanya pembenahan aturan terkait lamanya masa tunggu 10 hari trading.berharap ada masa satu hari trading bisa melakukan penarikan tidak harus menunggu trading 10 hari trading dulu dan di hapuskannya aturan konsistensi.\",\"country\":\"ID\",\"display_name\":\"Chandra Z Munaiseche\",\"handle\":\"chandra-z-m-f9e1\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"903371848f7cbd062b41a1f5d02371904e72f86006218233ba2e6766be565783\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-11-02\",\"rating\":5,\"rid\":\"06a7588e-6bf1-4fc0-8076-af964939ef21\",\"title\":\"Perbaikan aturan\",\"ts\":\"2026-11-04T09:53:08Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "899216750d1d87a610560a87f3471505312377c6797b2a8285fea9010361154b",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEuvxZ7AC9YlTHFCqi0/LZc8tY2GyE\nd2FjZIk/uanVQMvpyFdDOBwO/mmJHm7HREiGC9uyVwKzXvwcrA+ImEq3XQ==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiTGZuajBaYUxXbVdBR2tqaVU2V21lNGJaM1RxWHpXWi1aX1dPNWFPbkstQSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlLCJvdGhlcl9rZXlzX2Nhbl9iZV9hZGRlZF9oZXJlIjoiZG8gbm90IGNvbXBhcmUgY2xpZW50RGF0YUpTT04gYWdhaW5zdCBhIHRlbXBsYXRlLiBTZWUgaHR0cHM6Ly9nb28uZ2wveWFiUGV4In0",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEUCIQDUFN-bT6LA1lOmyzTCLZHN77ghuvviKgg9FiWPlkYqGAIgHHKh5Px9jqe78ecyvZjUk7-uA3YleYmtw8xyLCbpG6E"
+            },
+            "account": {
+                "login": "LIVE2611020696",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-11-02",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Trailing Drawdown",
+                        "detail": "Maximum drawdown reached 6.26% ($344.49 from peak $5,506.07), exceeding the trailing limit of 5.0% ($275.30). The lowest equity was $5,161.58 on 2026-11-03 at 13:53:15.983 (MT5 server time), $69.19 below the floor of $5,230.77; the measurement error bound for that day is $0.04. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "summary": "Maximum drawdown reached 6.26% ($344.49 from peak $5,506.07), exceeding the trailing limit of 5.0% ($275.30). The lowest equity was $5,161.58 on 2026-11-03 at 13:53:15.983 (MT5 server time), $69.19 below the floor of $5,230.77; the measurement error bound for that day is $0.04. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [],
+                        "items_label": "",
+                        "detected_at_utc": "2026-11-03 12:55:45",
+                        "agreement": {
+                            "no": "DLV-RLA-2611-04085",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "9a3eeeec3ad7c05c08b0a9877d3c29fc67cb29d85a12b20d769b2e482eae955f",
+                            "signed_at_utc": "2026-11-02 11:57:34",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2611-7731-BE23"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2611020696-trailing-dd.html",
+                        "proof": {
+                            "salt": "b10d53fa7ae3207f632d41e7833d7d71b71259d4b83f575136af83bd0e162233",
+                            "leaf_hash": "eda81166080fd2d6a61fa2e7033969f2c25e339e632836e3ae97e966da5e1b88",
+                            "day": "2026-11-03",
+                            "sealed": true,
+                            "index": 6054,
+                            "path": [
+                                {
+                                    "side": "R",
+                                    "hash": "ec7fc99bc33772a9b4ebb7da634e79bffaf5b32c040848adb691e3c1fe7a3fa2"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "6d1f24b835e77d2ab8aec02d74f6c73c16e5c55edd4323214abc5805122f1515"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "a7e1a0531b473428a362b18919d9874743291b006c358d31c95e7f5d9110d8a8"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "7e8eec0e9d5946d25ee1dffb1932010f76051a6cb29386db27fd982206a25d43"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "4c8d6e0fbdbf52cba5eef1bf42194411d3075aa098bac6d78d8a1e8f06ae8a8e"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "bf98a60f2d1487ff96e8f7fe0313e4ef5b124a3add5c2addd9b02081f5cac26d"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "c9dc1181c6e314b7c645d22be95d0401c8e4a73105e7ea39617a5684d4216287"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "e0c89bd3b6833e5d0f1b50c4f4cb1ab987a9eeafeb2f8252f45ecf755214d39a"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "bb0a3eea5fca26a549dc2f95cebb4c1f768627b0e94f9ffcdd5b4b325f9ff2e2"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "2ce2783867785900af26ea26101fb9b29a07c79876c29b8e083da5e26e90c663"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "02b370d00ab27120d57abe23817db2fffa68e8039ee656275e0b2813187c6da3"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "9950714940e3497cc24b37a805c76e9b882533bdfecaee82a35ca58b7b856cc4"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "670cc3e2ec6a5c131450aeab554d4768307f5d99994605b3e1548eac8e4d58be"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "ed62a74ca5acc31fcea4f86bbc70498f3c06ab8453a336d2dd21692dba165b67"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "72f216eb753a7bf4e2ac683b39a0e4c5f92bf5e8907e1cb8d660bc05c7319614"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "70011e7475f77645ed95d173fe66f6d448d27c2b8549d3e7f507fbae4ece0404"
+                                }
+                            ],
+                            "root": "c0cd17a549d3a62b2ad61635d6d8164a424f692a341e211f725daa1b3d73baf6",
+                            "ots_status": "complete",
+                            "bitcoin_block": 974460,
+                            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-03"
+                        }
+                    }
+                ],
+                "payouts": [],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 18,
             "rid": "97106853-8151-4b9e-9ee2-e7a3c1ff9325",
