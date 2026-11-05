@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-05T13:22:01+00:00",
+    "generated_at": "2026-11-05T14:22:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -5069,8 +5069,52 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-10-24",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-11-05, the combined daily net P&L measured on equity was -$161.68 (3.23% of starting balance $5,000.00). The lowest equity of the day was $5,239.31 at 2026-11-05 15:05:50.808 (MT5 server time) against a day-start equity of $5,400.99. This exceeds the daily loss limit of 3.0% ($150.00) by $11.68; the measurement error bound for this day is $0.93. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #1972506 XAUEUR BUY 0.02L P&L: +$6.00; #1972629 XAUEUR BUY 0.05L P&L: +$19.24; #1973771 XAUUSD BUY 0.03L P&L: +$9.21; #1974007 XAUUSD BUY 0.03L P&L: +$25.35; #1975346 XAUUSD BUY 0.05L P&L: $-71.95; #1975771 XAUUSD SELL 0.07L P&L: +$101.01; #1975931 XAUEUR SELL 0.02L P&L: $-5.70; #1976006 XAUUSD SELL 0.03L P&L: $-31.14; #1976118 XAUEUR SELL 0.02L P&L: $-7.59; #1978693 GBPUSD SELL 0.20L P&L: $-22.80; #1978050 XAUEUR BUY 0.04L P&L: +$13.83; #1979584 GBPUSD BUY 0.25L P&L: $-18.50; #1979599 XAUUSD BUY 0.03L P&L: $-36.87; #1979601 XAUEUR BUY 0.03L P&L: $-13.73; #1979770 XAUUSD SELL 0.04L P&L: +$0.36; #1979792 XAUEUR BUY 0.05L P&L: $-7.18; #1979805 XAUUSD BUY 0.03L P&L: $-12.15; #1980160 XAUUSD SELL 0.05L P&L: $-60.35; #1980127 GBPUSD SELL 0.30L P&L: $-36.30; #1980444 US30 BUY 0.20L P&L: $-9.32",
+                        "summary": "On 2026-11-05, the combined daily net P&L measured on equity was -$161.68 (3.23% of starting balance $5,000.00). The lowest equity of the day was $5,239.31 at 2026-11-05 15:05:50.808 (MT5 server time) against a day-start equity of $5,400.99. This exceeds the daily loss limit of 3.0% ($150.00) by $11.68; the measurement error bound for this day is $0.93. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [
+                            "#1972506 XAUEUR BUY 0.02L P&L: +$6.00",
+                            "#1972629 XAUEUR BUY 0.05L P&L: +$19.24",
+                            "#1973771 XAUUSD BUY 0.03L P&L: +$9.21",
+                            "#1974007 XAUUSD BUY 0.03L P&L: +$25.35",
+                            "#1975346 XAUUSD BUY 0.05L P&L: $-71.95",
+                            "#1975771 XAUUSD SELL 0.07L P&L: +$101.01",
+                            "#1975931 XAUEUR SELL 0.02L P&L: $-5.70",
+                            "#1976006 XAUUSD SELL 0.03L P&L: $-31.14",
+                            "#1976118 XAUEUR SELL 0.02L P&L: $-7.59",
+                            "#1978693 GBPUSD SELL 0.20L P&L: $-22.80",
+                            "#1978050 XAUEUR BUY 0.04L P&L: +$13.83",
+                            "#1979584 GBPUSD BUY 0.25L P&L: $-18.50",
+                            "#1979599 XAUUSD BUY 0.03L P&L: $-36.87",
+                            "#1979601 XAUEUR BUY 0.03L P&L: $-13.73",
+                            "#1979770 XAUUSD SELL 0.04L P&L: +$0.36",
+                            "#1979792 XAUEUR BUY 0.05L P&L: $-7.18",
+                            "#1979805 XAUUSD BUY 0.03L P&L: $-12.15",
+                            "#1980160 XAUUSD SELL 0.05L P&L: $-60.35",
+                            "#1980127 GBPUSD SELL 0.30L P&L: $-36.30",
+                            "#1980444 US30 BUY 0.20L P&L: $-9.32"
+                        ],
+                        "items_label": "Trades on this day",
+                        "detected_at_utc": "2026-11-05 14:15:04",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03488",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "d3a92143b18b1dd49ec3dc64c938938ca6bbee4958a4cb54f21e63e17800d5b0",
+                            "signed_at_utc": "2026-10-29 03:36:57",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-88FC-DB3F"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610243879-daily-loss.html",
+                        "proof": {
+                            "salt": "949071c35e3e181fc555fd1e369dad9f48487aa1153426de43e07b46ab5b8b00",
+                            "leaf_hash": "1c299e966d5f2febe7dea264d5dd94e2c2f22c9d393730e0774acda4f2000f6d",
+                            "day": "2026-11-05",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [],
                 "payouts_all": []
             },
