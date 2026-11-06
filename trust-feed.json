@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-06T13:22:01+00:00",
+    "generated_at": "2026-11-06T14:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -189,18 +189,333 @@
         }
     ],
     "stats": {
-        "count": 18,
-        "average": 4.78,
+        "count": 20,
+        "average": 4.8,
         "distribution": {
             "1": 0,
             "2": 1,
             "3": 0,
             "4": 1,
-            "5": 16
+            "5": 18
         },
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 22,
+            "rid": "0f8e6e71-c293-4d20-927d-c17b97943a33",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-06 13:57:49",
+            "payload_sha": "2b44b6f6dea57b67f9dc2972f6030e5abbe37a0eddd365afc86f7b4239bad7e1",
+            "prev": "ecc9a6c00845c4f0fb05b1ed597c66da33784bfe5701be9b6e443891eb11cf29",
+            "leaf": {
+                "salt": "efdf46a3cba0a637390d9a3036acfa5ab6b4d7fb5533dcd1b9825bb935cc9aa3",
+                "leaf_hash": "23e9e98819bf5ecd7d0035c3859d8251721deae0139d83e57d002ea3851a8284",
+                "day": "2026-11-06",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x56b8d8fe07282de57f856637597f68eb150850587aeefba13e020ab12cc5f08e",
+                    "tx": "ac96687a51e885eabe2c1670c5b1dfd4afa8eb6c02e4d4463afaad7c2e4c429d",
+                    "url": "https://base.easscan.org/attestation/view/0x56b8d8fe07282de57f856637597f68eb150850587aeefba13e020ab12cc5f08e",
+                    "tx_url": "https://basescan.org/tx/0xac96687a51e885eabe2c1670c5b1dfd4afa8eb6c02e4d4463afaad7c2e4c429d",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "bP4eOa1U7LNh3l8zWfhCbjfFFY_5k95IXcN7WhmImIs",
+                    "url": "https://arweave.net/raw/bP4eOa1U7LNh3l8zWfhCbjfFFY_5k95IXcN7WhmImIs",
+                    "view_url": "https://viewblock.io/arweave/tx/bP4eOa1U7LNh3l8zWfhCbjfFFY_5k95IXcN7WhmImIs",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "Best Prop Firm In Industry",
+            "body": "My Experience With Dolvero Is really great...\nEvrything is perfect just I did mistake from my own that's why I ended with lossing account...\n\nBut in future wherever I wanted to buy prop firm account I will 1000% going with Dolvero Only....\n\nThank you so much for support ❤️ \nPrathamesh",
+            "lang": "en",
+            "display_name": "Prathamesh D.",
+            "handle": "traderpragz",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2610177388\",\"body\":\"My Experience With Dolvero Is really great...\\nEvrything is perfect just I did mistake from my own that's why I ended with lossing account...\\n\\nBut in future wherever I wanted to buy prop firm account I will 1000% going with Dolvero Only....\\n\\nThank you so much for support ❤️ \\nPrathamesh\",\"country\":\"IN\",\"display_name\":\"Prathamesh D.\",\"handle\":\"traderpragz\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"ecc9a6c00845c4f0fb05b1ed597c66da33784bfe5701be9b6e443891eb11cf29\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-17\",\"rating\":5,\"rid\":\"0f8e6e71-c293-4d20-927d-c17b97943a33\",\"title\":\"Best Prop Firm In Industry\",\"ts\":\"2026-11-06T13:57:45Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "8466de9fb5d1662a88f6143f59c750d77df4850ce9b13bcb5941b853f7de3a90",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERd9RlauhK4w0GszATCPyGa1DQYXs\nDQhG15bo4Bm1UfNXN3zyxKhoqKeZTFjL5GVWAArdIqwM8N/SLYmGj1iChg==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiSzBTMjl0NmxlMmY1M0NseTlnTU9XcnZqZWc3ZDAyV3Z5Rzk3UWptNjEtRSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEUCIQDxc212ABTDHiurU0DpQvRbiOB6v6vqpH1qDZlbqG5ngAIgB_0WZk_NeyO7_2J3UIHNY_I7AYIpJatcGQcil2ilRdg"
+            },
+            "account": {
+                "login": "LIVE2610177388",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-17",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-10-22, the combined daily net P&L (closed trades plus floating P&L on open positions) was -$150.78 (3.02% of starting balance $5,000.00). This exceeds the daily loss limit of 3.0% ($150.00) by $0.78. Trades on this day: none Intraday equity minimum of $4,881.02 at 2026-10-22 14:54:07 (broker time, minute sampler) was $150.78 below the day-start equity of $5,031.80; the lowest point of the day counts, not only the moment of this check.",
+                        "summary": "On 2026-10-22, the combined daily net P&L (closed trades plus floating P&L on open positions) was -$150.78 (3.02% of starting balance $5,000.00). This exceeds the daily loss limit of 3.0% ($150.00) by $0.78. none Intraday equity minimum of $4,881.02 at 2026-10-22 14:54:07 (broker time, minute sampler) was $150.78 below the day-start equity of $5,031.80; the lowest point of the day counts, not only the moment of this check.",
+                        "items": [],
+                        "items_label": "Trades on this day",
+                        "detected_at_utc": "2026-10-22 13:54:31",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-01705",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "63e6183216ae442730d22b946ddfd21de6c091cafb70302f58bfa9d5c6f04fb9",
+                            "signed_at_utc": "2026-10-17 15:46:12",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-2E55-0940"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610177388-daily-loss.html",
+                        "proof": {
+                            "salt": "db071b58448c2f93df86da61fc13e938bb180076df6cc196ef015ed8fe2240b7",
+                            "leaf_hash": "6922a88c67b79404fd7fdd2338bfce1042d91e176061ca2c41a2c2be31a65166",
+                            "day": "2026-10-31",
+                            "sealed": true,
+                            "index": 3176,
+                            "path": [
+                                {
+                                    "side": "R",
+                                    "hash": "d9536de585bdf7e955f09efb0c1d25a75ae753e2709638692027707dd3fb715c"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "6a8e3811f6cc3798ceeb44264030bbaf5da36b91e4d1cec209323264844e8e02"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "bd691ec55d779935283a2831f1f0383b2106bff7143e6b094c6edfd130330798"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "24dfc4ed1f168a216026bb2eff565134a4c8cd1a83f49e0b96e8fd43a4f2d202"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "775c4b627deeaba6f59750750ada7edb698bdd378da0d6ec825e143971bab71d"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "36ae10acacee2d07cd35c61b41c9a15af9be3adcc2c5863bd4c724ec9d8438c0"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "b62ff527b2eb54a702f39bb155130a633aa1eb8c0e6931e541289056e0ae240f"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "9d9d34b70080b4b95c9b1d8e28dd5189ce69b4e20aabeaf616710e110338257d"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "21bf47af13ed066329da3d7766608c14925ad5c984ac679a5a20fbac07b26c43"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "2cfee33ebd477af5cf22bd3d2009eba13805d567543d1d2698e0454545cfebe0"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "1c0d234d42b524e14864be5535cb08d3b7ea7cc6e1d7b74c8a34fa33d7feaef0"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "d20b40ced8f0794bb73ce4a1f34d9654137f5e9b531468863abeb86353983f0b"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "9c71063a564430ae6a86ea6b277d3a68f2f23412b2f1f9d3fdf073cac9e68472"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "2c27f23730a870383a63dea370e243c19144121e976878e63664faf62e83ddaa"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "5e767c50e0f16570275dc265bb09308f4436c7cd6e6f64daa5bf575199cece9b"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "df26a751c724120e87348312ea591df2e2091d89d06ab1d04f43143bfe43ba0a"
+                                }
+                            ],
+                            "root": "38e8d1234e7a0d49fb2c196758f282b5b1416d6179bfbaf2a2f3235bef9c7230",
+                            "ots_status": "complete",
+                            "bitcoin_block": 974047,
+                            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-10-31"
+                        }
+                    }
+                ],
+                "payouts": [],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
+        {
+            "id": 21,
+            "rid": "b8e7f755-2ed8-42cc-b42d-8d2d5fad8a6e",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-06 13:53:20",
+            "payload_sha": "56e38c6b6d9b3ee2d13e7f7777bdf76be203567996b758f519bc03dc309a562c",
+            "prev": "f4852d0714065c953f7e0e3b312fa0609c80fdf550af86c690856a0eb42548a8",
+            "leaf": {
+                "salt": "15a310f32d44f89a3f736bc26e87f6af565197efa0790d9254da88b179758750",
+                "leaf_hash": "ecc9a6c00845c4f0fb05b1ed597c66da33784bfe5701be9b6e443891eb11cf29",
+                "day": "2026-11-06",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xf56c012751848099291686c536f94491f7ce3159b31842549524a0e30467ad81",
+                    "tx": "a8516bd6cbf950df960a0e27b2c6eacb9e8215b0691c4d5cc430af650041bf40",
+                    "url": "https://base.easscan.org/attestation/view/0xf56c012751848099291686c536f94491f7ce3159b31842549524a0e30467ad81",
+                    "tx_url": "https://basescan.org/tx/0xa8516bd6cbf950df960a0e27b2c6eacb9e8215b0691c4d5cc430af650041bf40",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "0seQkKbxvDYLtXLX0UeVBB1VXeb1TO4b5jOgUPUc5AY",
+                    "url": "https://arweave.net/raw/0seQkKbxvDYLtXLX0UeVBB1VXeb1TO4b5jOgUPUc5AY",
+                    "view_url": "https://viewblock.io/arweave/tx/0seQkKbxvDYLtXLX0UeVBB1VXeb1TO4b5jOgUPUc5AY",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "The Best Prop Firm",
+            "body": "My Experience With Dolvero was extremely Best \nThe Customer Support Trading Rules And The environment is best here \nReally happy to trade with Dolvero..\n\nThank you So much team Dolvero for everything for supporting...\n\nThank you so much CEO Michal Sir ❤️\n\nLooking forward to restart my journey very soon",
+            "lang": "en",
+            "display_name": "Prathamesh D.",
+            "handle": "traderpragz",
+            "country": "IN",
+            "ip_country": "IN",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2610279974\",\"body\":\"My Experience With Dolvero was extremely Best \\nThe Customer Support Trading Rules And The environment is best here \\nReally happy to trade with Dolvero..\\n\\nThank you So much team Dolvero for everything for supporting...\\n\\nThank you so much CEO Michal Sir ❤️\\n\\nLooking forward to restart my journey very soon\",\"country\":\"IN\",\"display_name\":\"Prathamesh D.\",\"handle\":\"traderpragz\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"f4852d0714065c953f7e0e3b312fa0609c80fdf550af86c690856a0eb42548a8\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-27\",\"rating\":5,\"rid\":\"b8e7f755-2ed8-42cc-b42d-8d2d5fad8a6e\",\"title\":\"The Best Prop Firm\",\"ts\":\"2026-11-06T13:53:09Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "8466de9fb5d1662a88f6143f59c750d77df4850ce9b13bcb5941b853f7de3a90",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERd9RlauhK4w0GszATCPyGa1DQYXs\nDQhG15bo4Bm1UfNXN3zyxKhoqKeZTFjL5GVWAArdIqwM8N/SLYmGj1iChg==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiVnVPTWEyMmJQdUxSUG45M2Q3MzNhLUlEVm5tV3QxajFHYndEM0RDYVZpdyIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEUCIQD33Cx4kmzZaTcmoooqpJLZCazK19mJ3BIfrGl6UopRLwIgJlpWRnc4eatOn0dVu9CeeOuVmoB4UgesILl9584-ia4"
+            },
+            "account": {
+                "login": "LIVE2610279974",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-27",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-10-29, the combined daily net P&L measured on equity was -$174.92 (3.50% of starting balance $5,000.00). The lowest equity of the day was $4,806.87 at 2026-10-29 17:47:05.222 (MT5 server time) against a day-start equity of $4,981.79. This exceeds the daily loss limit of 3.0% ($150.00) by $24.92; the measurement error bound for this day is $0.69. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #1884533 XAUUSD BUY 0.03L P&L: $-174.39; #1893071 XAUUSD SELL 0.07L P&L: +$6.44 Intraday equity minimum of $4,823.78 at 2026-10-29 17:48:13 (broker time, minute sampler) was $158.01 below the day-start equity of $4,981.79; the lowest point of the day counts, not only the moment of this check.",
+                        "summary": "On 2026-10-29, the combined daily net P&L measured on equity was -$174.92 (3.50% of starting balance $5,000.00). The lowest equity of the day was $4,806.87 at 2026-10-29 17:47:05.222 (MT5 server time) against a day-start equity of $4,981.79. This exceeds the daily loss limit of 3.0% ($150.00) by $24.92; the measurement error bound for this day is $0.69. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Intraday equity minimum of $4,823.78 at 2026-10-29 17:48:13 (broker time, minute sampler) was $158.01 below the day-start equity of $4,981.79; the lowest point of the day counts, not only the moment of this check.",
+                        "items": [
+                            "#1884533 XAUUSD BUY 0.03L P&L: $-174.39",
+                            "#1893071 XAUUSD SELL 0.07L P&L: +$6.44"
+                        ],
+                        "items_label": "Trades on this day",
+                        "detected_at_utc": "2026-10-29 16:57:36",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03331",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "7f95e9bbf50b29af86fd0cf5c55d89e35abc2e71955551974132daa366b6b0c5",
+                            "signed_at_utc": "2026-10-28 12:02:19",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-F372-1355"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610279974-daily-loss.html",
+                        "proof": {
+                            "salt": "c19aa9b30729d1aa6db15a1599fe67da7acd16fadec5b015777a824844f2080b",
+                            "leaf_hash": "176bdacb85b9c280f8e3e3429b3d71d6752d2f9a369405aa42cd115ebf390fc2",
+                            "day": "2026-10-31",
+                            "sealed": true,
+                            "index": 54193,
+                            "path": [
+                                {
+                                    "side": "L",
+                                    "hash": "b2aea0841b2eec5a33e5cbfab178c38f88ae90f000db87112aa543337b5b5522"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "ef9872e845ab0459914c34f5605b30f87099cb6f24c295d2a85d4ca438e5d53b"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "ad63a4390c71bd68e8863cb7c0488bb5ca885682b6ebea731aea7fcd809f4578"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "c404cba8a536e7313df8cf7ab1cda2fa2f1949278280e85510cfccdf5a4f4d81"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "9b28d06965ba1e73ef2ff02d864cb666753e0065cb8ae48d2af92d2e5396db66"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "6ccde9bfd0441e151457539e11494b2d949415e345a468eb800f37ff05eec18c"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "7874e93446f17034d5e3c54c1a459b417c875e7aef826763599bcaacb014e799"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "d77d35f23750345ca03e451a92234d0338d24ba870d51ecb91f665b5bbc3b1ed"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "509b658d5e3ea47c533273b9db238037a4568e312dedb2def8a0e0d9e5d359b0"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "b23950b390e802a86b677326c840e45eb74e43c477f55f31a9eb4d96d7de7809"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "ab36828b1448cd009179577eb026083d0dd58b641324d4e56175aad5c94d7d3f"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "ad910b9645f84eaac83ba1e9b78a90df4925b57291c59cf32e806a38ae51b455"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "cb7c2e11a68d95678393f703059c25716cd5d57e8a734d1155d5aaccb4178e81"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "3eda4d0ba77ce0f3b78120c96d0d9259512626fc26c02ff6768ad85cea0cfe10"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "a240fe72c5d5ac3b544eadd6d8a219163dc5197fe47a6d23386a6bf42fa81e24"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "0ea5e7934ea96355013daecd681eaada8a4d9e354ed099024c6d00ec1f0e9918"
+                                }
+                            ],
+                            "root": "38e8d1234e7a0d49fb2c196758f282b5b1416d6179bfbaf2a2f3235bef9c7230",
+                            "ots_status": "complete",
+                            "bitcoin_block": 974047,
+                            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-10-31"
+                        }
+                    }
+                ],
+                "payouts": [],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 20,
             "rid": "48b53b87-0207-46d7-83b5-9758f229e024",
