@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-06T05:22:01+00:00",
+    "generated_at": "2026-11-06T06:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -4975,8 +4975,37 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-10-10",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-11-06, the combined daily net P&L measured on equity was -$159.93 (3.20% of starting balance $5,000.00). The lowest equity of the day was $4,803.83 at 2026-11-06 06:50:58.408 (MT5 server time) against a day-start equity of $4,963.76. This exceeds the daily loss limit of 3.0% ($150.00) by $9.93; the measurement error bound for this day is $0.32. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #1989014 XAUUSD BUY 0.01L P&L: $-19.75; #1989065 XAUUSD BUY 0.01L P&L: $-12.19; #1989502 XAUUSD BUY 0.01L P&L: $-2.89; #1989914 XAUUSD SELL 0.05L P&L: $-34.55; #1990251 XAUUSD BUY 0.05L P&L: $-42.95 Intraday equity minimum of $4,810.63 at 2026-11-06 06:50:07 (broker time, minute sampler) was $153.13 below the day-start equity of $4,963.76; the lowest point of the day counts, not only the moment of this check.",
+                        "summary": "On 2026-11-06, the combined daily net P&L measured on equity was -$159.93 (3.20% of starting balance $5,000.00). The lowest equity of the day was $4,803.83 at 2026-11-06 06:50:58.408 (MT5 server time) against a day-start equity of $4,963.76. This exceeds the daily loss limit of 3.0% ($150.00) by $9.93; the measurement error bound for this day is $0.32. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Intraday equity minimum of $4,810.63 at 2026-11-06 06:50:07 (broker time, minute sampler) was $153.13 below the day-start equity of $4,963.76; the lowest point of the day counts, not only the moment of this check.",
+                        "items": [
+                            "#1989014 XAUUSD BUY 0.01L P&L: $-19.75",
+                            "#1989065 XAUUSD BUY 0.01L P&L: $-12.19",
+                            "#1989502 XAUUSD BUY 0.01L P&L: $-2.89",
+                            "#1989914 XAUUSD SELL 0.05L P&L: $-34.55",
+                            "#1990251 XAUUSD BUY 0.05L P&L: $-42.95"
+                        ],
+                        "items_label": "Trades on this day",
+                        "detected_at_utc": "2026-11-06 05:53:12",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-02908",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "3259c85e6b402a1d8bff5df920c2e92eee68238b56b309d68c48f61883e35593",
+                            "signed_at_utc": "2026-10-29 06:57:43",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-F246-5286"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610102679-daily-loss.html",
+                        "proof": {
+                            "salt": "51de658b8051975de0be9dae5f212a26c295fbe272c58d5b16c2a31f0b7906f1",
+                            "leaf_hash": "bd7516502e6abbe1a8f73e35af4288fd77c2ceaa80b2e2640c77f17ac0f87c78",
+                            "day": "2026-11-06",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [
                     {
                         "paid_on": "2026-10-27",
