@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-06T00:22:01+00:00",
+    "generated_at": "2026-11-06T01:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -29,11 +29,19 @@
         {
             "day": "2026-11-05",
             "root": "e9ea35b3b891fc4375845917e85136cd00e6672571a4303554cc0a2b5391b830",
-            "ots_status": "pending",
-            "bitcoin_block": null,
+            "ots_status": "complete",
+            "bitcoin_block": 974738,
             "sealed_at_utc": "2026-11-06 00:20:06",
             "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-05",
-            "chain": []
+            "chain": {
+                "base": {
+                    "uid": "0x055e6f82a26171a9f16d6c20ad79c4414076276d3ab7e20060e4c90973936df3",
+                    "tx": "cd3166369f923682c1b3d9fd7fd274aa6e0de55134bb6961256d4eb68fe60cda",
+                    "url": "https://base.easscan.org/attestation/view/0x055e6f82a26171a9f16d6c20ad79c4414076276d3ab7e20060e4c90973936df3",
+                    "tx_url": "https://basescan.org/tx/0xcd3166369f923682c1b3d9fd7fd274aa6e0de55134bb6961256d4eb68fe60cda",
+                    "status": "confirmed"
+                }
+            }
         },
         {
             "day": "2026-11-04",
@@ -268,8 +276,8 @@
                     }
                 ],
                 "root": "e9ea35b3b891fc4375845917e85136cd00e6672571a4303554cc0a2b5391b830",
-                "ots_status": "pending",
-                "bitcoin_block": null,
+                "ots_status": "complete",
+                "bitcoin_block": 974738,
                 "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-05"
             },
             "chain": {
@@ -5322,8 +5330,8 @@
                                 }
                             ],
                             "root": "e9ea35b3b891fc4375845917e85136cd00e6672571a4303554cc0a2b5391b830",
-                            "ots_status": "pending",
-                            "bitcoin_block": null,
+                            "ots_status": "complete",
+                            "bitcoin_block": 974738,
                             "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-05"
                         }
                     }
