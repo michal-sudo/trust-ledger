@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-07T00:22:01+00:00",
+    "generated_at": "2026-11-07T01:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -33,7 +33,15 @@
             "bitcoin_block": null,
             "sealed_at_utc": "2026-11-07 00:20:06",
             "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-06",
-            "chain": []
+            "chain": {
+                "base": {
+                    "uid": "0xd2b0ee31bc95a15b03517f1fbe1d4c1497ed0f6f2df8fafd9f927052e88d240e",
+                    "tx": "7d870d75f91661a525fd15f5ce32e0b910c907167ebd6ade3519f4a48add7f98",
+                    "url": "https://base.easscan.org/attestation/view/0xd2b0ee31bc95a15b03517f1fbe1d4c1497ed0f6f2df8fafd9f927052e88d240e",
+                    "tx_url": "https://basescan.org/tx/0x7d870d75f91661a525fd15f5ce32e0b910c907167ebd6ade3519f4a48add7f98",
+                    "status": "confirmed"
+                }
+            }
         },
         {
             "day": "2026-11-05",
