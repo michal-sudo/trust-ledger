@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-07T02:22:01+00:00",
+    "generated_at": "2026-11-07T03:22:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -29,8 +29,8 @@
         {
             "day": "2026-11-06",
             "root": "08a4aa9cdf25a9bbc8e0ffecc330b32233efc051200f3f56d966430ac5ce3767",
-            "ots_status": "pending",
-            "bitcoin_block": null,
+            "ots_status": "complete",
+            "bitcoin_block": 974877,
             "sealed_at_utc": "2026-11-07 00:20:06",
             "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-06",
             "chain": {
@@ -299,8 +299,8 @@
                     }
                 ],
                 "root": "08a4aa9cdf25a9bbc8e0ffecc330b32233efc051200f3f56d966430ac5ce3767",
-                "ots_status": "pending",
-                "bitcoin_block": null,
+                "ots_status": "complete",
+                "bitcoin_block": 974877,
                 "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-06"
             },
             "chain": {
@@ -526,8 +526,8 @@
                     }
                 ],
                 "root": "08a4aa9cdf25a9bbc8e0ffecc330b32233efc051200f3f56d966430ac5ce3767",
-                "ots_status": "pending",
-                "bitcoin_block": null,
+                "ots_status": "complete",
+                "bitcoin_block": 974877,
                 "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-06"
             },
             "chain": {
@@ -5545,8 +5545,8 @@
                                 }
                             ],
                             "root": "08a4aa9cdf25a9bbc8e0ffecc330b32233efc051200f3f56d966430ac5ce3767",
-                            "ots_status": "pending",
-                            "bitcoin_block": null,
+                            "ots_status": "complete",
+                            "bitcoin_block": 974877,
                             "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-06"
                         }
                     }
