@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-10T16:22:01+00:00",
+    "generated_at": "2026-11-10T17:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -347,8 +347,38 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-11-09",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-11-10, the combined daily net P&L measured on equity was -$156.50 (3.13% of starting balance $5,000.00). The lowest equity of the day was $4,825.00 at 2026-11-10 17:35:56.486 (MT5 server time) against a day-start equity of $4,981.50. This exceeds the daily loss limit of 3.0% ($150.00) by $6.50; the measurement error bound for this day is $3.01. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #2039363 EURUSD SELL 0.50L P&L: +$1.50; #2039422 EURUSD SELL 1.00L P&L: +$63.00; #2050435 GBPUSD BUY 0.20L P&L: $-58.00; #2051599 GBPUSD BUY 1.00L P&L: $-53.00; #2052439 GBPUSD BUY 1.00L P&L: $-92.00; #2052898 GBPUSD BUY 1.00L P&L: $-12.00",
+                        "summary": "On 2026-11-10, the combined daily net P&L measured on equity was -$156.50 (3.13% of starting balance $5,000.00). The lowest equity of the day was $4,825.00 at 2026-11-10 17:35:56.486 (MT5 server time) against a day-start equity of $4,981.50. This exceeds the daily loss limit of 3.0% ($150.00) by $6.50; the measurement error bound for this day is $3.01. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [
+                            "#2039363 EURUSD SELL 0.50L P&L: +$1.50",
+                            "#2039422 EURUSD SELL 1.00L P&L: +$63.00",
+                            "#2050435 GBPUSD BUY 0.20L P&L: $-58.00",
+                            "#2051599 GBPUSD BUY 1.00L P&L: $-53.00",
+                            "#2052439 GBPUSD BUY 1.00L P&L: $-92.00",
+                            "#2052898 GBPUSD BUY 1.00L P&L: $-12.00"
+                        ],
+                        "items_label": "Trades on this day",
+                        "detected_at_utc": "2026-11-10 16:36:28",
+                        "agreement": {
+                            "no": "DLV-RLA-2611-04698",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "67a3839add1b08bf77017f5ff53c9817244284fa8a48d71f2d91e41b1ca133a9",
+                            "signed_at_utc": "2026-11-09 11:20:08",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2611-41F5-03AC"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2611092188-daily-loss.html",
+                        "proof": {
+                            "salt": "a1201845e4d5bb11a7bd7c1905f9e81143f21106d90865124223649778a2704c",
+                            "leaf_hash": "c1b78879b541b6d0b6ae70193047b27362ab9590fbc7925106df34cf03a6b7fd",
+                            "day": "2026-11-10",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [],
                 "payouts_all": []
             },
