@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-11T10:21:01+00:00",
+    "generated_at": "2026-11-11T11:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -304,18 +304,87 @@
         }
     ],
     "stats": {
-        "count": 22,
-        "average": 4.82,
+        "count": 23,
+        "average": 4.83,
         "distribution": {
             "1": 0,
             "2": 1,
             "3": 0,
             "4": 1,
-            "5": 20
+            "5": 21
         },
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 25,
+            "rid": "6f4cfe3f-acd3-4b3d-9795-97bbf90612a7",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-11 10:27:13",
+            "payload_sha": "d9b58b8e28573b084e83e4a05ddda3f6f9ab0e87e0a7aff1ea548896531ed4e2",
+            "prev": "276416796433d51655284d48bc93400522ca0054553c15cea6d1942b2e081d88",
+            "leaf": {
+                "salt": "7d1afe50c520be72accdb328b77333971c17892f54459217e523f329164b4059",
+                "leaf_hash": "3811ff81fbcfdc6974ff9bf3d85f01983d1c625de3db68e6b397087cc23cec11",
+                "day": "2026-11-11",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xda86b27a37e665e37e05b05533a4c18970b9a796a904a731a0991d24b41df277",
+                    "tx": "494bf90ac12694443314e46db1159138bdde75be83f8c217b8a60e8fb23f897b",
+                    "url": "https://base.easscan.org/attestation/view/0xda86b27a37e665e37e05b05533a4c18970b9a796a904a731a0991d24b41df277",
+                    "tx_url": "https://basescan.org/tx/0x494bf90ac12694443314e46db1159138bdde75be83f8c217b8a60e8fb23f897b",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "RD1sNczGuI43LLIM6GqLD9TkDM5KnV_vElhKW6_dGQY",
+                    "url": "https://arweave.net/raw/RD1sNczGuI43LLIM6GqLD9TkDM5KnV_vElhKW6_dGQY",
+                    "view_url": "https://viewblock.io/arweave/tx/RD1sNczGuI43LLIM6GqLD9TkDM5KnV_vElhKW6_dGQY",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "My First Payout Approved, Thank You Dolvero!",
+            "body": "This was my first experience with a prop firm, and I'm genuinely grateful to Dolvero for giving me this opportunity.\n\nMy first payout went through a longer review process because of some compliance concerns. Although the waiting process was quite stressful, the support team took the time to investigate my case thoroughly, listened to my explanations, and ultimately approved my payout.\n\nSpecial thanks to Michal, Dominika, Pavel, Miguel, and the entire Dolvero team for their patience, professionalism, and fairness.\n\nWhat I appreciate most is that they didn't rush to a decision and gave me a chance to explain my situation.\n\nI'm really happy to have received my first payout. Thank you, Dolvero! ❤️🙏",
+            "lang": "en",
+            "display_name": "Dawud Putra",
+            "handle": "dawud-p-5b35",
+            "country": "ID",
+            "ip_country": "ID",
+            "device": "desktop/Windows",
+            "payload": "{\"account_login\":\"LIVE2610189063\",\"body\":\"This was my first experience with a prop firm, and I'm genuinely grateful to Dolvero for giving me this opportunity.\\n\\nMy first payout went through a longer review process because of some compliance concerns. Although the waiting process was quite stressful, the support team took the time to investigate my case thoroughly, listened to my explanations, and ultimately approved my payout.\\n\\nSpecial thanks to Michal, Dominika, Pavel, Miguel, and the entire Dolvero team for their patience, professionalism, and fairness.\\n\\nWhat I appreciate most is that they didn't rush to a decision and gave me a chance to explain my situation.\\n\\nI'm really happy to have received my first payout. Thank you, Dolvero! ❤️🙏\",\"country\":\"ID\",\"display_name\":\"Dawud Putra\",\"handle\":\"dawud-p-5b35\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"276416796433d51655284d48bc93400522ca0054553c15cea6d1942b2e081d88\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-18\",\"rating\":5,\"rid\":\"6f4cfe3f-acd3-4b3d-9795-97bbf90612a7\",\"title\":\"My First Payout Approved, Thank You Dolvero!\",\"ts\":\"2026-11-11T10:26:42Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "b4d6df257efbcfa328b7375608576dc9c271e5d52f1ab32e77e33a8149a3defc",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgGy3CoY4ZxYmZhfbmJUYSt+DecYb\n1THtmzVgwyeV9BHnCxwEhFVR+VIxtrrdboEyka3HG6yWqQGndOHeEzLFcQ==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiMmJXTGppaFhPd2hPZy1TZ1hkMmo5dm1yRG9mZ3A2X3g2bFNJbGxNZTFPSSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccZAAAAAA",
+                "signature": "MEUCIFL1yVqQFCoHTrVwkh930S2ikAa5neDknwvh8iBBFNPRAiEA3DwQAxZ9qcScFtco56awQvDDUvOhsiPIbGLu19Hs49Y"
+            },
+            "account": {
+                "login": "LIVE2610189063",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-18",
+                "status": "funded",
+                "breaches": [],
+                "payouts": [
+                    {
+                        "paid_on": "2026-11-11",
+                        "amount_usd": 106.25,
+                        "code": "DLV-TOC1WD-AFEE35",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TOC1WD-AFEE35"
+                    }
+                ],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 24,
             "rid": "b219f292-6212-4a75-8c77-72f9374848b3",
