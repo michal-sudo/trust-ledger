@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-12T12:21:02+00:00",
+    "generated_at": "2026-11-12T13:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -838,8 +838,84 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-11-08",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-11-12, the combined daily net P&L measured on equity was -$201.86 (4.04% of starting balance $5,000.00). The lowest equity of the day was $4,653.72 at 2026-11-12 13:03:12.857 (MT5 server time) against a day-start equity of $4,855.58. This exceeds the daily loss limit of 3.0% ($150.00) by $51.86; the measurement error bound for this day is $2.26. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #2070001 XAUUSD BUY 0.02L P&L: $-233.04; #2090108 XAUUSD SELL 0.10L P&L: +$8.20; #2090121 XAUUSD SELL 0.10L P&L: +$1.90; #2090191 XAUUSD SELL 0.50L P&L: +$251.00 Intraday equity minimum of $4,683.86 at 2026-11-12 13:03:09 (broker time, minute sampler) was $316.14 below the day-start equity of $5,000.00; the lowest point of the day counts, not only the moment of this check.",
+                        "summary": "On 2026-11-12, the combined daily net P&L measured on equity was -$201.86 (4.04% of starting balance $5,000.00). The lowest equity of the day was $4,653.72 at 2026-11-12 13:03:12.857 (MT5 server time) against a day-start equity of $4,855.58. This exceeds the daily loss limit of 3.0% ($150.00) by $51.86; the measurement error bound for this day is $2.26. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Intraday equity minimum of $4,683.86 at 2026-11-12 13:03:09 (broker time, minute sampler) was $316.14 below the day-start equity of $5,000.00; the lowest point of the day counts, not only the moment of this check.",
+                        "items": [
+                            "#2070001 XAUUSD BUY 0.02L P&L: $-233.04",
+                            "#2090108 XAUUSD SELL 0.10L P&L: +$8.20",
+                            "#2090121 XAUUSD SELL 0.10L P&L: +$1.90",
+                            "#2090191 XAUUSD SELL 0.50L P&L: +$251.00"
+                        ],
+                        "items_label": "Trades on this day",
+                        "detected_at_utc": "2026-11-12 12:27:59",
+                        "agreement": {
+                            "no": "DLV-RLA-2611-04633",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "1379b2667e994d3480101a70eb8e5ff717cc5f12d0c031ab9a2cc8338901af09",
+                            "signed_at_utc": "2026-11-08 11:33:39",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2611-94E6-8E19"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2611087257-hedging.html",
+                        "proof": {
+                            "salt": "1c3793c806520f1ae0ab1d2112034a67b66b8eef3a838a4483e3b9ae3f865aff",
+                            "leaf_hash": "a3649dbdec1c6361ce36467879d63c8003916d5de7b4f291efcf7d2d26c33786",
+                            "day": "2026-11-12",
+                            "sealed": false
+                        }
+                    },
+                    {
+                        "rule": "Trailing Drawdown",
+                        "detail": "Maximum drawdown reached 6.93% ($346.28 from peak $5,000.00), exceeding the trailing limit of 5.0% ($250.00). The lowest equity was $4,653.72 on 2026-11-12 at 13:03:12.857 (MT5 server time), $96.28 below the floor of $4,750.00; the measurement error bound for that day is $2.20. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "summary": "Maximum drawdown reached 6.93% ($346.28 from peak $5,000.00), exceeding the trailing limit of 5.0% ($250.00). The lowest equity was $4,653.72 on 2026-11-12 at 13:03:12.857 (MT5 server time), $96.28 below the floor of $4,750.00; the measurement error bound for that day is $2.20. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [],
+                        "items_label": "",
+                        "detected_at_utc": "2026-11-12 12:27:59",
+                        "agreement": {
+                            "no": "DLV-RLA-2611-04633",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "1379b2667e994d3480101a70eb8e5ff717cc5f12d0c031ab9a2cc8338901af09",
+                            "signed_at_utc": "2026-11-08 11:33:39",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2611-94E6-8E19"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2611087257-hedging.html",
+                        "proof": {
+                            "salt": "61d8d9ae5c02661c1b1bc48a62afb5a8473b5fd7c7be0a68f98e8324699a1d33",
+                            "leaf_hash": "d6acacc4e55a83c85624c3c5597d8aaa4be53976dfaba17ceb01a4d5bb40c5d1",
+                            "day": "2026-11-12",
+                            "sealed": false
+                        }
+                    },
+                    {
+                        "rule": "Prohibited Strategies",
+                        "detail": "Prohibited trading strategies detected: Detected: 3 hedging. These strategies are not allowed as they can be used to manipulate drawdown calculations or constitute gambling behavior. Details: Hedging on XAUUSD: Trade #2070001 (BUY, 0.02 lots) vs Trade #2090108 (SELL, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #2070001 (BUY, 0.02 lots) vs Trade #2090121 (SELL, 0.10 lots) - opposite positions open simultaneously; Hedging on XAUUSD: Trade #2070001 (BUY, 0.02 lots) vs Trade #2090191 (SELL, 0.50 lots) - opposite positions open simultaneously",
+                        "summary": "3 hedging pairs on XAUUSD: a buy and a sell on the same instrument were open at the same moment. Position #2070001 (BUY, 0.02 lots) was held open against 2 sells of 0.10 lots and 1 sell of 0.50 lots.",
+                        "items": [
+                            "#2090108 SELL 0.10 lots",
+                            "#2090121 SELL 0.10 lots",
+                            "#2090191 SELL 0.50 lots"
+                        ],
+                        "items_label": "Opposite positions open at the same time as #2070001",
+                        "detected_at_utc": "2026-11-12 12:27:59",
+                        "agreement": {
+                            "no": "DLV-RLA-2611-04633",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "1379b2667e994d3480101a70eb8e5ff717cc5f12d0c031ab9a2cc8338901af09",
+                            "signed_at_utc": "2026-11-08 11:33:39",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2611-94E6-8E19"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2611087257-hedging.html",
+                        "proof": {
+                            "salt": "8bfd9b1c91d1c4c1b9bac342bbc9aa4e36b43a09075dd5ed7a10162d35b57eb4",
+                            "leaf_hash": "a11f11daa4fb027275b0c3b8ed628a7e98d92119f22f0de6f1876ee48728281e",
+                            "day": "2026-11-12",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [],
                 "payouts_all": []
             },
