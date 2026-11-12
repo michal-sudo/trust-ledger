@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-12T01:21:01+00:00",
+    "generated_at": "2026-11-12T02:21:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -29,8 +29,8 @@
         {
             "day": "2026-11-11",
             "root": "98f1d87702d852407da67069ddde4b188979f6ed9aea75c4cca49eedcf6686d5",
-            "ots_status": "pending",
-            "bitcoin_block": null,
+            "ots_status": "complete",
+            "bitcoin_block": 975499,
             "sealed_at_utc": "2026-11-12 00:20:08",
             "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-11",
             "chain": {
@@ -414,8 +414,8 @@
                     }
                 ],
                 "root": "98f1d87702d852407da67069ddde4b188979f6ed9aea75c4cca49eedcf6686d5",
-                "ots_status": "pending",
-                "bitcoin_block": null,
+                "ots_status": "complete",
+                "bitcoin_block": 975499,
                 "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-11"
             },
             "chain": {
@@ -1872,8 +1872,8 @@
                                 }
                             ],
                             "root": "98f1d87702d852407da67069ddde4b188979f6ed9aea75c4cca49eedcf6686d5",
-                            "ots_status": "pending",
-                            "bitcoin_block": null,
+                            "ots_status": "complete",
+                            "bitcoin_block": 975499,
                             "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-11"
                         }
                     }
