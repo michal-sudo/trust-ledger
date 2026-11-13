@@ -1,5 +1,11 @@
 [
  {
+  "day": "2026-11-12",
+  "root": "1b5f55cc7f5c5ab01f6ed4a2c4fea8407357f2c7c053a82f98e3833218997cf5",
+  "bitcoin_block": null,
+  "chain": []
+ },
+ {
   "day": "2026-11-11",
   "root": "98f1d87702d852407da67069ddde4b188979f6ed9aea75c4cca49eedcf6686d5",
   "bitcoin_block": 975499,
