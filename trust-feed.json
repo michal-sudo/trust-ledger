@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-15T07:21:02+00:00",
+    "generated_at": "2026-11-15T08:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -396,18 +396,87 @@
         }
     ],
     "stats": {
-        "count": 23,
+        "count": 24,
         "average": 4.83,
         "distribution": {
             "1": 0,
             "2": 1,
             "3": 0,
             "4": 1,
-            "5": 21
+            "5": 22
         },
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 26,
+            "rid": "e44742f0-6a53-4318-a3ce-d08725d3d7f4",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-15 08:07:43",
+            "payload_sha": "f4956e5a9e51f4641f83a67fa341ba314b87303c97d4aa840c8bc0208c579b0d",
+            "prev": "3811ff81fbcfdc6974ff9bf3d85f01983d1c625de3db68e6b397087cc23cec11",
+            "leaf": {
+                "salt": "21b4c5a0c818de4f949134689f1acef34bb175a3303e0b7921efc5bf1dd3cbf0",
+                "leaf_hash": "90ec9862dafdd6727283603122cea7d9bb6c9f364fa7569d35c77c01dd5af13a",
+                "day": "2026-11-15",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x5f506c1659d430840f1637eb370da983e2d2b8c9040f734e8b9274ff7071c825",
+                    "tx": "93bab1140c71ed42f3e181b166c98fd877e03fa4ceedfbdc82ebaf4e26f2287e",
+                    "url": "https://base.easscan.org/attestation/view/0x5f506c1659d430840f1637eb370da983e2d2b8c9040f734e8b9274ff7071c825",
+                    "tx_url": "https://basescan.org/tx/0x93bab1140c71ed42f3e181b166c98fd877e03fa4ceedfbdc82ebaf4e26f2287e",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "5FtsS03c1_bKTq5HY8McFSeNS1W7r1sxcl6l-j-2B0U",
+                    "url": "https://arweave.net/raw/5FtsS03c1_bKTq5HY8McFSeNS1W7r1sxcl6l-j-2B0U",
+                    "view_url": "https://viewblock.io/arweave/tx/5FtsS03c1_bKTq5HY8McFSeNS1W7r1sxcl6l-j-2B0U",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "Great Support and a Positive,Fast Payout Experience with Dolvero",
+            "body": "I recently received my payout from Dolvero, and I genuinely appreciate the way the team handled my situation.\nA special thanks to Michal, the CEO, who personally stepped in and helped me throughout the process. He took the time to listen, understand my situation and provide support. It's not something you see every day.\nWhat I appreciate most is that even when a trader makes a mistake, the team is willing to listen and understand the situation instead of simply ignoring their concerns.\nI also want to thank the support team for their assistance and patience.\nOverall, I'm happy with my experience and grateful for the support I received. Looking forward to continuing my journey with Dolvero!\nHighly appreciate the team and especially Michal for his personal involvement. ❤️",
+            "lang": "en",
+            "display_name": "Usman Hashmi",
+            "handle": "usman-h-2e48",
+            "country": "PK",
+            "ip_country": "PK",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2610298081\",\"body\":\"I recently received my payout from Dolvero, and I genuinely appreciate the way the team handled my situation.\\nA special thanks to Michal, the CEO, who personally stepped in and helped me throughout the process. He took the time to listen, understand my situation and provide support. It's not something you see every day.\\nWhat I appreciate most is that even when a trader makes a mistake, the team is willing to listen and understand the situation instead of simply ignoring their concerns.\\nI also want to thank the support team for their assistance and patience.\\nOverall, I'm happy with my experience and grateful for the support I received. Looking forward to continuing my journey with Dolvero!\\nHighly appreciate the team and especially Michal for his personal involvement. ❤️\",\"country\":\"PK\",\"display_name\":\"Usman Hashmi\",\"handle\":\"usman-h-2e48\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"3811ff81fbcfdc6974ff9bf3d85f01983d1c625de3db68e6b397087cc23cec11\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-29\",\"rating\":5,\"rid\":\"e44742f0-6a53-4318-a3ce-d08725d3d7f4\",\"title\":\"Great Support and a Positive,Fast Payout Experience with Dolvero\",\"ts\":\"2026-11-15T08:07:20Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "2e036e83d25fecca2b0d8e9f25e1a9fce7fed349795f7886a5e96521ec1aa308",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoKY/J63FxSLLurZ4he+0DQtKJlKz\nc91C/S/I6RN3h4+vB26KdDrOaQKSz12nq6hompBT6++SBnVC1KysAVqHUw==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiOUpWdVdwNVI5R1FmZzZaX28wRzZNVXVITUR5WDFLcUVESXZBSUl4WG13MCIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlLCJvdGhlcl9rZXlzX2Nhbl9iZV9hZGRlZF9oZXJlIjoiZG8gbm90IGNvbXBhcmUgY2xpZW50RGF0YUpTT04gYWdhaW5zdCBhIHRlbXBsYXRlLiBTZWUgaHR0cHM6Ly9nb28uZ2wveWFiUGV4In0",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEUCIQDAhDO8k6Hx_gRqwDS5p-TbBErAnXdz0oLZSK1TmQaoYQIgTQFGn1DSy-_ryTvohpNVDmRQLINrzSuHdpoaurjnFcY"
+            },
+            "account": {
+                "login": "LIVE2610298081",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-29",
+                "status": "funded",
+                "breaches": [],
+                "payouts": [
+                    {
+                        "paid_on": "2026-11-14",
+                        "amount_usd": 101,
+                        "code": "DLV-TOI94W-617A69",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TOI94W-617A69"
+                    }
+                ],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 25,
             "rid": "6f4cfe3f-acd3-4b3d-9795-97bbf90612a7",
