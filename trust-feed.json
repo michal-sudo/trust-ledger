@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-18T14:21:01+00:00",
+    "generated_at": "2026-11-18T15:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -6366,6 +6366,13 @@
                         "amount_usd": 6224,
                         "code": "DLV-TK0CEC-CAE904",
                         "verify_url": "https://app.dolvero.com/verify?code=DLV-TK0CEC-CAE904"
+                    },
+                    {
+                        "paid_on": "2026-11-18",
+                        "account_login": "ACC-2026-59508",
+                        "amount_usd": 1459.52,
+                        "code": "DLV-TOPDEN-1FE5D8",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TOPDEN-1FE5D8"
                     }
                 ]
             },
