@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-18T01:21:01+00:00",
+    "generated_at": "2026-11-18T02:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -39,6 +39,12 @@
                     "tx": "db560efd80f53b7fe6d14be40efc0b2d5ff7718ebc3b138c3e04b631a97c2910",
                     "url": "https://base.easscan.org/attestation/view/0x480640e1acea0bb5ade6419205268f55e9cae47464c2dd9a47402eabea1c7b70",
                     "tx_url": "https://basescan.org/tx/0xdb560efd80f53b7fe6d14be40efc0b2d5ff7718ebc3b138c3e04b631a97c2910",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "5p-CVPI7fLX0-UCaA6yNsV-G1Ldh6WGp37_mdyM4dEA",
+                    "url": "https://arweave.net/raw/5p-CVPI7fLX0-UCaA6yNsV-G1Ldh6WGp37_mdyM4dEA",
+                    "view_url": "https://viewblock.io/arweave/tx/5p-CVPI7fLX0-UCaA6yNsV-G1Ldh6WGp37_mdyM4dEA",
                     "status": "confirmed"
                 }
             }
@@ -596,8 +602,31 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-10-29",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Trailing Drawdown",
+                        "detail": "Maximum drawdown reached 5.17% ($271.42 from peak $5,245.56), exceeding the trailing limit of 5.0% ($262.28). The lowest equity was $4,974.14 on 2026-11-18 at 02:15:50.730 (MT5 server time), $9.14 below the floor of $4,983.28; the measurement error bound for that day is $0.12. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "summary": "Maximum drawdown reached 5.17% ($271.42 from peak $5,245.56), exceeding the trailing limit of 5.0% ($262.28). The lowest equity was $4,974.14 on 2026-11-18 at 02:15:50.730 (MT5 server time), $9.14 below the floor of $4,983.28; the measurement error bound for that day is $0.12. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [],
+                        "items_label": "",
+                        "detected_at_utc": "2026-11-18 01:24:07",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03784",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "e1546f3cb16c1792c6b936e3c996cc426ce90681a0d2e2a79e28006f7682ffbe",
+                            "signed_at_utc": "2026-10-29 14:45:48",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-A029-F60B"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610298081-trailing-dd.html",
+                        "proof": {
+                            "salt": "8b3b1457e8d31db069e13e9083f0bd0ef3daa4343dd25aa3d2c0910d0563fc32",
+                            "leaf_hash": "2dbe16add75313121fb42a7c51dbe55582cf3c2f2435f96866e5be6246168cec",
+                            "day": "2026-11-18",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [
                     {
                         "paid_on": "2026-11-14",
