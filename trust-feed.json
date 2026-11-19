@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-19T17:21:01+00:00",
+    "generated_at": "2026-11-19T18:21:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -488,18 +488,81 @@
         }
     ],
     "stats": {
-        "count": 24,
-        "average": 4.83,
+        "count": 25,
+        "average": 4.76,
         "distribution": {
             "1": 0,
             "2": 1,
-            "3": 0,
+            "3": 1,
             "4": 1,
             "5": 22
         },
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 27,
+            "rid": "d56f5aae-6012-4ed0-9a2d-45549155d79e",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-19 18:00:03",
+            "payload_sha": "be9b771493c34217d75728727db4d2d9ba2d55cc1d95c00fcf73990b2515f876",
+            "prev": "90ec9862dafdd6727283603122cea7d9bb6c9f364fa7569d35c77c01dd5af13a",
+            "leaf": {
+                "salt": "26c0b3fc12ba9fa5d9b6337c0807969ebcbd3f830a793d9c47d61acf8e557fa7",
+                "leaf_hash": "264ab3f9d0dc1faab03ec4dbbef122553ae85da2e8c098806f7b5299bbef790a",
+                "day": "2026-11-19",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xbd4e303b6c386917d8f1a41fe7a2eff4c668004d3c285448efa3a8930206bfad",
+                    "tx": "8280430e572554eca5312af085ad7cc988f6b49b880c6ef16238d5480deec7ea",
+                    "url": "https://base.easscan.org/attestation/view/0xbd4e303b6c386917d8f1a41fe7a2eff4c668004d3c285448efa3a8930206bfad",
+                    "tx_url": "https://basescan.org/tx/0x8280430e572554eca5312af085ad7cc988f6b49b880c6ef16238d5480deec7ea",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "JcPcqd1TcjWGoNZbrO3Xunx6zkZAfKpIpQxzM_CM_vg",
+                    "url": "https://arweave.net/raw/JcPcqd1TcjWGoNZbrO3Xunx6zkZAfKpIpQxzM_CM_vg",
+                    "view_url": "https://viewblock.io/arweave/tx/JcPcqd1TcjWGoNZbrO3Xunx6zkZAfKpIpQxzM_CM_vg",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 3,
+            "title": "Excellent Support, Questionable Trading Rules",
+            "body": "I have received my payout, and I genuinely appreciate the firm for processing it. However, unfortunately, receiving that payout also cost me my account.\n\nOne thing I must give this firm credit for is its support team. I have never experienced such fast responses from any other prop firm. Their support is 110% active, responsive, and professional. I genuinely appreciate that.\n\nHowever, some of their trading rules are extremely confusing and seem quite different from how other firms interpret the same strategies.\n\nLet me give you a simple example: Martingale Trading.\n\nAccording to their rules, if you open a 0.05 lot position, you can open additional positions with the same lot size or smaller, but you cannot increase the lot size. Otherwise, your trading activity may be classified as Martingale, which could result in an account breach or termination.\n\nI have been trading since 2018, almost a decade now. Prop firms became significantly more popular after the Bitcoin era, and I have also traded with firms like FTMO. Honestly, I have never seen Martingale interpreted this way. Even when you are not increasing your lot size, certain trading patterns can apparently fall under their Martingale restrictions.\n\nThen comes the issue of layering.\n\nTheir bot indicates that you can have up to five trades open at a time, but according to the CEO, if you already have one position open and try to place another, it can be considered account bridging.\n\nSo, how exactly is a trader supposed to manage multiple entries and trade normally under these conditions?\n\nAt this point, it feels like traders are not even being given a fair opportunity to demonstrate their strategy.\n\nAnother example: suppose I take a trade with a 50-pip stop loss. It hits SL, and my trading setup appears again, but this time the required stop loss is only 20 pips. Naturally, I would need to adjust my lot size according to my risk management rules. But increasing the lot size after a previous trade has closed can apparently become another issue.\n\nThe previous trade is already closed, the risk has been recalculated, and the strategy is being followed. Yet, this can still be interpreted as a violation.\n\nHonestly, I find this system extremely difficult to understand. These are very strict and unusual interpretations of trading strategies, and I have personally never encountered such an approach elsewhere.\n\nMy account is gone, and although I received my payout, it was only $169.78 before the firm's share, leaving me with approximately $108.\n\nMy advice to other traders: If you are considering this firm, understand every single detail of its trading rules before purchasing an account. Do not rely solely on what the bot says; make sure you get written clarification from the management.\n\nI appreciate the firm, especially its outstanding support and fast payout processing. But when it comes to trading rules and their interpretation, there is definitely room for improvement.\n\nAt this point, I would say: take your first payout, but don't assume that getting the next one will be equally straightforward.",
+            "lang": "en",
+            "display_name": "Naeem N.",
+            "handle": "naeem-n-a9af",
+            "country": "PK",
+            "ip_country": "PK",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2610078633\",\"body\":\"I have received my payout, and I genuinely appreciate the firm for processing it. However, unfortunately, receiving that payout also cost me my account.\\n\\nOne thing I must give this firm credit for is its support team. I have never experienced such fast responses from any other prop firm. Their support is 110% active, responsive, and professional. I genuinely appreciate that.\\n\\nHowever, some of their trading rules are extremely confusing and seem quite different from how other firms interpret the same strategies.\\n\\nLet me give you a simple example: Martingale Trading.\\n\\nAccording to their rules, if you open a 0.05 lot position, you can open additional positions with the same lot size or smaller, but you cannot increase the lot size. Otherwise, your trading activity may be classified as Martingale, which could result in an account breach or termination.\\n\\nI have been trading since 2018, almost a decade now. Prop firms became significantly more popular after the Bitcoin era, and I have also traded with firms like FTMO. Honestly, I have never seen Martingale interpreted this way. Even when you are not increasing your lot size, certain trading patterns can apparently fall under their Martingale restrictions.\\n\\nThen comes the issue of layering.\\n\\nTheir bot indicates that you can have up to five trades open at a time, but according to the CEO, if you already have one position open and try to place another, it can be considered account bridging.\\n\\nSo, how exactly is a trader supposed to manage multiple entries and trade normally under these conditions?\\n\\nAt this point, it feels like traders are not even being given a fair opportunity to demonstrate their strategy.\\n\\nAnother example: suppose I take a trade with a 50-pip stop loss. It hits SL, and my trading setup appears again, but this time the required stop loss is only 20 pips. Naturally, I would need to adjust my lot size according to my risk management rules. But increasing the lot size after a previous trade has closed can apparently become another issue.\\n\\nThe previous trade is already closed, the risk has been recalculated, and the strategy is being followed. Yet, this can still be interpreted as a violation.\\n\\nHonestly, I find this system extremely difficult to understand. These are very strict and unusual interpretations of trading strategies, and I have personally never encountered such an approach elsewhere.\\n\\nMy account is gone, and although I received my payout, it was only $169.78 before the firm's share, leaving me with approximately $108.\\n\\nMy advice to other traders: If you are considering this firm, understand every single detail of its trading rules before purchasing an account. Do not rely solely on what the bot says; make sure you get written clarification from the management.\\n\\nI appreciate the firm, especially its outstanding support and fast payout processing. But when it comes to trading rules and their interpretation, there is definitely room for improvement.\\n\\nAt this point, I would say: take your first payout, but don't assume that getting the next one will be equally straightforward.\",\"country\":\"PK\",\"display_name\":\"Naeem N.\",\"handle\":\"naeem-n-a9af\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"90ec9862dafdd6727283603122cea7d9bb6c9f364fa7569d35c77c01dd5af13a\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-10-07\",\"rating\":3,\"rid\":\"d56f5aae-6012-4ed0-9a2d-45549155d79e\",\"title\":\"Excellent Support, Questionable Trading Rules\",\"ts\":\"2026-11-19T18:00:00Z\",\"v\":1}",
+            "signature": {
+                "method": "session"
+            },
+            "account": {
+                "login": "LIVE2610078633",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-10-07",
+                "status": "funded",
+                "breaches": [],
+                "payouts": [
+                    {
+                        "paid_on": "2026-11-05",
+                        "amount_usd": 109.23,
+                        "code": "DLV-TO1GHH-4D2237",
+                        "verify_url": "https://app.dolvero.com/verify?code=DLV-TO1GHH-4D2237"
+                    }
+                ],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 26,
             "rid": "e44742f0-6a53-4318-a3ce-d08725d3d7f4",
