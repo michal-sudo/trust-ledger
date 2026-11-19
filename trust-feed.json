@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-19T03:21:02+00:00",
+    "generated_at": "2026-11-19T04:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -859,8 +859,65 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-10-18",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-11-19, the combined daily net P&L measured on equity was -$337.55 (6.75% of starting balance $5,000.00). The lowest equity of the day was $4,743.25 at 2026-11-19 05:02:36.071 (MT5 server time) against a day-start equity of $5,080.80. This exceeds the daily loss limit of 3.0% ($150.00) by $187.55; the measurement error bound for this day is $0.00. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #2167742 XAUUSD SELL 0.05L P&L: +$5.30; #2167840 XAUUSD BUY 0.05L P&L: $-19.55; #2167907 XAUUSD BUY 0.10L P&L: $-50.10; #2167981 XAUUSD SELL 0.20L P&L: +$29.80; #2168197 XAUUSD BUY 0.05L P&L: $-25.10; #2168254 XAUUSD BUY 0.10L P&L: +$2.30; #2168339 XAUUSD BUY 0.05L P&L: $-24.80; #2168402 XAUUSD BUY 0.05L P&L: +$21.80; #2168536 XAUUSD SELL 0.20L P&L: $-100.80; #2168546 XAUUSD SELL 0.20L P&L: $-102.20; #2168554 XAUUSD SELL 0.20L P&L: $-74.20 Intraday equity minimum of $4,798.05 at 2026-11-19 05:02:05 (broker time, minute sampler) was $434.53 below the day-start equity of $5,232.58; the lowest point of the day counts, not only the moment of this check.",
+                        "summary": "On 2026-11-19, the combined daily net P&L measured on equity was -$337.55 (6.75% of starting balance $5,000.00). The lowest equity of the day was $4,743.25 at 2026-11-19 05:02:36.071 (MT5 server time) against a day-start equity of $5,080.80. This exceeds the daily loss limit of 3.0% ($150.00) by $187.55; the measurement error bound for this day is $0.00. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Intraday equity minimum of $4,798.05 at 2026-11-19 05:02:05 (broker time, minute sampler) was $434.53 below the day-start equity of $5,232.58; the lowest point of the day counts, not only the moment of this check.",
+                        "items": [
+                            "#2167742 XAUUSD SELL 0.05L P&L: +$5.30",
+                            "#2167840 XAUUSD BUY 0.05L P&L: $-19.55",
+                            "#2167907 XAUUSD BUY 0.10L P&L: $-50.10",
+                            "#2167981 XAUUSD SELL 0.20L P&L: +$29.80",
+                            "#2168197 XAUUSD BUY 0.05L P&L: $-25.10",
+                            "#2168254 XAUUSD BUY 0.10L P&L: +$2.30",
+                            "#2168339 XAUUSD BUY 0.05L P&L: $-24.80",
+                            "#2168402 XAUUSD BUY 0.05L P&L: +$21.80",
+                            "#2168536 XAUUSD SELL 0.20L P&L: $-100.80",
+                            "#2168546 XAUUSD SELL 0.20L P&L: $-102.20",
+                            "#2168554 XAUUSD SELL 0.20L P&L: $-74.20"
+                        ],
+                        "items_label": "Trades on this day",
+                        "detected_at_utc": "2026-11-19 04:03:32",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03570",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "7c654a4b40e2c67e47dba1c965b03ed71d931071cd0b01a89d34f00b6de4562b",
+                            "signed_at_utc": "2026-10-29 06:28:31",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-B68D-C341"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610189063-trailing-dd.html",
+                        "proof": {
+                            "salt": "9ea98c7757dd553448e52f7a974b1226bfce45a6c060e00e88e72123944a6fbd",
+                            "leaf_hash": "4c9e846bb63c3e930126277c18558090d4fffd16e434d15481578072c47d4cb7",
+                            "day": "2026-11-19",
+                            "sealed": false
+                        }
+                    },
+                    {
+                        "rule": "Trailing Drawdown",
+                        "detail": "Maximum drawdown reached 7.93% ($408.53 from peak $5,151.78), exceeding the trailing limit of 5.0% ($257.59). The lowest equity was $4,743.25 on 2026-11-19 at 05:02:36.071 (MT5 server time), $150.94 below the floor of $4,894.19; the measurement error bound for that day is $0.00. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "summary": "Maximum drawdown reached 7.93% ($408.53 from peak $5,151.78), exceeding the trailing limit of 5.0% ($257.59). The lowest equity was $4,743.25 on 2026-11-19 at 05:02:36.071 (MT5 server time), $150.94 below the floor of $4,894.19; the measurement error bound for that day is $0.00. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [],
+                        "items_label": "",
+                        "detected_at_utc": "2026-11-19 04:03:32",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03570",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "7c654a4b40e2c67e47dba1c965b03ed71d931071cd0b01a89d34f00b6de4562b",
+                            "signed_at_utc": "2026-10-29 06:28:31",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-B68D-C341"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610189063-trailing-dd.html",
+                        "proof": {
+                            "salt": "210a067482b391f81f81b431063dc1991511efed7d081baaeb21b014af739f11",
+                            "leaf_hash": "5081a718643d406b375254e3df7e33dfb4ba5eb0a55e3a4b68e5be761ea645a6",
+                            "day": "2026-11-19",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [
                     {
                         "paid_on": "2026-11-11",
