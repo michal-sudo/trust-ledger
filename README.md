@@ -2,7 +2,7 @@
 
 Public mirror of the Dolvero verified-review ledger behind [dolvero.com/trust](https://dolvero.com/trust).
 
-Every review on Dolvero is tied to a paid account, signed by the reviewer's own device (WebAuthn passkey, ECDSA P-256), written into an append-only ledger and anchored on three independent networks:
+Every review on Dolvero is tied to a paid account, signed by the reviewer (by the account with its verified e-mail, with a receipt sent to that address, or by the reviewer's own device with a WebAuthn passkey, ECDSA P-256), written into an append-only ledger and anchored on three independent networks:
 
 | Network | What is written | Where to look |
 |---|---|---|
@@ -30,7 +30,7 @@ node        = sha256(0x01 || left || right)
 tree        = depth 16, fixed size, padded with keyed dummy leaves; one root per UTC day, also on empty days
 ```
 
-A review's leaf payload is `{v: 1, kind: "review", review: <signed payload>, signature: <passkey assertion>}`. The passkey challenge is the sha256 of the canonical review payload, so the signature binds the exact text.
+A review's leaf payload is `{v: 1, kind: "review", review: <signed payload>, signature: <passkey assertion> | {method: "session"}}`. With a passkey the challenge is the sha256 of the canonical review payload, so the signature binds the exact text. `{method: "session"}` marks a review signed by the logged-in account with a verified e-mail and no device signature; the reviewer gets a receipt with the payload hash by e-mail.
 
 Neither the root nor a Merkle path reveals how many records the tree holds.
 
