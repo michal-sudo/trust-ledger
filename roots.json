@@ -10,6 +10,12 @@
     "url": "https://base.easscan.org/attestation/view/0x8fc7861355608c557c8bd620b46ebd55fab5924d63a3894701c1a274192370d8",
     "tx_url": "https://basescan.org/tx/0x6c61c27b0d9504d420797b30414df954108240d8f135f415d9ee1223c248d383",
     "status": "confirmed"
+   },
+   "arweave": {
+    "id": "xK8U0A0FeOqVGWxVq0xoRyqoFrTIrOG3Uh874JMi31A",
+    "url": "https://arweave.net/raw/xK8U0A0FeOqVGWxVq0xoRyqoFrTIrOG3Uh874JMi31A",
+    "view_url": "https://viewblock.io/arweave/tx/xK8U0A0FeOqVGWxVq0xoRyqoFrTIrOG3Uh874JMi31A",
+    "status": "confirmed"
    }
   }
  },

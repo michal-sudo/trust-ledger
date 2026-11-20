@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-20T02:21:01+00:00",
+    "generated_at": "2026-11-20T03:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -39,6 +39,12 @@
                     "tx": "6c61c27b0d9504d420797b30414df954108240d8f135f415d9ee1223c248d383",
                     "url": "https://base.easscan.org/attestation/view/0x8fc7861355608c557c8bd620b46ebd55fab5924d63a3894701c1a274192370d8",
                     "tx_url": "https://basescan.org/tx/0x6c61c27b0d9504d420797b30414df954108240d8f135f415d9ee1223c248d383",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "xK8U0A0FeOqVGWxVq0xoRyqoFrTIrOG3Uh874JMi31A",
+                    "url": "https://arweave.net/raw/xK8U0A0FeOqVGWxVq0xoRyqoFrTIrOG3Uh874JMi31A",
+                    "view_url": "https://viewblock.io/arweave/tx/xK8U0A0FeOqVGWxVq0xoRyqoFrTIrOG3Uh874JMi31A",
                     "status": "confirmed"
                 }
             }
@@ -505,18 +511,174 @@
         }
     ],
     "stats": {
-        "count": 25,
-        "average": 4.76,
+        "count": 26,
+        "average": 4.77,
         "distribution": {
             "1": 0,
             "2": 1,
             "3": 1,
             "4": 1,
-            "5": 22
+            "5": 23
         },
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 28,
+            "rid": "cb02037e-359a-4d4c-806f-9a1a37450249",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-20 02:29:43",
+            "payload_sha": "b1b34e01c3d9b257e7d5605b95ad83d0668d1b12f5bab605f608be07d63ac900",
+            "prev": "264ab3f9d0dc1faab03ec4dbbef122553ae85da2e8c098806f7b5299bbef790a",
+            "leaf": {
+                "salt": "a7ded216dbaad61771a12cc53e01f4270ac6d820e4441d221466531eac0be3a0",
+                "leaf_hash": "a6f8e23a9325eeb430100e727fa55daf6578750f14232e76589abed0476f8021",
+                "day": "2026-11-20",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xb9acc01c64246c29372697559003d1818405d695ee8837381e7e185a42bc2cd3",
+                    "tx": "1de347a36d424ac161c81104928ca41a7401deab00b742a2deb580f8a4626627",
+                    "url": "https://base.easscan.org/attestation/view/0xb9acc01c64246c29372697559003d1818405d695ee8837381e7e185a42bc2cd3",
+                    "tx_url": "https://basescan.org/tx/0x1de347a36d424ac161c81104928ca41a7401deab00b742a2deb580f8a4626627",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "HEiTJhoLI5S_xodomuMmHlnVy3ZDW4vnM45xs5jE4QY",
+                    "url": "https://arweave.net/raw/HEiTJhoLI5S_xodomuMmHlnVy3ZDW4vnM45xs5jE4QY",
+                    "view_url": "https://viewblock.io/arweave/tx/HEiTJhoLI5S_xodomuMmHlnVy3ZDW4vnM45xs5jE4QY",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 5,
+            "title": "why my account failed suddenly?",
+            "body": "I didn't break any rules, why did my account fail suddenly? I'm very disappointed with Dolvero",
+            "lang": "en",
+            "display_name": "Muhammad Farhan F.",
+            "handle": "muhammad-farhan-f-4b44",
+            "country": "ID",
+            "ip_country": "ID",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2611130956\",\"body\":\"I didn't break any rules, why did my account fail suddenly? I'm very disappointed with Dolvero\",\"country\":\"ID\",\"display_name\":\"Muhammad Farhan F.\",\"handle\":\"muhammad-farhan-f-4b44\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"264ab3f9d0dc1faab03ec4dbbef122553ae85da2e8c098806f7b5299bbef790a\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-11-13\",\"rating\":5,\"rid\":\"cb02037e-359a-4d4c-806f-9a1a37450249\",\"title\":\"why my account failed suddenly?\",\"ts\":\"2026-11-20T02:29:39Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "f9d60b51afa04b0704ce6adb0c973334c4070de1c6a542ef56a258ce604589df",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEojBCy/9M6CNWx4ff6PjyM7nmLpzo\nLe8Scv7o/SQhUKv0jST9MKhLoxmDBKlPoT1TCHhqZCng3ZkmLvgXLZLRgg==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoic2JOT0FjUFpzbGZuMVdCYmxhMkQwR2FOR3hMMXVyWUY5Z2ktQjlZNnlRQSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlLCJvdGhlcl9rZXlzX2Nhbl9iZV9hZGRlZF9oZXJlIjoiZG8gbm90IGNvbXBhcmUgY2xpZW50RGF0YUpTT04gYWdhaW5zdCBhIHRlbXBsYXRlLiBTZWUgaHR0cHM6Ly9nb28uZ2wveWFiUGV4In0",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEQCIHdJB7Dzd1p_wqohqzpZLiJ87i-sfsVHdaMn3ffBdI79AiBxVhEBjMxS8yxTABsEdN9kviO10k08YWjCkbGIHqDVEA"
+            },
+            "account": {
+                "login": "LIVE2611130956",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-11-13",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Prohibited Strategies",
+                        "detail": "Prohibited trading strategies detected: Detected: 1 martingale. These strategies are not allowed as they can be used to manipulate drawdown calculations or constitute gambling behavior. Details: Martingale on XAUUSD: chain of 3 trades with escalating position sizes (each ≥2x previous after loss, within 60 min)",
+                        "summary": "Detected: 1 martingale. These strategies are not allowed as they can be used to manipulate drawdown calculations or constitute gambling behavior. Martingale on XAUUSD: chain of 3 trades with escalating position sizes (each ≥2x previous after loss, within 60 min).",
+                        "items": [],
+                        "items_label": "Details",
+                        "detected_at_utc": "2026-11-19 04:04:52",
+                        "agreement": {
+                            "no": "DLV-RLA-2611-05045",
+                            "rules_sha256": "3904922d9ec691dc615d42676ce9be9a92a5f43665eb072427d526b9f5043614",
+                            "doc_sha256": "13af552398b799b0e567448a8fb952e7441f5c2a4ec36776b09da8a14363a0eb",
+                            "signed_at_utc": "2026-11-13 10:26:15",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2611-4875-E421"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2611130956-prohibited.html",
+                        "proof": {
+                            "salt": "1818f67245e0732806cd1afec11821ae5efe7e68ab78532dcec1c0741103a5b5",
+                            "leaf_hash": "7be28a085088c4198a2094378fac5326b3d73637c4560ae9af16325b83fe8bdf",
+                            "day": "2026-11-19",
+                            "sealed": true,
+                            "index": 34280,
+                            "path": [
+                                {
+                                    "side": "R",
+                                    "hash": "d95552180ce49934d490e0ef80843291a493f138187c62c60f8defc6ab87e1fb"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "7bcda6cec940b3b14bf6c6778c730cae2bc7a0b6ea48a34e13e68d8e497a24b1"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "fff8a31f863e52051bc07d9a6860023ac86cdaa9fef3c0bfc27f8f8722f3424f"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "29ad3ed1a9c61b371a74a0732f2b4bc207d7d2a2381aa32cb3041cc9a61f272b"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "e1614a57c9421853286b39ca2269c5d7e7c59b02aa98fcdb65031c6740765670"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "0a9901141b8cbe26b72a02d2558e746ce544ca3509fa7c21eb62c70edc042e4b"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "f281bcc193ffa3fb4ed109c62e020065e137efcb122045e01f1885c75cd88c91"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "de88fe0f6b24079c0e1dc0015239094244dfecdc13592cd4b9d78e496f41bf63"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "fa1f97d1b261aa8fa4044ea5e17bca2256eb2607c96e5d3413fe166ded38c222"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "f8c691d927dbaf4e9e2055413fe6ae0e573211452020c4815731f005500cb0b4"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "fd16273e1a7aa5d066ca3b31c6acc8a1f94f324e0a9234bb3c045d2268daa6b5"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "6795615228a89cb82803673f025830c6876353d9e000252a4ca7e3c1c99133cf"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "f9129cc23a82479761226fa6c7d3fb1b79400c76d62f3ac25d5610388ba50ed9"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "b0bd914a9779558a784e299df1bc48ab108f6ff586d55ba02ed20a0bea9e0b87"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "c4eae83ab75888a484c78e63a0c5966391fae8f4b2a3061e5e2cafb6a665d145"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "575e2b74e9634006f01e267f99843a766410e27e1edb55c7caee97ff0df4cff1"
+                                }
+                            ],
+                            "root": "6a44c38c9a4e3658390f061bc321f5b3e5218f58dac9ddbbd06d43b52c32e9fa",
+                            "ots_status": "complete",
+                            "bitcoin_block": 976658,
+                            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-19"
+                        }
+                    }
+                ],
+                "payouts": [],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 27,
             "rid": "d56f5aae-6012-4ed0-9a2d-45549155d79e",
