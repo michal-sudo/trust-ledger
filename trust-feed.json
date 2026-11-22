@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-22T03:21:01+00:00",
+    "generated_at": "2026-11-22T04:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -39,6 +39,12 @@
                     "tx": "b32b292c8734aaa8d70e2ac3f658270072a56780bbc8cae32af74cc0f1ea5c19",
                     "url": "https://base.easscan.org/attestation/view/0x6f336c2569f242be655419ba0e88ca76d356fd25f24f5ff69e64875523c5c71f",
                     "tx_url": "https://basescan.org/tx/0xb32b292c8734aaa8d70e2ac3f658270072a56780bbc8cae32af74cc0f1ea5c19",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "tB-ix5-ADM2O_NSop14x4oj8hlHKgNOfGzXr5az8uf8",
+                    "url": "https://arweave.net/raw/tB-ix5-ADM2O_NSop14x4oj8hlHKgNOfGzXr5az8uf8",
+                    "view_url": "https://viewblock.io/arweave/tx/tB-ix5-ADM2O_NSop14x4oj8hlHKgNOfGzXr5az8uf8",
                     "status": "confirmed"
                 }
             }
