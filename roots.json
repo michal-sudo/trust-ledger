@@ -2,7 +2,7 @@
  {
   "day": "2026-11-21",
   "root": "4a0f7e8378c37fca45df05da55163578ec1caa4fd885d9032a45d85700421fdf",
-  "bitcoin_block": null,
+  "bitcoin_block": 976971,
   "chain": {
    "base": {
     "uid": "0x6f336c2569f242be655419ba0e88ca76d356fd25f24f5ff69e64875523c5c71f",
