@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-24T14:22:01+00:00",
+    "generated_at": "2026-11-24T15:22:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -740,8 +740,61 @@
                 "platform": "MT5",
                 "size_usd": 5000,
                 "purchased_on": "2026-10-17",
-                "status": "funded",
-                "breaches": [],
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Daily Loss Limit",
+                        "detail": "On 2026-11-24, the combined daily net P&L measured on equity was -$221.55 (4.43% of starting balance $5,000.00). The lowest equity of the day was $4,879.51 at 2026-11-24 15:53:27.483 (MT5 server time) against a day-start equity of $5,101.06. This exceeds the daily loss limit of 3.0% ($150.00) by $71.55; the measurement error bound for this day is $0.06. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server. Trades on this day: #2208243 UT100 SELL 0.40L P&L: $-16.27; #2208250 XAUUSD SELL 0.02L P&L: $-17.22; #2208343 XAUUSD SELL 0.02L P&L: $-20.42; #2209221 XAUUSD SELL 0.02L P&L: $-13.30; #2209044 XAUUSD SELL 0.02L P&L: $-10.84; #2215557 UT100 BUY 0.60L P&L: $-57.38; #2215566 UT100 BUY 0.60L P&L: $-15.41",
+                        "summary": "On 2026-11-24, the combined daily net P&L measured on equity was -$221.55 (4.43% of starting balance $5,000.00). The lowest equity of the day was $4,879.51 at 2026-11-24 15:53:27.483 (MT5 server time) against a day-start equity of $5,101.06. This exceeds the daily loss limit of 3.0% ($150.00) by $71.55; the measurement error bound for this day is $0.06. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [
+                            "#2208243 UT100 SELL 0.40L P&L: $-16.27",
+                            "#2208250 XAUUSD SELL 0.02L P&L: $-17.22",
+                            "#2208343 XAUUSD SELL 0.02L P&L: $-20.42",
+                            "#2209221 XAUUSD SELL 0.02L P&L: $-13.30",
+                            "#2209044 XAUUSD SELL 0.02L P&L: $-10.84",
+                            "#2215557 UT100 BUY 0.60L P&L: $-57.38",
+                            "#2215566 UT100 BUY 0.60L P&L: $-15.41"
+                        ],
+                        "items_label": "Trades on this day",
+                        "detected_at_utc": "2026-11-24 14:54:00",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03557",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "11d7575def9a7eb4d1d1547723244a0c1191c75804776d385d8f1a4ecbf373dd",
+                            "signed_at_utc": "2026-10-29 01:27:14",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-1F24-D9CB"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610177915-trailing-dd.html",
+                        "proof": {
+                            "salt": "17384d7be46dd3f25be84710acdd718c8f04ce82ee8408be180f1841d8541a33",
+                            "leaf_hash": "49d1116a2344113533e1f3e92301b2124467e087ef251929a4ecf2077b101e74",
+                            "day": "2026-11-24",
+                            "sealed": false
+                        }
+                    },
+                    {
+                        "rule": "Trailing Drawdown",
+                        "detail": "Maximum drawdown reached 6.67% ($348.88 from peak $5,228.39), exceeding the trailing limit of 5.0% ($261.42). The lowest equity was $4,879.51 on 2026-11-24 at 15:53:27.483 (MT5 server time), $87.46 below the floor of $4,966.97; the measurement error bound for that day is $0.06. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "summary": "Maximum drawdown reached 6.67% ($348.88 from peak $5,228.39), exceeding the trailing limit of 5.0% ($261.42). The lowest equity was $4,879.51 on 2026-11-24 at 15:53:27.483 (MT5 server time), $87.46 below the floor of $4,966.97; the measurement error bound for that day is $0.06. Source: equity reconstructed on every stored TTT server tick from the account's own deals, validated against the MT5 server.",
+                        "items": [],
+                        "items_label": "",
+                        "detected_at_utc": "2026-11-24 14:54:00",
+                        "agreement": {
+                            "no": "DLV-RLA-2610-03557",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "11d7575def9a7eb4d1d1547723244a0c1191c75804776d385d8f1a4ecbf373dd",
+                            "signed_at_utc": "2026-10-29 01:27:14",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2610-1F24-D9CB"
+                        },
+                        "report_url": "https://dolvero.com/reviews/live2610177915-trailing-dd.html",
+                        "proof": {
+                            "salt": "76074b23386bee83676d19c55d9c8e88b450cee1aafd6e0c76aab094eb96d14b",
+                            "leaf_hash": "e86e42202f5f38543ea677ac82807b29672e22a24d398378898313526f7d7946",
+                            "day": "2026-11-24",
+                            "sealed": false
+                        }
+                    }
+                ],
                 "payouts": [
                     {
                         "paid_on": "2026-11-10",
