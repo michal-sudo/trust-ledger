@@ -3,7 +3,15 @@
   "day": "2026-11-23",
   "root": "4db1363b6b56222a3ae882ea71fa9303289d40fe3b883eda5a6e56f1db4703a5",
   "bitcoin_block": null,
-  "chain": []
+  "chain": {
+   "base": {
+    "uid": "0xa6aa2cdc045a5fd6af5c1787d8ff1f91d91286eb8b7bd4f08334e3dbfddb4732",
+    "tx": "3f765efff2a2a6119eb1f6bdfc9e41a8269597f282f684fa3cb9974c667fe766",
+    "url": "https://base.easscan.org/attestation/view/0xa6aa2cdc045a5fd6af5c1787d8ff1f91d91286eb8b7bd4f08334e3dbfddb4732",
+    "tx_url": "https://basescan.org/tx/0x3f765efff2a2a6119eb1f6bdfc9e41a8269597f282f684fa3cb9974c667fe766",
+    "status": "confirmed"
+   }
+  }
  },
  {
   "day": "2026-11-22",
