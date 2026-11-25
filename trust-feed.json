@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-25T12:21:01+00:00",
+    "generated_at": "2026-11-25T13:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -626,10 +626,10 @@
         }
     ],
     "stats": {
-        "count": 29,
-        "average": 4.59,
+        "count": 30,
+        "average": 4.47,
         "distribution": {
-            "1": 1,
+            "1": 2,
             "2": 1,
             "3": 2,
             "4": 1,
@@ -638,6 +638,166 @@
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 32,
+            "rid": "ca8dda4c-be1c-4d1a-b9a4-6aab95c3c9da",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-25 12:57:03",
+            "payload_sha": "6d5c12b8020a7a7545ae7f2cc6971019994c44cdca6f78410e6434b41eeae772",
+            "prev": "4de8735b76678756bbc46315fb36c5d5aee0727c6befe4812e223330a611922d",
+            "leaf": {
+                "salt": "63d053297354fe6e53f883ed91306ca662b303a3f6d1193d8e657bb1532530bb",
+                "leaf_hash": "7b5d5e121669d9e513e60afd53ebe679f430f9bb60110a5104436f578e77ac3b",
+                "day": "2026-11-25",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0x93094e4c673ca1a80815df03399a5756532cbbb2d6296cb3e837baa69d9ef40d",
+                    "tx": "01a89f0dab69648b978cc649e8a6a8307bc05b6bdc3f2f8d2a8503a9fc480654",
+                    "url": "https://base.easscan.org/attestation/view/0x93094e4c673ca1a80815df03399a5756532cbbb2d6296cb3e837baa69d9ef40d",
+                    "tx_url": "https://basescan.org/tx/0x1a89f0dab69648b978cc649e8a6a8307bc05b6bdc3f2f8d2a8503a9fc480654",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "CiKJi8P-mp2AMOzp27ne02soKFqD2kPdgmUKPNYHm90",
+                    "url": "https://arweave.net/raw/CiKJi8P-mp2AMOzp27ne02soKFqD2kPdgmUKPNYHm90",
+                    "view_url": "https://viewblock.io/arweave/tx/CiKJi8P-mp2AMOzp27ne02soKFqD2kPdgmUKPNYHm90",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 1,
+            "title": "Dolvero perampok",
+            "body": "Dolvero tidak meletakan aturan lantai,tapi ketika saatnya po mereka membuatnya hmm apa anda tidak bisa berbisnis dengn jujur",
+            "lang": "en",
+            "display_name": "JP morgan",
+            "handle": "wisnu-p-1667",
+            "country": "ID",
+            "ip_country": "ID",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2611095052\",\"body\":\"Dolvero tidak meletakan aturan lantai,tapi ketika saatnya po mereka membuatnya hmm apa anda tidak bisa berbisnis dengn jujur\",\"country\":\"ID\",\"display_name\":\"JP morgan\",\"handle\":\"wisnu-p-1667\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"4de8735b76678756bbc46315fb36c5d5aee0727c6befe4812e223330a611922d\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-11-09\",\"rating\":1,\"rid\":\"ca8dda4c-be1c-4d1a-b9a4-6aab95c3c9da\",\"title\":\"Dolvero perampok\",\"ts\":\"2026-11-25T12:56:40Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "c8a980c31f58272f85f84ce0568d5785072ae5f6f2c924dd5cffe51f930ac95e",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVTMv92yRoyMXlzdQ1T3tsIIzMGDV\nb9+3TR0H+HUF8+7lakXh1LbAEdJsp0JhFtBFNnuQ+DtYSgR96hdNFYadug==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiYlZ3U3VBSUtlblZGcm44c3hwY1FHWmxNUk0zS2IzaEJEbVEwdEI3cTUzSSIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEUCIFWvj41kwdgnifL0LalV1EnFWEn1-ONpsudkmWhkriI-AiEAzHUlxugEs5wAZMPwt4e6ZlYcr0lgtMvCDQ4xKamjG-8"
+            },
+            "account": {
+                "login": "LIVE2611095052",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-11-09",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Prohibited Strategies",
+                        "detail": "Prohibited strategy: grid and layering (averaging down a loss). The signed Trading Rules Agreement DLV-RLA-2611-04710 states: \"Adding positions against the price on the same instrument and in the same direction to average down a loss is not allowed, whether the lot stays the same or grows.\" Finding of the review before payout PAY-2026-6129 on LIVE2611095052 (69 trades, 9 to 20 Nov 2026): four further XAUUSD positions were opened in the same direction at a worse price more than two minutes after the first entry, while the earlier position was open and in loss, no stop loss on any of them. MT5 server time (UTC+01:00): 18 Nov #2149542 BUY 0.05 at 3788.52 (04:57:56), then #2149558 BUY 0.05 at 3786.75 (05:00:38); 18 Nov #2149800 BUY 0.05 at 3784.40 (05:35:50), then #2149892 BUY 0.05 at 3783.91 (06:03:22) and #2149899 BUY 0.05 at 3782.32 (06:04:58); 20 Nov #2184635 SELL 0.05 at 3559.12 (07:17:21), then #2184656 SELL 0.01 at 3561.67 (07:25:34). One of the ten profitable days depends on an added position: 20 Nov closed at 26.22 USD and would have closed at 20.55 USD without #2184656, so the account had nine profitable days of the ten required. Added positions within two minutes of the first entry are not counted. Decision of Michal Krol, 23 Nov 2026.",
+                        "summary": "Prohibited strategy: grid and layering (averaging down a loss). One of the ten profitable days depends on an added position: 20 Nov closed at 26.22 USD and would have closed at 20.55 USD without #2184656, so the account had nine profitable days of the ten required. Added positions within two minutes of the first entry are not counted.",
+                        "items": [
+                            "The signed Trading Rules Agreement DLV-RLA-2611-04710 states: \"Adding positions against the price on the same instrument and in the same direction to average down a loss is not allowed, whether the lot stays the same or grows.\" Finding of the review before payout PAY-2026-6129 on LIVE2611095052 (69 trades, 9 to 20 Nov 2026): four further XAUUSD positions were opened in the same direction at a worse price more than two minutes after the first entry, while the earlier position was open and in loss, no stop loss on any of them.",
+                            "MT5 server time (UTC+01:00): 18 Nov #2149542 BUY 0.05 at 3788.52 (04:57:56), then #2149558 BUY 0.05 at 3786.75 (05:00:38); 18 Nov #2149800 BUY 0.05 at 3784.40 (05:35:50), then #2149892 BUY 0.05 at 3783.91 (06:03:22) and #2149899 BUY 0.05 at 3782.32 (06:04:58); 20 Nov #2184635 SELL 0.05 at 3559.12 (07:17:21), then #2184656 SELL 0.01 at 3561.67 (07:25:34).",
+                            "Decision of Michal Krol, 23 Nov 2026."
+                        ],
+                        "items_label": "Further detail",
+                        "detected_at_utc": "2026-11-23 07:24:24",
+                        "agreement": {
+                            "no": "DLV-RLA-2611-04710",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "1f3d5585b07878f3f3d47c824505f17c68cff2fa70aad1e1a9bea598290fe36a",
+                            "signed_at_utc": "2026-11-09 14:30:33",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2611-7FAC-E0CD"
+                        },
+                        "report_url": null,
+                        "proof": {
+                            "salt": "bdc4ecbd21102e04810c73f00d9da089b74bdeda11023092111d2e4a21302e72",
+                            "leaf_hash": "eae16aa1ca71e5e06309ad508fb95224ac44835d49fe870f9fc3ead2d432e38a",
+                            "day": "2026-11-23",
+                            "sealed": true,
+                            "index": 4801,
+                            "path": [
+                                {
+                                    "side": "L",
+                                    "hash": "5545a171f7432b682d48ecb224661db4017a4bc5db50ccd092d6474c05965e7e"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "65ce27c366cafd21c99d1fffe470ada7f07805f9a7bc6366afbffef64ef35003"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "d417b848255a7999ec75189716f42a85ac4f302f3c071010183da29869aaec44"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "b64c47a0e4158e89251848f1247aaedaaa031848063684696cbcaaad7a45aa80"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "284c7c0bb1326d868035ee16be6e8f3e0dc70beb9e27fe9e1f3bde5c398d7219"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "1dddd07698fdecfacebc9827aa60f1188df44315fbe5a65be1e321af6a71166a"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "fb85252720cf0d9d61d2ba84b6f7d1823fa3bdc26f3179b3a3d2197e1ecdcc4b"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "69716f4327dc6f40129df6d9ead67882873c9ca7ebf9a75528a4dcc47482c33f"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "8e4b8f9a7836d0e47fdce17724c58cb73aab15aa3d931834144c9240a0ddcb34"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "06e7cb610051507254873bdfc677af48ae25e176a6bece966b235e5a30fb2818"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "2d0df40511dad5e84fc6bde24cd68ee8065fa455e88b3b76650a4f1aa82f8157"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "8b5a265334b468fc435d4a8f54dfb38515b49e25bfeda0fc7faa80ca0b3e3b75"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "8ced7d260b848da275f75a59a6e019dba1449f61481cb1744795ab4868b833c2"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "d47c998f8cd5a8ab4145eb51bf160e39f0291d1d17817252c5a1c7b239718165"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "228e4de54a290d22bde278279c9f903511510e70d20ffaabc6667576c2f94604"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "3ae66885f43fc79ce22abad6a402a0ce247e41411c1ac8b8df1daa12c4698eb7"
+                                }
+                            ],
+                            "root": "4db1363b6b56222a3ae882ea71fa9303289d40fe3b883eda5a6e56f1db4703a5",
+                            "ots_status": "complete",
+                            "bitcoin_block": 977301,
+                            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-23"
+                        }
+                    }
+                ],
+                "payouts": [],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 31,
             "rid": "68d09163-2299-4283-a093-8560f443ed2d",
