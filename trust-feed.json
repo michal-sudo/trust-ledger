@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-26T10:21:01+00:00",
+    "generated_at": "2026-11-26T11:21:02+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -888,7 +888,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 33,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Peter, here is the record behind your review, because it answers the question. You bought the $5,000 Instant account on 23 November and signed its rules agreement the same evening. On 24 November the account held a 0.01 lot buy and a 1.00 lot sell on EURUSD open at the same time. Opposite positions on one instrument are hedging, which the agreement you signed prohibits, and the account was closed for it at 19:25 UTC. Nothing was taken from you beyond the price of the account, and no rule was applied that is not in that agreement.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:57:09",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Peter, here is the record behind your review, because it answers the question. You bought the $5,000 Instant account on 23 November and signed its rules agreement the same evening. On 24 November the account held a 0.01 lot buy and a 1.00 lot sell on EURUSD open at the same time. Opposite positions on one instrument are hedging, which the agreement you signed prohibits, and the account was closed for it at 19:25 UTC. Nothing was taken from you beyond the price of the account, and no rule was applied that is not in that agreement.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":34,\"review_sha\":\"bc8d73c0647b9da2eb529a06ff9ae875f6907e43497169b729f49f84da61fccc\",\"supersedes\":null,\"ts\":\"2026-11-26T10:57:09Z\",\"v\":1}",
+                    "payload_sha": "671316e53faa074054122080590a931257fb62d934a0ebcf79549c06b94a76dd",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "MPXl2N7v-F4igW3dro-MHO9OnjKb-Fsb4hOz35a8cdLt9PGE5DCmUeAQtO4yye25Nsy2RfLoXTGknw8oObjPAw",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "53ef791fa0ca4fa73b46fe208db398e761fc52d43d38952e76363177faca5837",
+                        "leaf_hash": "1c1812d29c4bc71661aab68e97f27976850b1185e5f4cdb28be42ba27daacbbd",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xf2142a041e39e5115df28bcd3eda0722a711105c0fd1bb82ab07881b89f58b54",
+                            "tx": "33bf687c45b62b0faafc0beba965eec0b55f440c594c96aa7961058f8ed53ad1",
+                            "url": "https://base.easscan.org/attestation/view/0xf2142a041e39e5115df28bcd3eda0722a711105c0fd1bb82ab07881b89f58b54",
+                            "tx_url": "https://basescan.org/tx/0x33bf687c45b62b0faafc0beba965eec0b55f440c594c96aa7961058f8ed53ad1",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "FbN1TLKi4-C2YMpL-y63k-Pz_UqPHH08a2CP243lR5s",
+                            "url": "https://arweave.net/raw/FbN1TLKi4-C2YMpL-y63k-Pz_UqPHH08a2CP243lR5s",
+                            "view_url": "https://viewblock.io/arweave/tx/FbN1TLKi4-C2YMpL-y63k-Pz_UqPHH08a2CP243lR5s",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 33,
@@ -1119,7 +1158,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 32,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, Muntaha. Easy setup and a fast server is exactly what it should be. Good trading.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:56:05",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, Muntaha. Easy setup and a fast server is exactly what it should be. Good trading.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":33,\"review_sha\":\"ae44182dc22d0592829349ce46c08947706ad796f8a9dd299e1aa8b3da4e7b03\",\"supersedes\":null,\"ts\":\"2026-11-26T10:56:05Z\",\"v\":1}",
+                    "payload_sha": "f44aa8472ab2560664e086312a869a6ac60fc8427d8cfdc58eb5c43ccef8412c",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "eOND-L_sia2gkyIeBuehCXbC6bNG48ZIIox1N-cEb9NkURZjyzrVQgg-zQJnTK3XU7gcpYpXV_aZ86AVdYr8AA",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "f2d15d16115130adaec0d80fef497f47d0abff91ce509a292795756b27b6bc9e",
+                        "leaf_hash": "594915a7286e83604a5f6171a0f7d67ea872bd67f3a74f6195690541744d126a",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x5b83c659abc79507973ca11f6e14ee3ab61cee35f5f0792d619b14008a7dbe19",
+                            "tx": "faa3d60f383ede2d23b5e0342f8f4236df3f02412d432751073f923cc00f8ba4",
+                            "url": "https://base.easscan.org/attestation/view/0x5b83c659abc79507973ca11f6e14ee3ab61cee35f5f0792d619b14008a7dbe19",
+                            "tx_url": "https://basescan.org/tx/0xfaa3d60f383ede2d23b5e0342f8f4236df3f02412d432751073f923cc00f8ba4",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "GIdNPLmyVOyoLYkhP7lbPU6TxIhEwSm0NCZRBtqZIIg",
+                            "url": "https://arweave.net/raw/GIdNPLmyVOyoLYkhP7lbPU6TxIhEwSm0NCZRBtqZIIg",
+                            "view_url": "https://viewblock.io/arweave/tx/GIdNPLmyVOyoLYkhP7lbPU6TxIhEwSm0NCZRBtqZIIg",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 32,
@@ -1350,7 +1428,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 31,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "The floor is not something we add at payout time. It is in every rules agreement you signed with us, and you signed one for each account.\n\nYour record, since the review sits next to it: on 3 November we paid you 226.00. On 23 November your next request, on LIVE2611095052, was declined after the review before payout. Between 9 and 20 November the account repeatedly added positions against the price on the same instrument and in the same direction to average a loss. The agreement for that account prohibits it in those words, and the positions are listed in the breach record in your dashboard.\n\nIf a rule on the Instant account does not fit your trading, a different account type may. The 2-Step evaluation has a static drawdown, and Perps accounts have no news rule and no minimum days. The rules of each are public before you buy.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:54:44",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"The floor is not something we add at payout time. It is in every rules agreement you signed with us, and you signed one for each account.\\n\\nYour record, since the review sits next to it: on 3 November we paid you 226.00. On 23 November your next request, on LIVE2611095052, was declined after the review before payout. Between 9 and 20 November the account repeatedly added positions against the price on the same instrument and in the same direction to average a loss. The agreement for that account prohibits it in those words, and the positions are listed in the breach record in your dashboard.\\n\\nIf a rule on the Instant account does not fit your trading, a different account type may. The 2-Step evaluation has a static drawdown, and Perps accounts have no news rule and no minimum days. The rules of each are public before you buy.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":32,\"review_sha\":\"6d5c12b8020a7a7545ae7f2cc6971019994c44cdca6f78410e6434b41eeae772\",\"supersedes\":null,\"ts\":\"2026-11-26T10:54:44Z\",\"v\":1}",
+                    "payload_sha": "8a7d2a6bac8538179bbccd6a51fa861c5cdb4f947f87ba4099e949ff2ee2a9bc",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "0HbiK8urdUVzc-UtuLT4x_CEKasKUnHwMIDJf4dHMJq8qNyXt6bSHhwKazLsqXwKAopaFV0Krp2s48OFqdVVCw",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "69b30939a686b2e33d35ba8748268e891f07fdd9cf219ddf06fb5957a488e7c3",
+                        "leaf_hash": "f273e16db67742d23e23d2afb3c021db797d3253726656f6d7c19917c93d0216",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xcdc5aa05daa6e6c7d9a79ba0bb57726e7b6cffa8b2cfdffe06651ff8a76f58f4",
+                            "tx": "c00cbd009997691648ed7a6c8a00d83924f39f6e1351f5b183af97dcb66de30d",
+                            "url": "https://base.easscan.org/attestation/view/0xcdc5aa05daa6e6c7d9a79ba0bb57726e7b6cffa8b2cfdffe06651ff8a76f58f4",
+                            "tx_url": "https://basescan.org/tx/0xc00cbd009997691648ed7a6c8a00d83924f39f6e1351f5b183af97dcb66de30d",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "JE39t9DUL5wMAbJi8IaP0LRBzZCdcmWX59YkBbMLEOI",
+                            "url": "https://arweave.net/raw/JE39t9DUL5wMAbJi8IaP0LRBzZCdcmWX59YkBbMLEOI",
+                            "view_url": "https://viewblock.io/arweave/tx/JE39t9DUL5wMAbJi8IaP0LRBzZCdcmWX59YkBbMLEOI",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 31,
@@ -1672,7 +1789,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 30,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Sani, the drawdown floor is not hidden. It is written in the rules agreement you signed for each of your accounts, most recently on 24 November at 07:11 and 08:18 UTC. On that day the first account fell to 4,048 in equity against a floor of 4,750 and a daily loss limit of 150. The second fell to 4,695 with a daily loss of 305 against the same 150. Both figures are on your account record with the exact time.\n\nIf a trailing floor or a 3 % daily limit does not suit the way you trade, you could have chosen another account type. The 2-Step evaluation has a static drawdown and a 5 % daily limit. If any number on your record looks wrong to you, open a ticket and we will go through it line by line.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:53:30",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Sani, the drawdown floor is not hidden. It is written in the rules agreement you signed for each of your accounts, most recently on 24 November at 07:11 and 08:18 UTC. On that day the first account fell to 4,048 in equity against a floor of 4,750 and a daily loss limit of 150. The second fell to 4,695 with a daily loss of 305 against the same 150. Both figures are on your account record with the exact time.\\n\\nIf a trailing floor or a 3 % daily limit does not suit the way you trade, you could have chosen another account type. The 2-Step evaluation has a static drawdown and a 5 % daily limit. If any number on your record looks wrong to you, open a ticket and we will go through it line by line.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":31,\"review_sha\":\"7a1ab53458bf68ffbb5a8b8641eb370f400c568003d0fa9eaa49a13b83a28f82\",\"supersedes\":null,\"ts\":\"2026-11-26T10:53:30Z\",\"v\":1}",
+                    "payload_sha": "e670421c02af2bae4d99b3f6f5f7cbd8dee4b569cf67631c4e5a8835b7820e82",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "iPEMMYjrQXH80rMro-9MJwvpOD4HJ3EB_zjhtjz-KCAHQSEo8iSfNb9-ES5A4pdwb9vVwYauUeG2Tp4hJ1tqBg",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "f4a43ab55e516a2b2a5ae570ed3e1b70d9f28f4818fb5ec2c750c7cd53ba1237",
+                        "leaf_hash": "dbb9c052f79e8fcb34ebbf3f0376d39ea9ad40d4c9020fae95ba3e72107e5eaa",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x9e65515621ffb79bd31913fc5ecbd169e25bbc168763634bfee4ada43a51f51f",
+                            "tx": "b8ed2303de9c9bc8f3aa60f057150a64e26c3282b6640d2ca32572bb91f8dcb5",
+                            "url": "https://base.easscan.org/attestation/view/0x9e65515621ffb79bd31913fc5ecbd169e25bbc168763634bfee4ada43a51f51f",
+                            "tx_url": "https://basescan.org/tx/0xb8ed2303de9c9bc8f3aa60f057150a64e26c3282b6640d2ca32572bb91f8dcb5",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "RL-e-bz1ZCArEIrXXUfuhgYFf1oSQ1S0vAULydek0w8",
+                            "url": "https://arweave.net/raw/RL-e-bz1ZCArEIrXXUfuhgYFf1oSQ1S0vAULydek0w8",
+                            "view_url": "https://viewblock.io/arweave/tx/RL-e-bz1ZCArEIrXXUfuhgYFf1oSQ1S0vAULydek0w8",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 30,
@@ -1912,7 +2068,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 34,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Faisal, thank you for writing this with the numbers. They match the record: on 24 November the lowest equity of the day was 4,760.13, a loss of 239.87 at that moment against a 150 daily loss limit. The daily loss rule is measured on equity, not on closed trades. It is in the agreement you signed, it is the same for every trader, and it has no exception for a wrong lot size, so the closure stands.\n\nOn the code: the $5,000 Instant is sold at a fixed price and discount codes do not apply to it.\n\nIf a 3 % daily limit is too tight for the way you trade, the 2-Step evaluation has a 5 % daily limit and a static drawdown.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 11:11:02",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Faisal, thank you for writing this with the numbers. They match the record: on 24 November the lowest equity of the day was 4,760.13, a loss of 239.87 at that moment against a 150 daily loss limit. The daily loss rule is measured on equity, not on closed trades. It is in the agreement you signed, it is the same for every trader, and it has no exception for a wrong lot size, so the closure stands.\\n\\nOn the code: the $5,000 Instant is sold at a fixed price and discount codes do not apply to it.\\n\\nIf a 3 % daily limit is too tight for the way you trade, the 2-Step evaluation has a 5 % daily limit and a static drawdown.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":30,\"review_sha\":\"65e02d1e880c36ce9723b2c215753a361d2c42331c91abf7fa2463371f092b54\",\"supersedes\":null,\"ts\":\"2026-11-26T11:11:02Z\",\"v\":1}",
+                    "payload_sha": "6887a490b69c1e41fcbb68134921e13c6277bd0bdd8f4b4385e93738f2ab6008",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "Wvxu5VcNAMxhUqTq2lG9RY94r0G97pnELi-rAVN0pywfVOQTk-SiYSYFPn8TVQGiTqXR9vtjV9_4rYg6tjvyCQ",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "cf38ec838b418503d46d786436b6ef8253e957daa3c526f8d35d29406374a175",
+                        "leaf_hash": "fa5c47a7ec51db2eeda7adbf2af5e1dd6eb0c5425f9fc598dbd881312f6648f4",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xfe4262eeeda2a89e8a3f9790885874097197a13eb6870c42f18077a585506117",
+                            "tx": "5e5db28866472ab5ab66e4bf8b5b1f082ab2e1d48b7dc5865dbba64452ac3b56",
+                            "url": "https://base.easscan.org/attestation/view/0xfe4262eeeda2a89e8a3f9790885874097197a13eb6870c42f18077a585506117",
+                            "tx_url": "https://basescan.org/tx/0x5e5db28866472ab5ab66e4bf8b5b1f082ab2e1d48b7dc5865dbba64452ac3b56",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "z1EuuWUwL5ZVEeQ_7uOkHQzLQoeIT9Ao9E_Vf87_WJk",
+                            "url": "https://arweave.net/raw/z1EuuWUwL5ZVEeQ_7uOkHQzLQoeIT9Ao9E_Vf87_WJk",
+                            "view_url": "https://viewblock.io/arweave/tx/z1EuuWUwL5ZVEeQ_7uOkHQzLQoeIT9Ao9E_Vf87_WJk",
+                            "status": "sent"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 29,
@@ -2262,7 +2457,46 @@
                 ]
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 29,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, GxD. Good to hear the MT5 setup and the ticket answers work for you.\n\nBoth of your payouts are on the public ledger with their times: the one on 10 November was processed in 1.5 hours, the one on 14 November in 12 minutes. Your point about updates along the way is noted.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:51:53",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, GxD. Good to hear the MT5 setup and the ticket answers work for you.\\n\\nBoth of your payouts are on the public ledger with their times: the one on 10 November was processed in 1.5 hours, the one on 14 November in 12 minutes. Your point about updates along the way is noted.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":29,\"review_sha\":\"f54091bae76c0c4bc4770f42842de48d15ba0940b9c140ac42573f58e52bdbfe\",\"supersedes\":null,\"ts\":\"2026-11-26T10:51:53Z\",\"v\":1}",
+                    "payload_sha": "4919100dacb2dd6f64177757e95e2a770d25a35745b863b258032c497b852f27",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "s4T1SLqGiL-daYTfw4F7mI6_7yR3tWUerfO1u1UPCdX147kPer4qAl1deiAMb9aX22yg98m99wVqwpKm7hf0DQ",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "d785ccf1b9c142cceb0ccc76d7877a0d6d9287eec15f4e39523e7e073415a7b5",
+                        "leaf_hash": "1c7ddc857b7652b1191af0ef017f3c8203f2ebf349d61f74fa7f75d5589d0e65",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x9cd3a30638f52b1ea9934e4a5d2170af0a69e7cb2e4fc885377350ca06954ce5",
+                            "tx": "0fab91b50e230cf92209d00335627ece662ad543fc3f5f4b5b2bd0c356e36e66",
+                            "url": "https://base.easscan.org/attestation/view/0x9cd3a30638f52b1ea9934e4a5d2170af0a69e7cb2e4fc885377350ca06954ce5",
+                            "tx_url": "https://basescan.org/tx/0xfab91b50e230cf92209d00335627ece662ad543fc3f5f4b5b2bd0c356e36e66",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "BSObvdPBDDWBdajzlBQ_xMBD-KdFde6wS3X835mERZw",
+                            "url": "https://arweave.net/raw/BSObvdPBDDWBdajzlBQ_xMBD-KdFde6wS3X835mERZw",
+                            "view_url": "https://viewblock.io/arweave/tx/BSObvdPBDDWBdajzlBQ_xMBD-KdFde6wS3X835mERZw",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 28,
@@ -2489,7 +2723,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 28,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Muhammad, the account did not fail without a reason, and the reason is on your account record. On 19 November, LIVE2611130956 had a chain of three trades on XAUUSD where each position was at least twice the size of the one before it, opened after a loss. That is martingale, which the agreement you signed prohibits, and the account was closed for it at 04:04 UTC. The trades and times are listed in the breach record in your dashboard. If you believe a number there is wrong, open a ticket and we will check it against the MT5 server.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:50:13",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Muhammad, the account did not fail without a reason, and the reason is on your account record. On 19 November, LIVE2611130956 had a chain of three trades on XAUUSD where each position was at least twice the size of the one before it, opened after a loss. That is martingale, which the agreement you signed prohibits, and the account was closed for it at 04:04 UTC. The trades and times are listed in the breach record in your dashboard. If you believe a number there is wrong, open a ticket and we will check it against the MT5 server.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":28,\"review_sha\":\"b1b34e01c3d9b257e7d5605b95ad83d0668d1b12f5bab605f608be07d63ac900\",\"supersedes\":null,\"ts\":\"2026-11-26T10:50:13Z\",\"v\":1}",
+                    "payload_sha": "d478be80cfa8d0c7bcddef2fe852cb99fabfd91746cef7a75c10be659ed7a5f9",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "RFzOxGtoxXwE_LZD3W_7dYyOPpvgapVf5DufXbhuN0Cg-davuNFX_O3ORleaWQy9UYTZRQDW6oaxH0e-BIb8BQ",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "4c2f0284c92874919210c723b4b935d3ff6ba7da51a9f06e099685305db9b0bd",
+                        "leaf_hash": "910b0ef4e8ea6f7af6dd6a96d8375ce728a7301ff3d757d46bf5fddc5ca0da4c",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x5b5ec479b79d0fe6a498e47351dcb334d1d5d0e343b982396405e6a26c1f0783",
+                            "tx": "fb7ef7ecab16b872dbddd4cfc2fed02f0152898fdfb11aa1ec308406084e7893",
+                            "url": "https://base.easscan.org/attestation/view/0x5b5ec479b79d0fe6a498e47351dcb334d1d5d0e343b982396405e6a26c1f0783",
+                            "tx_url": "https://basescan.org/tx/0xfb7ef7ecab16b872dbddd4cfc2fed02f0152898fdfb11aa1ec308406084e7893",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "Pg_gFkbX7wLIPjs-Ca2ZbVCtbKYBtJYWhGai2AGQv6k",
+                            "url": "https://arweave.net/raw/Pg_gFkbX7wLIPjs-Ca2ZbVCtbKYBtJYWhGai2AGQv6k",
+                            "view_url": "https://viewblock.io/arweave/tx/Pg_gFkbX7wLIPjs-Ca2ZbVCtbKYBtJYWhGai2AGQv6k",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 27,
@@ -2623,7 +2896,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 27,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Naeem, thank you for a fair review, and for the words about support.\n\nOn the rules you describe, here is how they read in the agreement you signed. Martingale is raising the lot after a loss. Grid and layering is adding positions against the price on the same instrument and in the same direction to average a loss, even when the lot stays the same. Several positions on different ideas are fine. Adding to a losing one is not. We know some firms read this differently, which is why ours is written out with an example.\n\nOn the payout: the profit that is paid out leaves the account, and the trailing floor stays where your trading left it. That is in the agreement too. If a trailing floor does not fit your style, the 2-Step evaluation has a static drawdown that does not move up with profit.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:48:19",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Naeem, thank you for a fair review, and for the words about support.\\n\\nOn the rules you describe, here is how they read in the agreement you signed. Martingale is raising the lot after a loss. Grid and layering is adding positions against the price on the same instrument and in the same direction to average a loss, even when the lot stays the same. Several positions on different ideas are fine. Adding to a losing one is not. We know some firms read this differently, which is why ours is written out with an example.\\n\\nOn the payout: the profit that is paid out leaves the account, and the trailing floor stays where your trading left it. That is in the agreement too. If a trailing floor does not fit your style, the 2-Step evaluation has a static drawdown that does not move up with profit.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":27,\"review_sha\":\"be9b771493c34217d75728727db4d2d9ba2d55cc1d95c00fcf73990b2515f876\",\"supersedes\":null,\"ts\":\"2026-11-26T10:48:19Z\",\"v\":1}",
+                    "payload_sha": "f28f94f85bdbc63b163dcd356c897ec3fd6818ca0e6c3563384c61a56b498333",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "Aho4SxbKG4LYZdZmsEjt0cMskt3HWDLdAvpaWTDyPiJ_5jSxO3vfwHBGeeiud7AKr2jb7HntPSrZdWtAhMSFDA",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "616552de926a75a168d32cd45596d6c3bb5013ffe734fa35f40aa2da0bbacfba",
+                        "leaf_hash": "f3808e9616d8107c0db46402d72a74d4cfb40233f7a5fb89b9565b39cd4648e4",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x78dfe87fd110c9909c79eb1e7cd9aa15e079c654ed878b3332ed553c2b3d7595",
+                            "tx": "c9d01d47a07a889cd27e9e759110f78fd38b59c130b3fc39bb87074353d74f4d",
+                            "url": "https://base.easscan.org/attestation/view/0x78dfe87fd110c9909c79eb1e7cd9aa15e079c654ed878b3332ed553c2b3d7595",
+                            "tx_url": "https://basescan.org/tx/0xc9d01d47a07a889cd27e9e759110f78fd38b59c130b3fc39bb87074353d74f4d",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "yg-zni83lYaDt1USnQdH9JMk3CkDLi8k0TYOK0FKSh0",
+                            "url": "https://arweave.net/raw/yg-zni83lYaDt1USnQdH9JMk3CkDLi8k0TYOK0FKSh0",
+                            "view_url": "https://viewblock.io/arweave/tx/yg-zni83lYaDt1USnQdH9JMk3CkDLi8k0TYOK0FKSh0",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 26,
@@ -2857,7 +3169,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 26,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, Usman. Michal read this one himself. You have been with us long enough to have seen both sides, accounts that ended by the rules and a payout that arrived. Good luck with the new accounts.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:46:45",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, Usman. Michal read this one himself. You have been with us long enough to have seen both sides, accounts that ended by the rules and a payout that arrived. Good luck with the new accounts.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":26,\"review_sha\":\"f4956e5a9e51f4641f83a67fa341ba314b87303c97d4aa840c8bc0208c579b0d\",\"supersedes\":null,\"ts\":\"2026-11-26T10:46:45Z\",\"v\":1}",
+                    "payload_sha": "cd1aac7ede51a529b3318fb250fbfe41a4e401535406fefd892a4fd65531d5dc",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "NbH8STpwURgps4AKSBSCMsa0JldFrRn79tGB3b3KrWQLuFXCHpmggqNNU-HbySv9hkznfQeheSuc7ll528Q7Ag",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "5fc89e423081782dba77a71d93af87a275c89ea983fb8e0edea3e00942dbe538",
+                        "leaf_hash": "bf73f9046b90b8c01019776f1bd899c981ab4f22d25dab8f7f087c42a8296046",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xb5e7694542088fb2288a18637db5384cd0d72acea85da9adee11c5c2f341cceb",
+                            "tx": "46cacdaa05e3f782ddbd15d6f756a76b52f849f707b9ae9ca73174a1fc1fe1fe",
+                            "url": "https://base.easscan.org/attestation/view/0xb5e7694542088fb2288a18637db5384cd0d72acea85da9adee11c5c2f341cceb",
+                            "tx_url": "https://basescan.org/tx/0x46cacdaa05e3f782ddbd15d6f756a76b52f849f707b9ae9ca73174a1fc1fe1fe",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "FskHWNOVybXeWZ3crL6KKTeutZDO4jEyqT59RsL8M6k",
+                            "url": "https://arweave.net/raw/FskHWNOVybXeWZ3crL6KKTeutZDO4jEyqT59RsL8M6k",
+                            "view_url": "https://viewblock.io/arweave/tx/FskHWNOVybXeWZ3crL6KKTeutZDO4jEyqT59RsL8M6k",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 25,
@@ -3196,7 +3547,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 25,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, Dawud. A review before a payout is not pleasant for anyone, and you answered every question we asked, which is why it ended the way it did. That is how the check is meant to work: we look at the record, we listen, and then we decide. Enjoy the first payout.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:45:37",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, Dawud. A review before a payout is not pleasant for anyone, and you answered every question we asked, which is why it ended the way it did. That is how the check is meant to work: we look at the record, we listen, and then we decide. Enjoy the first payout.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":25,\"review_sha\":\"d9b58b8e28573b084e83e4a05ddda3f6f9ab0e87e0a7aff1ea548896531ed4e2\",\"supersedes\":null,\"ts\":\"2026-11-26T10:45:37Z\",\"v\":1}",
+                    "payload_sha": "f5d42b68b316eacb9801dedf861bf6256a640c5d064dfb967f4e92a44a1d3768",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "h7kHgQi7M_0LBleHIjCmiYnGfPUq7STF3UlGyVBb7giv-kuKZAU3pJgRSxbsPqeMVZnP7IAZd0PSHeXkylnrCQ",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "c99aecfe6b565d81c0bd3794de9657d5f1eb6c9d180c66c4431675ee6053a47d",
+                        "leaf_hash": "ad832cf75aeb3fb240874118533fa2ecae70e8bb6991edf97c64cad7e5f23803",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0xe7a56ba30bd7d0390646040375574fa83a2c0403beb51b8b621e14f147f0eef3",
+                            "tx": "ff09cacd7ef6b688e1848c727b7ee13b5087d8d6eb1f4527dc9cde52bed2357d",
+                            "url": "https://base.easscan.org/attestation/view/0xe7a56ba30bd7d0390646040375574fa83a2c0403beb51b8b621e14f147f0eef3",
+                            "tx_url": "https://basescan.org/tx/0xff09cacd7ef6b688e1848c727b7ee13b5087d8d6eb1f4527dc9cde52bed2357d",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "2ouGVNsNhALiOIed7FCoLwl-Jy50KZJDaT4gLqJ1aKU",
+                            "url": "https://arweave.net/raw/2ouGVNsNhALiOIed7FCoLwl-Jy50KZJDaT4gLqJ1aKU",
+                            "view_url": "https://viewblock.io/arweave/tx/2ouGVNsNhALiOIed7FCoLwl-Jy50KZJDaT4gLqJ1aKU",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 24,
@@ -3430,7 +3820,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 24,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Muchas gracias, María. Nos alegra que la plataforma le resulte fácil y que el equipo de soporte haya resuelto sus dudas con rapidez. Si surge cualquier pregunta sobre las reglas de su cuenta, abra un ticket antes de operar y se lo aclaramos. Mucho éxito.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:43:10",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Muchas gracias, María. Nos alegra que la plataforma le resulte fácil y que el equipo de soporte haya resuelto sus dudas con rapidez. Si surge cualquier pregunta sobre las reglas de su cuenta, abra un ticket antes de operar y se lo aclaramos. Mucho éxito.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":24,\"review_sha\":\"5928f454e24fb393d8d66ab875ae685aff7e72023487e33e17bdad6b7ad0447f\",\"supersedes\":null,\"ts\":\"2026-11-26T10:43:10Z\",\"v\":1}",
+                    "payload_sha": "0757a3779540176fe332c108124ce88347f39713451e364071e2f3fb90bc88cf",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "RIY9WUfMTfjBhS6yz5BmfXSyltvs85qTGv_5prHfRU92w1CrPkyyWvCse-YOJEuBGWc8ppScgo8Om-yV3WlVBA",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "b98ffdb2d2776485504074be16f720e0a9fffa17ff799ccfed1a011d58aa7767",
+                        "leaf_hash": "e02b39d8b718964e56aa7f1265746f23b5b135311b117651c36dc7d9a109de01",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x3c6d8c6ca641ad3b5be04101863bc2790dea9d0ffaedf10edcf373366f2a2aec",
+                            "tx": "0d403fece522c4438d22bf44d231080cfee4c57b0dc8d5044e4f9590f1308535",
+                            "url": "https://base.easscan.org/attestation/view/0x3c6d8c6ca641ad3b5be04101863bc2790dea9d0ffaedf10edcf373366f2a2aec",
+                            "tx_url": "https://basescan.org/tx/0xd403fece522c4438d22bf44d231080cfee4c57b0dc8d5044e4f9590f1308535",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "DEPIhHdxoo2V_tuI8RiTfOwsGJ-Yl6CpL9gzwA2rad8",
+                            "url": "https://arweave.net/raw/DEPIhHdxoo2V_tuI8RiTfOwsGJ-Yl6CpL9gzwA2rad8",
+                            "view_url": "https://viewblock.io/arweave/tx/DEPIhHdxoo2V_tuI8RiTfOwsGJ-Yl6CpL9gzwA2rad8",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 23,
@@ -3852,7 +4281,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 23,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Welcome, Sneha, and thank Prathamesh from us. One piece of advice for a first Instant account: read the agreement you signed once more before the first trade, the daily loss limit and the news window most of all. Nearly every account that ends early ends on one of those two.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:41:28",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Welcome, Sneha, and thank Prathamesh from us. One piece of advice for a first Instant account: read the agreement you signed once more before the first trade, the daily loss limit and the news window most of all. Nearly every account that ends early ends on one of those two.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":23,\"review_sha\":\"ba69b5f0f8d6c5c542ad8da54aa80802225d2c81724f5eef474452c2c578674e\",\"supersedes\":null,\"ts\":\"2026-11-26T10:41:28Z\",\"v\":1}",
+                    "payload_sha": "6976a974c37d63006d2987aa7b58b85000be75f70bb6b7e87fcb4917eff39f72",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "1JqBvbQKV-Ip8ekf6_pgd2N4V1Qe3ZnAJfy3IOiXRJMIyyv7cBQ8Uks1zrGJ41ToeLaUqSZYzLImCFczZ_WNAQ",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "259a6ab554e7e3055ed9a86eef2d051313df801883c417b7739ee2143ecfd043",
+                        "leaf_hash": "713b9869f7dbc19055d36d9b9811111f429a4a355b0f43d9f966706eea69fd18",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x7b5bec0288221cb0b2db1a8cfb8754d67ed6e7aac52e44fcfc4f035a1c412dc3",
+                            "tx": "e131ee695733235d86178d3b853fc9cf552d2508842f60d2686a7c897d1d30c2",
+                            "url": "https://base.easscan.org/attestation/view/0x7b5bec0288221cb0b2db1a8cfb8754d67ed6e7aac52e44fcfc4f035a1c412dc3",
+                            "tx_url": "https://basescan.org/tx/0xe131ee695733235d86178d3b853fc9cf552d2508842f60d2686a7c897d1d30c2",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "hRNHir8kHWauWc6no4NFc9W5QNQ_whw3I_Vtgy1WHcs",
+                            "url": "https://arweave.net/raw/hRNHir8kHWauWc6no4NFc9W5QNQ_whw3I_Vtgy1WHcs",
+                            "view_url": "https://viewblock.io/arweave/tx/hRNHir8kHWauWc6no4NFc9W5QNQ_whw3I_Vtgy1WHcs",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 22,
@@ -4079,7 +4547,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 22,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Prathamesh, two reviews in four minutes, and in the second one you write that the mistake was your own. Most people never say that in public. Take the next account slower and it will last longer than this one did.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:40:04",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Prathamesh, two reviews in four minutes, and in the second one you write that the mistake was your own. Most people never say that in public. Take the next account slower and it will last longer than this one did.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":22,\"review_sha\":\"2b44b6f6dea57b67f9dc2972f6030e5abbe37a0eddd365afc86f7b4239bad7e1\",\"supersedes\":null,\"ts\":\"2026-11-26T10:40:04Z\",\"v\":1}",
+                    "payload_sha": "089b66494d6bbcd2a835b2cdaa6a24535d0b345192b09c2a68f07887edbd018d",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "mDLCJWVpTkjTntQ_Aq1K-UmGnBexlge2Fq91T2BUlS77gD8LCZUOUvK01ib_bdooI3EddDCY5eGzGPnMpnVvAw",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "7ed2688be1a98595d5f407c4e6087a89ce2d980fb8a768ec1d71d8e69d9303f0",
+                        "leaf_hash": "129d7ff1094ae6dbddfda93d50a91a52a5a5f36c1161a0ff21308a5b3d1cb73c",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x541a2f71ce5fca9201e2fa8042c3c2670891172d0394101bce9ea85472a2a9bd",
+                            "tx": "0b3332cc067ab516b3c13f4bd5089d9cda210a3be61e8f30c06b6a07bd8d95c9",
+                            "url": "https://base.easscan.org/attestation/view/0x541a2f71ce5fca9201e2fa8042c3c2670891172d0394101bce9ea85472a2a9bd",
+                            "tx_url": "https://basescan.org/tx/0xb3332cc067ab516b3c13f4bd5089d9cda210a3be61e8f30c06b6a07bd8d95c9",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "bb2sV2Q6lBoCdEAvyZkDBzh5zWR6jNzlb2f7LDj_5WA",
+                            "url": "https://arweave.net/raw/bb2sV2Q6lBoCdEAvyZkDBzh5zWR6jNzlb2f7LDj_5WA",
+                            "view_url": "https://viewblock.io/arweave/tx/bb2sV2Q6lBoCdEAvyZkDBzh5zWR6jNzlb2f7LDj_5WA",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 21,
@@ -4309,7 +4816,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 21,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, Prathamesh. I passed your words to Michal and to the support desk, they read these. We will be here when you restart.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:38:38",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, Prathamesh. I passed your words to Michal and to the support desk, they read these. We will be here when you restart.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":21,\"review_sha\":\"56e38c6b6d9b3ee2d13e7f7777bdf76be203567996b758f519bc03dc309a562c\",\"supersedes\":null,\"ts\":\"2026-11-26T10:38:38Z\",\"v\":1}",
+                    "payload_sha": "a021dbafbbd0abff22a6c895fff3d0704ad5f9b53dba7a33159eaeadb29b6842",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "lp8_aQ60Ner6TBn2TI9nxkQdTx476KHtLNN_PEY0hLpgS2hBmUghoCBPbmCoCKiSnnXoRlcJg3aNIFTV3v8WCg",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "6efade19a389a12ee9b2145707b2b0fa1882c312f897f1fd3690f4bb18bf1b39",
+                        "leaf_hash": "24680a6024bcb14d2cdad598cb0590edb34a3d2b4aebc4d42a3dd29543cd52cb",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x13dac1e3248cdf44fbfa67187cad8b2d04b17da102ca6e7ac04de198dcedae54",
+                            "tx": "2ad3526bc87ed7db1a3665df418d84cdc900550721633e073df00aa0b7637e12",
+                            "url": "https://base.easscan.org/attestation/view/0x13dac1e3248cdf44fbfa67187cad8b2d04b17da102ca6e7ac04de198dcedae54",
+                            "tx_url": "https://basescan.org/tx/0x2ad3526bc87ed7db1a3665df418d84cdc900550721633e073df00aa0b7637e12",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "Pn0BsUouvG3iigJui181sqn1ZUEm9FCIdNEP7k5JA9A",
+                            "url": "https://arweave.net/raw/Pn0BsUouvG3iigJui181sqn1ZUEm9FCIdNEP7k5JA9A",
+                            "view_url": "https://viewblock.io/arweave/tx/Pn0BsUouvG3iigJui181sqn1ZUEm9FCIdNEP7k5JA9A",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 20,
@@ -4538,7 +5084,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 20,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, Shivam. Short and clear, we will take it. Good trading.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:37:00",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, Shivam. Short and clear, we will take it. Good trading.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":20,\"review_sha\":\"b60242cd5a380f83e118854a518cf82c46cfdc33e0712db70d8c839aac397f0b\",\"supersedes\":null,\"ts\":\"2026-11-26T10:37:00Z\",\"v\":1}",
+                    "payload_sha": "45fc0e014f3a6c8bfdc39ebe2bca177ddd6715c1b8086826ca7a9bac574b459e",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "-8MKv__DTX5HjF02BZVY2fW2ZyiFrNdHobBOB69aXydxt9I5fY29ACIsR2AY6rJnVtnrNm5ph1g-n8wPdO8yCw",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "aa680794fc885ea793fd31c20324d39dc05a5066b8d5107c1390a3215e29396e",
+                        "leaf_hash": "71af6d96903b8b9b44bf2efdf4fffcf37c15739a5a50bfd4304f36a42b88c610",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x76de93b782be1f0017b8877ec888b00f5e9f20ed72cf09dc86c6d6f3357281df",
+                            "tx": "763c30f51436a09e54750b141deabee4915539d0e1620d932227c4f7b23cca5b",
+                            "url": "https://base.easscan.org/attestation/view/0x76de93b782be1f0017b8877ec888b00f5e9f20ed72cf09dc86c6d6f3357281df",
+                            "tx_url": "https://basescan.org/tx/0x763c30f51436a09e54750b141deabee4915539d0e1620d932227c4f7b23cca5b",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "obHVA44SazB_7cJgChFLvhmaTZ-AHxKAQzFg-C-8ibc",
+                            "url": "https://arweave.net/raw/obHVA44SazB_7cJgChFLvhmaTZ-AHxKAQzFg-C-8ibc",
+                            "view_url": "https://viewblock.io/arweave/tx/obHVA44SazB_7cJgChFLvhmaTZ-AHxKAQzFg-C-8ibc",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 19,
@@ -4765,7 +5350,46 @@
                 "payouts_all": []
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 19,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, Chandra, and thank you for saying plainly what you would change. The 10 profitable days and the consistency rule belong to the Instant account, and they are in the agreement signed before the first trade. They are also the reason that account can be offered at its price.\n\nIf those two rules do not fit the way you trade, another account type may suit you better. The 2-Step evaluation pays out every 14 days once funded and has no 10 day wait. Perps accounts pay out on demand, with no minimum days and no consistency rule. Each has its own rules, so read them before you choose.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:35:12",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, Chandra, and thank you for saying plainly what you would change. The 10 profitable days and the consistency rule belong to the Instant account, and they are in the agreement signed before the first trade. They are also the reason that account can be offered at its price.\\n\\nIf those two rules do not fit the way you trade, another account type may suit you better. The 2-Step evaluation pays out every 14 days once funded and has no 10 day wait. Perps accounts pay out on demand, with no minimum days and no consistency rule. Each has its own rules, so read them before you choose.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":19,\"review_sha\":\"2df9e3d1968b5a65801a48e253a5a67b86d9dd3a97cd667e67f58ee5a3a72be0\",\"supersedes\":null,\"ts\":\"2026-11-26T10:35:12Z\",\"v\":1}",
+                    "payload_sha": "09b945399e38842715c628d87d4b4c3efac2d6a84e336263cc8da3f80baedee3",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "nIf8yps8U30RlyAGMUdJ-KMtmjtO5_OSXpD2rqKbT7EqRf00q-e_ri2yHxZxsgWBAj4-q_7tnRqCNSKISGYfDA",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "1da991345ea78a26bd2388d7c7390d36defbee727f40cebbfa08f1e6c176f3f7",
+                        "leaf_hash": "f9db88a2ea73b47433155c03e2ea56c1f2c9bb1999602cd413aa5c98905224ab",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x287887e8f97d3b96899e0d145eb41f5bc00a232ada3091aa310238e5491af880",
+                            "tx": "0f0708b307421afc8b8e51d73440d89e86bb9f76ea1cc7c28f273e78471a2bb8",
+                            "url": "https://base.easscan.org/attestation/view/0x287887e8f97d3b96899e0d145eb41f5bc00a232ada3091aa310238e5491af880",
+                            "tx_url": "https://basescan.org/tx/0xf0708b307421afc8b8e51d73440d89e86bb9f76ea1cc7c28f273e78471a2bb8",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "BJpVKQ-XAhZu6liUeXxpYyx5MnFH1j5GqNOoF4QzYAY",
+                            "url": "https://arweave.net/raw/BJpVKQ-XAhZu6liUeXxpYyx5MnFH1j5GqNOoF4QzYAY",
+                            "view_url": "https://viewblock.io/arweave/tx/BJpVKQ-XAhZu6liUeXxpYyx5MnFH1j5GqNOoF4QzYAY",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 18,
@@ -5000,7 +5624,46 @@
                 ]
             },
             "partner": null,
-            "replies": []
+            "replies": [
+                {
+                    "id": 18,
+                    "author": "dolvero",
+                    "author_name": "Dominika",
+                    "body": "Thank you, Mohammad. You noticed the two things we care about most: the agreement you sign before the first trade, and the news window that changes colour so nobody has to guess. Good to hear the payout arrived that fast. See you at the next one.\n\nDominika",
+                    "supersedes": null,
+                    "created_at_utc": "2026-11-26 10:33:21",
+                    "payload": "{\"author\":\"dolvero\",\"author_name\":\"Dominika\",\"body\":\"Thank you, Mohammad. You noticed the two things we care about most: the agreement you sign before the first trade, and the news window that changes colour so nobody has to guess. Good to hear the payout arrived that fast. See you at the next one.\\n\\nDominika\",\"kind\":\"reply\",\"review_id\":18,\"review_sha\":\"672121aec71168ee1819235cf78b2cdde9e9515552b82031af471953153af3e3\",\"supersedes\":null,\"ts\":\"2026-11-26T10:33:21Z\",\"v\":1}",
+                    "payload_sha": "bf721a29d977719584adcd643ae6ab7ccbfe771300899691c3caa5c330346241",
+                    "signature": {
+                        "method": "staff_key",
+                        "alg": "ed25519",
+                        "public_key_hex": "a96acbb831c651b6858f120fa158c7428b560ca4a11f74888a5520dae8e95b2d",
+                        "signature": "v7ZCmDWGuM5Ejx_bTdckcsnMJF6ZLDcXTb0_GfYtIMRtZ-YWMfrDVYyiNHrIKOoZw3JPY603COG_caFwAZCVDQ",
+                        "signer_user_id": 29
+                    },
+                    "leaf": {
+                        "salt": "83b5cd5fd3eeba027cab121325536f2a6b910dfbf714d2f27645e61184d5b31d",
+                        "leaf_hash": "4307a8bdc66e15ff151afab991a7d8798836362b7cd41d9b386fcbec61278950",
+                        "day": "2026-11-26",
+                        "sealed": false
+                    },
+                    "chain": {
+                        "base": {
+                            "uid": "0x59de30676db1ae9743526b025afc7925b1388db7018815964c0d3d9b30f4e6f0",
+                            "tx": "ecd7fd6ac5abb4543acdf955a7379e71c276bca94308318bbb8cc892c6299e10",
+                            "url": "https://base.easscan.org/attestation/view/0x59de30676db1ae9743526b025afc7925b1388db7018815964c0d3d9b30f4e6f0",
+                            "tx_url": "https://basescan.org/tx/0xecd7fd6ac5abb4543acdf955a7379e71c276bca94308318bbb8cc892c6299e10",
+                            "status": "confirmed"
+                        },
+                        "arweave": {
+                            "id": "4tOUuqyI6IOwrfTlthv3AzrXpmp3kV0ZWI8u3D8va5o",
+                            "url": "https://arweave.net/raw/4tOUuqyI6IOwrfTlthv3AzrXpmp3kV0ZWI8u3D8va5o",
+                            "view_url": "https://viewblock.io/arweave/tx/4tOUuqyI6IOwrfTlthv3AzrXpmp3kV0ZWI8u3D8va5o",
+                            "status": "confirmed"
+                        }
+                    }
+                }
+            ]
         },
         {
             "id": 17,
