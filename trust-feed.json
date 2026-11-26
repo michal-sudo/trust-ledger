@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-25T23:21:02+00:00",
+    "generated_at": "2026-11-26T00:21:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -26,6 +26,15 @@
         }
     },
     "anchors": [
+        {
+            "day": "2026-11-25",
+            "root": "0049a508a1bd54184d74f7ed218a23792712d647c08351ea2f819188636aaa11",
+            "ots_status": "pending",
+            "bitcoin_block": null,
+            "sealed_at_utc": "2026-11-26 00:20:06",
+            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-25",
+            "chain": []
+        },
         {
             "day": "2026-11-24",
             "root": "1874c8d12105b715fb03d8e9b19f87139ceeca790528590454687e09498fc589",
@@ -650,7 +659,78 @@
                 "salt": "a0523e3ea34e47c0e170bb06603de878d26487fd0e00fba8975f558804914053",
                 "leaf_hash": "a810504fdffe991e4e5f501bc73a2fff7a226fea7a80d0b83bc611a82d8e15c9",
                 "day": "2026-11-25",
-                "sealed": false
+                "sealed": true,
+                "index": 32060,
+                "path": [
+                    {
+                        "side": "R",
+                        "hash": "418807417fb6f8825174efe6d705cafcf80676a234409e172406131370ee829b"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "5152d1363763e25dc04318346f2c30d0f17a9c8d2d3f52729a6c057c22a8c88b"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "6e6144fe29b101df32ab71e297a18354a3bee1c765036f168f499de1005396fc"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "fd4ab3ce9e6f9c0efc41e20005136544e724d13fdc96ed225c9bcd879881bae9"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "a9b5ec05a220e4362ddfda92f36e4af1570116fd867f07e430fb69930eb354b2"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "a774484a29c29ce36c36c9195c89ddb27fca39de20d3d896a27868af7e1373a0"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "1c3d9bbfe2eff370ff35904bb925049c6a15bdc4580ec80a719a932520a2f1f6"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "59731cc3a602545d4ddd772479cfd3c9e90509ad8f6c184c070c81d9a6ffc4cd"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "2ddd5510af83bb77ab2dbc63760b8b934701b94ee2d570f33c249ceab199192e"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "980bbd2d821df6bd7ac7ec4213395d317c6e74300d088f5b641e9a17a73d798d"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "45cd247ee625912e7fcc053bb6cf61f11d6ad1b9ee96e419ffe942c1b57ff6b8"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "8d92312d3960f8ac88188c7d250689511a2d3cd6b47159103a19e76a21193fb7"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "8e96ae96baa9b2842f029ccabfa6ffe260952e537d062b15af50afe9749c207a"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "4e07d68bdae8fc9ed4fb690103b7afaaefd0fe3bb85e15a6d8cfa6ae54162e04"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "53f5829bfb2d2e4c0d7fef28e7705f761fe5b583a8a5c12f4d653cfa94efdb70"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "177a0813b6d37655d987f4c00333733b91cc3cfa2f53553f743be792e29e53fb"
+                    }
+                ],
+                "root": "0049a508a1bd54184d74f7ed218a23792712d647c08351ea2f819188636aaa11",
+                "ots_status": "pending",
+                "bitcoin_block": null,
+                "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-25"
             },
             "chain": {
                 "base": {
@@ -808,7 +888,78 @@
                 "salt": "a97516dc9ce3ceb4e5fc339758e803807d4cdf148a09e75293638f34ad507788",
                 "leaf_hash": "45ba1da18811ce085e19f67abf87d325b33d9beb8a4f3a2cfbb36e826cf19d4c",
                 "day": "2026-11-25",
-                "sealed": false
+                "sealed": true,
+                "index": 20035,
+                "path": [
+                    {
+                        "side": "L",
+                        "hash": "ce7c26a9f8b93cac2b786242acb92136953c2e4f6ea44b127bcfaf0e6d212862"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "02473b0aadf75631a9c0e02e034b562c2e9d30c5bd32d40f4cc812cef0f111ad"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "3b0853d815abe0c414d1b04d9e0b90074c6a296393195d481f4c9e33132d9199"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "66d6bb8548675a71e6abd042b83d93b4c36e30ed890a32965091d86bf770fe19"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "82859904579923230cdb18d44f6828ad526febb9f6ad95b71f9c2d15d4600ad9"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "d0eb45af88e49de7c95893e3a0318d5db0c25c99488f827dd959ee354bb0b511"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "80f48ea6685b3a77253e18c9df9b2dcab74148dd1c71a45045de0c70e8e4e826"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "adb3baf421e4c4bca452917e1f53d9768ae567b8fd25045ac3b7c8a9d900de08"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "ee7b06313ed5250d10a471744f47f95fb9ee50c5b662ab5cd9cce14884f1710d"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "528f94a2a562275d4e023851958cf3dcaa9778c43041df0e4af56b20810becc9"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "cfbe120c4f3621a94341a363e8713a061c33db6ec3b99559b25e008a031ffdf6"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "a12e475d081ed57d542ecb77dea4a15308aadea16545257375a7197565cd4553"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "ca90e4ccac6555461189b991a321525377e27f6bda230af531d182b942ed07d5"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "c99f8083cef56e5a947229574f45e4ed72c192315198715c76b9d1b223dfa43b"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "53f5829bfb2d2e4c0d7fef28e7705f761fe5b583a8a5c12f4d653cfa94efdb70"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "177a0813b6d37655d987f4c00333733b91cc3cfa2f53553f743be792e29e53fb"
+                    }
+                ],
+                "root": "0049a508a1bd54184d74f7ed218a23792712d647c08351ea2f819188636aaa11",
+                "ots_status": "pending",
+                "bitcoin_block": null,
+                "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-25"
             },
             "chain": {
                 "base": {
@@ -968,7 +1119,78 @@
                 "salt": "63d053297354fe6e53f883ed91306ca662b303a3f6d1193d8e657bb1532530bb",
                 "leaf_hash": "7b5d5e121669d9e513e60afd53ebe679f430f9bb60110a5104436f578e77ac3b",
                 "day": "2026-11-25",
-                "sealed": false
+                "sealed": true,
+                "index": 2712,
+                "path": [
+                    {
+                        "side": "R",
+                        "hash": "8453c751ba24d4c72f83d4b4a9ae0f88f46358a87f04220e8071b69e31ddbe7b"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "5b78fb540b3125f02a908654902dae33af16bb027ccbb4c6720ee17199181417"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "87d727e6edee3ed0f8147686763bf681d9ade383395bfc19e179a8a30c5376d7"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "0eb14131938f3424d710842d507a1062c63a7c640e7b0831ab416979f5c2d746"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "cceebadc3135b25fe0e25441784b7333a685fbadf109114e04b463da3e0879d0"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "31898c5f7e357775440e8c0172a362260c86052dd480f5cb8403aba1924be4e2"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "891741a8c3523b74be4f5a44ecd3aa722324988d966128dd9ac72fb944ac143c"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "d6b1154894bfe3d1f01cc48a394747dbf56300fc2b6252e65372c991c92c2f42"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "c5c8c0f3cea1d2761a7a7f51f18ce111578704403cd759b409000d41c26fba5a"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "c53d1b3274f5946f3317a5afcf94e52adaaa78b7e388594bed564ff0a966efc4"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "83895988f53d88dc3a8d67909eea8b57ef6ddd1e063cc59f293b097a6cdf2a45"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "e81325c1aa4f9e2fb49be822082eb7141710625213cf26214c7f1502823e1170"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "cf35496bfd84e9289561a11593b8f1afa2e8d4002f9e759aef68a6afb3a083d2"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "b099c25c16f26459c1cd2d4fd8c4fd323710d1988f52fa374d6ce28c53827a4b"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "6b1399b306a62209122955a464350abfa3dac9519ee63196bdde7f201a7321f4"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "177a0813b6d37655d987f4c00333733b91cc3cfa2f53553f743be792e29e53fb"
+                    }
+                ],
+                "root": "0049a508a1bd54184d74f7ed218a23792712d647c08351ea2f819188636aaa11",
+                "ots_status": "pending",
+                "bitcoin_block": null,
+                "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-25"
             },
             "chain": {
                 "base": {
@@ -1128,7 +1350,78 @@
                 "salt": "d417ef95aaf71c8c718a01733741bc3bff1d0cc5a07bf2fb9dfaf7e204836e1e",
                 "leaf_hash": "4de8735b76678756bbc46315fb36c5d5aee0727c6befe4812e223330a611922d",
                 "day": "2026-11-25",
-                "sealed": false
+                "sealed": true,
+                "index": 35070,
+                "path": [
+                    {
+                        "side": "R",
+                        "hash": "8bd49ccd02fb76a592dc8a19e607499281a66a376134760e8dcd51b9d1d78161"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "622b9b53f9252b7a4398f8b77f72e925d465f0afe86e8bd2eda5f53e2a8db30f"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "f97fef6c1c4bfbf99fe97bd90e57bff1f6a93edd64d686daae10439dd8cc7194"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "5b97055fcf144db8f03d57eb75355f9dbeb85ab716dd7bf14a7a2799d7850f96"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "a247264cca022cdf49458920c0354db4919054d2531a7719cdeaeb46875b9afc"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "bc038c5ef12c58544203e14e06a3df2f840496cac4d3bb3db071c609bdcffc17"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "b3092abfbb3d343dedb4fde7c0a67c0796907d1943d2ac59360d03cbe86f06c7"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "85c2b7086c5890f1c68699ba4d0daea472727dadc0476543d3accb4f72e5b5ca"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "f0768eabc050d7428157d2a171798f49650e9c96edc71a2c65355db23a6a8950"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "d2aba3532f7c69a232d1c4e2fce9ca1b2e4c80c18b4d6a1bcbe38e06b8527b48"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "d426b6d72b21743beeddf8ff8169cba9c5d56b5f74ccdea23e9a5e758ec3eadf"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "6d0d17bbf141b24e4dc3e75b1b4e86048a0aa28e87d10230f32035b33175d74c"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "dfa7ec90f044d6448797c59014fdfb9672a9d288eb2b44023688695f18848de2"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "f45f12bc4c87896759ac644f5e21f6477d021e0405a2d9d52d842bfa530834ac"
+                    },
+                    {
+                        "side": "R",
+                        "hash": "3f59937e6ecbfb316a4a9b0481ff677c1569ab91bd18fb796fb4af989b660415"
+                    },
+                    {
+                        "side": "L",
+                        "hash": "9a385a587a6d976be7ccbfde1eb8e93dbd8788b9755147071555e82743741b4d"
+                    }
+                ],
+                "root": "0049a508a1bd54184d74f7ed218a23792712d647c08351ea2f819188636aaa11",
+                "ots_status": "pending",
+                "bitcoin_block": null,
+                "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-25"
             },
             "chain": {
                 "base": {
