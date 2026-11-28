@@ -1,6 +1,6 @@
 {
     "schema": "dolvero-trust/1",
-    "generated_at": "2026-11-28T11:22:01+00:00",
+    "generated_at": "2026-11-28T12:22:01+00:00",
     "rp_id": "app.dolvero.com",
     "leaf_scheme": {
         "leaf": "sha256(0x00 || \"dolvero.leaf.v1\" || salt || sha256(payload))",
@@ -695,10 +695,10 @@
         }
     ],
     "stats": {
-        "count": 33,
-        "average": 4.36,
+        "count": 34,
+        "average": 4.26,
         "distribution": {
-            "1": 3,
+            "1": 4,
             "2": 1,
             "3": 2,
             "4": 2,
@@ -707,6 +707,164 @@
         "partner_count": 0
     },
     "reviews": [
+        {
+            "id": 36,
+            "rid": "2f038d93-21ed-439d-9f3a-ba281f2bb86b",
+            "reviewer": "trader",
+            "status": "published",
+            "created_at_utc": "2026-11-28 11:42:50",
+            "payload_sha": "5c4c8b6c7b8c6d52c36461e3a77f7d2e20714a20c4a0fc3488d15d9808dae75a",
+            "prev": "2e6d51da07031928ccd8bcaf054366ae82642b779312432a7030b6978188d858",
+            "leaf": {
+                "salt": "f824f5e09b2e577e16cd92b3f6c6445144977632b252df3ace137bdfd984e518",
+                "leaf_hash": "6c952364c71e4711ef3ee6aaf659bd46f3af5076b35cbdd7ac3aa6eac7e15dd1",
+                "day": "2026-11-28",
+                "sealed": false
+            },
+            "chain": {
+                "base": {
+                    "uid": "0xeab12b668ca73188d6190cd625e075987ce82e09e6dda5321b89e87b6c9d2e09",
+                    "tx": "96534f06eaf675875d55258d8401450757023a00f57b62b91d6b8a28160acf56",
+                    "url": "https://base.easscan.org/attestation/view/0xeab12b668ca73188d6190cd625e075987ce82e09e6dda5321b89e87b6c9d2e09",
+                    "tx_url": "https://basescan.org/tx/0x96534f06eaf675875d55258d8401450757023a00f57b62b91d6b8a28160acf56",
+                    "status": "confirmed"
+                },
+                "arweave": {
+                    "id": "tdpOSavzvYj_yATnYTBoegd_-JRnxibw-X4SM5PvIbo",
+                    "url": "https://arweave.net/raw/tdpOSavzvYj_yATnYTBoegd_-JRnxibw-X4SM5PvIbo",
+                    "view_url": "https://viewblock.io/arweave/tx/tdpOSavzvYj_yATnYTBoegd_-JRnxibw-X4SM5PvIbo",
+                    "status": "confirmed"
+                }
+            },
+            "rating": 1,
+            "title": "Worst Prop firm ever",
+            "body": "TRY Aqua funded is the best,I started dolvero in sep 5 instant accunt gone because of their hidden trading rules,my fifth account had a profit of $835 dollars never broken any rule while trading yesterday,i entered a buy entry by mistake and closed as soon as i can after 5 hours i close my profit they send an email my account failed prohibited strategies i tell them the buy wasnt part of the script i was entering sells,they tell ke i took 13 seconds and told me they make a decision today now they sent an email i failed my account lesson  is it can take you 3 weeks to get something right by the 4th week a $0,97 dollar mistake on a buy ruined everything,never buy from dolvero i been trading for 7 years never seen this before their 15% consistency rule is wack and there are hidden rules you wont know about until you prepare for a payout,i was only left with $700 to get my payout of $1100 they stopped it.",
+            "lang": "en",
+            "display_name": "Tshepiso M.",
+            "handle": "tshepiso-m-b2da",
+            "country": "ZA",
+            "ip_country": "ZA",
+            "device": "mobile/Android",
+            "payload": "{\"account_login\":\"LIVE2611071081\",\"body\":\"TRY Aqua funded is the best,I started dolvero in sep 5 instant accunt gone because of their hidden trading rules,my fifth account had a profit of $835 dollars never broken any rule while trading yesterday,i entered a buy entry by mistake and closed as soon as i can after 5 hours i close my profit they send an email my account failed prohibited strategies i tell them the buy wasnt part of the script i was entering sells,they tell ke i took 13 seconds and told me they make a decision today now they sent an email i failed my account lesson  is it can take you 3 weeks to get something right by the 4th week a $0,97 dollar mistake on a buy ruined everything,never buy from dolvero i been trading for 7 years never seen this before their 15% consistency rule is wack and there are hidden rules you wont know about until you prepare for a payout,i was only left with $700 to get my payout of $1100 they stopped it.\",\"country\":\"ZA\",\"display_name\":\"Tshepiso M.\",\"handle\":\"tshepiso-m-b2da\",\"kind\":\"review\",\"lang\":\"en\",\"prev\":\"2e6d51da07031928ccd8bcaf054366ae82642b779312432a7030b6978188d858\",\"product\":\"$5,000 MT5 Instant Funding\",\"purchased_on\":\"2026-11-07\",\"rating\":1,\"rid\":\"2f038d93-21ed-439d-9f3a-ba281f2bb86b\",\"title\":\"Worst Prop firm ever\",\"ts\":\"2026-11-28T11:42:42Z\",\"v\":1}",
+            "signature": {
+                "method": "passkey",
+                "alg": -7,
+                "credential_sha": "b49822316317e52d2d14a08a45e576035a2e6951ab176ee141a29cd96b0d8b9d",
+                "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5JSam6iZIUFO+p18gY3XlsC9v+of\nw6xG5h8epQ51EiPJg1JbmxrgFtWZzkAHIoosqi9YWTZskjr1+DjDk2MvJg==\n-----END PUBLIC KEY-----\n",
+                "client_data_json": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiWEV5TGJIdU1iVkxEWkdIanAzOTlMaUJ4U2lERW9QdzBpTkZkbUFqYTUxbyIsIm9yaWdpbiI6Imh0dHBzOi8vYXBwLmRvbHZlcm8uY29tIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+                "authenticator_data": "fvjRmJC4BnJAefbIjc1rNPzknijqBQN4oFPGh9rW9ccdAAAAAA",
+                "signature": "MEYCIQDCY56uxCfppwZuuuK9sqCXoeFCyPtrsBqLIKzkvO7eOQIhAOgdbdbYtZ8kAOMFEg9JVR1dNRf8eN74uu9mb3q8Uc_t"
+            },
+            "account": {
+                "login": "LIVE2611071081",
+                "product": "$5,000 MT5 Instant Funding",
+                "platform": "MT5",
+                "size_usd": 5000,
+                "purchased_on": "2026-11-07",
+                "status": "failed",
+                "breaches": [
+                    {
+                        "rule": "Prohibited Strategies",
+                        "detail": "Prohibited trading strategies detected: Detected: 1 hedging. These strategies are not allowed as they can be used to manipulate drawdown calculations or constitute gambling behavior. Details: Hedging on XAUUSD: Trade #2267134 (BUY, 0.02 lots) vs Trade #2265247 (SELL, 0.01 lots) - opposite positions open simultaneously",
+                        "summary": "1 hedging pair on XAUUSD: a buy and a sell on the same instrument were open at the same moment.",
+                        "items": [
+                            "#2267134 BUY 0.02 vs #2265247 SELL 0.01 lots"
+                        ],
+                        "items_label": "Pairs",
+                        "detected_at_utc": "2026-11-27 14:55:18",
+                        "agreement": {
+                            "no": "DLV-RLA-2611-04584",
+                            "rules_sha256": "ef8d4ca6be13536c77cc4045c7c367799ff8ed8f671d1f80f1a0dd1db7260e58",
+                            "doc_sha256": "86deb92b8c2703cbc229e41839780ffc6b8e7e06dc9a6559d65e218c5f08d1c6",
+                            "signed_at_utc": "2026-11-07 12:23:44",
+                            "verify_url": "https://app.dolvero.com/verify-agreement?mark=DSM-2611-8384-42B3"
+                        },
+                        "report_url": "https://app.dolvero.com/reviews/live2611071081-hedging.html",
+                        "proof": {
+                            "salt": "f1cd80dd5490d65a38cb822c5ae5bacbf23b3a969950ad6c09ee9f2dc3eedfd6",
+                            "leaf_hash": "5dc5fb942802ac1233d39d0144595455394b82e9a40ebe03db504781afabe6f5",
+                            "day": "2026-11-27",
+                            "sealed": true,
+                            "index": 2798,
+                            "path": [
+                                {
+                                    "side": "R",
+                                    "hash": "3814b192ab1c139d81ccfc5fe05ecf5f01ebcd054acc9f473ad8848d51cfdc84"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "af9b59fe2d6554bd48c6d4d6725b123de3a6dc3afda0b84acfbbc1a3e0c7593c"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "a0bac11bec28332c41248332308fde46573b05aab1565959b0fdbd4fcc47ae4e"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "d293aaab6a9504af5be41f978208f10038dfd1483f8ed20b0df2e1487f29dbb5"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "63c98be82fa9169409d9ead4abe6230af89d0dc891927d8b2026d792f48c2972"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "66188ffee49440cbc891f66fa5dbe002b163ee7cbe17d4276eea8e7598183c64"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "7a2428eb7c7e49c57fdb3ae58825260c457f11ada7eed47cc6d1a23483e1df7a"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "dda20c0f84f731abefe16a2bed552061c9ac80d7f947ce28a4e78821ce117dec"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "55d3fdbd1fc0fefecc9b44b16794ff91bfb31964d6215abf4b0797b2a1a62ddd"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "3f30b6663da0eb1d78a2fc2c5539fbec5b6d0da0642636451e344a4b837678da"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "764eaf48b425f458158c5d92abe2a2a6725b5c5153fbc7f8f40d1cfe3c90af65"
+                                },
+                                {
+                                    "side": "L",
+                                    "hash": "381b447dbbcc9a4b58adda342ce7ca2db8af8af94a1e020a3a41bc65593a3847"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "2827904ab36331e58f125417577d873c310e15f583269a2132b7f31bb94bc767"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "8ee1ad68fa31f9f44c0d88200dc1750baff439c025ebf10a2f234470287b15ba"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "62b1bdb7d10b24aa8be683482e478cd29032327ccd9767ff7039b338ce903de8"
+                                },
+                                {
+                                    "side": "R",
+                                    "hash": "af3b6326d5b6b6de629c51a9b9ed7a077201ade86704b7b9a0b9635ae6a8d2f6"
+                                }
+                            ],
+                            "root": "f94cd520d254414c8ece6ef88356f5057c9f4bb2141719fba2e311cbcd10934d",
+                            "ots_status": "complete",
+                            "bitcoin_block": 977874,
+                            "ots_url": "https://app.dolvero.com/api/trust/ots.php?day=2026-11-27"
+                        }
+                    }
+                ],
+                "payouts": [],
+                "payouts_all": []
+            },
+            "partner": null,
+            "replies": []
+        },
         {
             "id": 35,
             "rid": "068e3fae-383e-4440-a439-b251f6e32690",
